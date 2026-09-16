@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 /// Shows the latest market value and most recent average sale from every price source.
 struct PriceSection: View {
@@ -30,19 +31,18 @@ struct PriceSection: View {
         .panel()
     }
 
-    /// Opens the eBay app (via its URL scheme) searching for this card; falls back to ebay.com,
-    /// which itself hands off to the app through universal links when it is installed.
+    /// Opens an eBay search for this card. The eBay app claims ebay.com search URLs as
+    /// universal links, so asking iOS to open the URL "universal links only" runs the search
+    /// inside the app when it is installed; otherwise the same search opens in Safari.
     private var ebayButton: some View {
         Button {
             let query = card.ebayQuery
             let encoded = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? query
-            let web = URL(string: "https://www.ebay.com/sch/i.html?_nkw=\(encoded)&_sacat=183454")!
-            if let app = URL(string: "ebay://link/?nav=item.query&keyword=\(encoded)") {
-                openURL(app) { accepted in
-                    if !accepted { openURL(web) }
+            guard let web = URL(string: "https://www.ebay.com/sch/i.html?_nkw=\(encoded)&_sacat=183454&_sop=12") else { return }
+            UIApplication.shared.open(web, options: [.universalLinksOnly: true]) { openedInApp in
+                if !openedInApp {
+                    UIApplication.shared.open(web)
                 }
-            } else {
-                openURL(web)
             }
         } label: {
             HStack(spacing: 10) {

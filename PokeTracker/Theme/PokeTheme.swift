@@ -17,17 +17,20 @@ enum PokeTheme {
     static let textSecondary = Color.white.opacity(0.72)
     static let textTertiary = Color.white.opacity(0.5)
 
+    /// Full-screen themed backdrop. Built from overlays on a size-less gradient so the
+    /// decorative watermark can never widen the layout beyond the screen.
     static var background: some View {
-        ZStack {
-            LinearGradient(colors: [Color(hex: 0x101E4B), navy, deepNavy], startPoint: .top, endPoint: .bottom)
-            RadialGradient(colors: [blue.opacity(0.35), .clear], center: .topLeading, startRadius: 0, endRadius: 520)
-            RadialGradient(colors: [red.opacity(0.18), .clear], center: .bottomTrailing, startRadius: 0, endRadius: 460)
-            PokeballWatermark()
-                .foregroundStyle(Color.white.opacity(0.035))
-                .frame(width: 520, height: 520)
-                .offset(x: 180, y: -140)
-        }
-        .ignoresSafeArea()
+        LinearGradient(colors: [Color(hex: 0x101E4B), navy, deepNavy], startPoint: .top, endPoint: .bottom)
+            .overlay(RadialGradient(colors: [blue.opacity(0.35), .clear], center: .topLeading, startRadius: 0, endRadius: 520))
+            .overlay(RadialGradient(colors: [red.opacity(0.18), .clear], center: .bottomTrailing, startRadius: 0, endRadius: 460))
+            .overlay(alignment: .topTrailing) {
+                PokeballWatermark()
+                    .foregroundStyle(Color.white.opacity(0.035))
+                    .frame(width: 420, height: 420)
+                    .offset(x: 150, y: -120)
+            }
+            .clipped()
+            .ignoresSafeArea()
     }
 
     static var panelGradient: LinearGradient {
@@ -77,6 +80,7 @@ extension Rarity {
         case .futuristicRare: return Color(hex: 0x2FE3C6)
         case .rgbSecret: return Color(hex: 0xFF5C8A)
         case .classicCollection: return Color(hex: 0xE4C56B)
+        case .promo: return Color(hex: 0x9FB8FF)
         }
     }
 

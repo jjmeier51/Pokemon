@@ -22,21 +22,19 @@ struct CollectionView: View {
         NavigationStack {
             ZStack {
                 PokeTheme.background
-                GeometryReader { proxy in
-                    ScrollView {
-                        VStack(spacing: 16) {
-                            logoBanner
-                            header
-                            sectionChips
-                            statusPicker
-                            grid
-                        }
-                        .padding(.horizontal, 16)
-                        .padding(.bottom, 32)
-                        .frame(width: proxy.size.width)
+                ScrollView {
+                    VStack(spacing: 16) {
+                        logoBanner
+                        header
+                        sectionChips
+                        statusPicker
+                        grid
                     }
-                    .scrollDismissesKeyboard(.immediately)
+                    .padding(.horizontal, 16)
+                    .padding(.bottom, 32)
+                    .frame(maxWidth: .infinity)
                 }
+                .scrollDismissesKeyboard(.immediately)
             }
             .navigationTitle("PokeTracker")
             .navigationBarTitleDisplayMode(.inline)

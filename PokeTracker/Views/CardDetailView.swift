@@ -89,6 +89,12 @@ struct CardDetailView: View {
                     .font(PokeTheme.body(13))
                     .foregroundStyle(PokeTheme.textSecondary)
             }
+            if let productName = card.productName {
+                Text("From the \(productName)")
+                    .font(PokeTheme.body(13))
+                    .foregroundStyle(PokeTheme.textSecondary)
+                    .multilineTextAlignment(.center)
+            }
             if let artist = card.artist {
                 Text("Illustrated by \(artist)")
                     .font(PokeTheme.body(13))
@@ -187,7 +193,7 @@ struct CardDetailView: View {
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], alignment: .leading, spacing: 12) {
                 detail("Number", card.displayNumber)
                 detail("Rarity", card.rarity.title)
-                detail("Set", card.section == .classic ? "Classic Collection" : "30th Celebration")
+                detail("Set", card.section == .classic ? "Classic Collection" : (card.section == .promo ? "ME Black Star Promo" : "30th Celebration"))
                 if let stage = card.stage { detail("Stage", stage) }
                 if let type = card.energyType { detail("Type", type.title) }
                 if let weakness = card.weakness, !weakness.isEmpty { detail("Weakness", weakness) }
@@ -195,6 +201,7 @@ struct CardDetailView: View {
                 if let retreat = card.retreatCost, !retreat.isEmpty { detail("Retreat", retreat) }
                 if let artist = card.artist { detail("Artist", artist) }
                 if let origin = card.classicOrigin { detail("Original set", "\(origin.setName) (\(String(origin.year)))") }
+                if let productName = card.productName { detail("Ships in", productName) }
             }
             if let ability = card.ability, !ability.isEmpty {
                 Divider().overlay(Color.white.opacity(0.1))

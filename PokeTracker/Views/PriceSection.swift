@@ -24,9 +24,50 @@ struct PriceSection: View {
             ForEach(PriceSource.allCases) { source in
                 sourceCard(source)
             }
+            ebayButton
         }
         .padding(16)
         .panel()
+    }
+
+    /// Opens the eBay app (via its URL scheme) searching for this card; falls back to ebay.com,
+    /// which itself hands off to the app through universal links when it is installed.
+    private var ebayButton: some View {
+        Button {
+            let query = card.ebayQuery
+            let encoded = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? query
+            let web = URL(string: "https://www.ebay.com/sch/i.html?_nkw=\(encoded)&_sacat=183454")!
+            if let app = URL(string: "ebay://link/?nav=item.query&keyword=\(encoded)") {
+                openURL(app) { accepted in
+                    if !accepted { openURL(web) }
+                }
+            } else {
+                openURL(web)
+            }
+        } label: {
+            HStack(spacing: 10) {
+                Image(systemName: "tag.fill")
+                    .font(.system(size: 15, weight: .bold))
+                Text("Open on eBay")
+                    .font(PokeTheme.headline(15))
+                Spacer()
+                Text("Search listings")
+                    .font(PokeTheme.caption(11))
+                    .foregroundStyle(PokeTheme.textSecondary)
+                Image(systemName: "arrow.up.right.square")
+                    .font(.system(size: 13, weight: .bold))
+            }
+            .padding(14)
+            .foregroundStyle(.white)
+            .background(
+                LinearGradient(colors: [Color(hex: 0xE53238), Color(hex: 0xF5AF02), Color(hex: 0x86B817), Color(hex: 0x0064D2)], startPoint: .leading, endPoint: .trailing)
+                    .opacity(0.22),
+                in: RoundedRectangle(cornerRadius: 14, style: .continuous)
+            )
+            .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).strokeBorder(Color.white.opacity(0.12), lineWidth: 1))
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel("Open on eBay")
     }
 
     @ViewBuilder

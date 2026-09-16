@@ -6,6 +6,7 @@ enum CardSection: String, Codable, CaseIterable, Identifiable {
     case secret
     case rgb
     case classic
+    case promo
 
     var id: String { rawValue }
 
@@ -15,6 +16,7 @@ enum CardSection: String, Codable, CaseIterable, Identifiable {
         case .secret: return "Secret Rares"
         case .rgb: return "RGB Mew"
         case .classic: return "Classic Collection"
+        case .promo: return "Promos"
         }
     }
 
@@ -24,6 +26,7 @@ enum CardSection: String, Codable, CaseIterable, Identifiable {
         case .secret: return "Secrets"
         case .rgb: return "RGB"
         case .classic: return "Classic"
+        case .promo: return "Promos"
         }
     }
 
@@ -33,6 +36,7 @@ enum CardSection: String, Codable, CaseIterable, Identifiable {
         case .secret: return "129–158"
         case .rgb: return "R · G · B"
         case .classic: return "30 reprints"
+        case .promo: return "MEP 094–110"
         }
     }
 
@@ -42,6 +46,7 @@ enum CardSection: String, Codable, CaseIterable, Identifiable {
         case .secret: return "sparkles"
         case .rgb: return "circle.hexagongrid.fill"
         case .classic: return "clock.arrow.circlepath"
+        case .promo: return "star.circle.fill"
         }
     }
 }
@@ -57,6 +62,7 @@ enum Rarity: String, Codable, CaseIterable, Identifiable {
     case futuristicRare
     case rgbSecret
     case classicCollection
+    case promo
 
     var id: String { rawValue }
 
@@ -71,6 +77,7 @@ enum Rarity: String, Codable, CaseIterable, Identifiable {
         case .futuristicRare: return "Futuristic Rare"
         case .rgbSecret: return "RGB Secret"
         case .classicCollection: return "Classic Collection"
+        case .promo: return "Black Star Promo"
         }
     }
 
@@ -85,6 +92,7 @@ enum Rarity: String, Codable, CaseIterable, Identifiable {
         case .futuristicRare: return "FR"
         case .rgbSecret: return "RGB"
         case .classicCollection: return "CC"
+        case .promo: return "PR"
         }
     }
 
@@ -100,6 +108,7 @@ enum Rarity: String, Codable, CaseIterable, Identifiable {
         case .futuristicRare: return "★"
         case .rgbSecret: return "◆"
         case .classicCollection: return "★C"
+        case .promo: return "★"
         }
     }
 
@@ -107,6 +116,7 @@ enum Rarity: String, Codable, CaseIterable, Identifiable {
     var rank: Int {
         switch self {
         case .common: return 1
+        case .promo: return 2
         case .rare: return 2
         case .doubleRare: return 3
         case .pikachuRare: return 4
@@ -164,6 +174,8 @@ struct Card: Codable, Identifiable, Hashable {
     let imageName: String
     let remoteImageURL: URL?
     let notes: String?
+    /// For promos: the product the card ships in.
+    let productName: String?
 
     static func == (lhs: Card, rhs: Card) -> Bool { lhs.id == rhs.id }
     func hash(into hasher: inout Hasher) { hasher.combine(id) }
@@ -175,6 +187,7 @@ struct Card: Codable, Identifiable, Hashable {
         if let energyType { parts.append(energyType.title) }
         if let classicOrigin { parts.append(classicOrigin.setName) }
         if let stage { parts.append(stage) }
+        if let productName { parts.append(productName) }
         return parts.joined(separator: " ").folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
     }
 
@@ -182,7 +195,18 @@ struct Card: Codable, Identifiable, Hashable {
         if let classicOrigin {
             return "\(classicOrigin.setName) · \(classicOrigin.year)"
         }
+        if let productName { return productName }
         return rarity.title
+    }
+
+    /// Search query used on eBay.
+    var ebayQuery: String {
+        switch section {
+        case .classic: return "\(name) \(displayNumber) 30th Celebration Classic Collection"
+        case .rgb: return "Mew \(displayNumber) 30th Celebration RGB"
+        case .promo: return "\(name) \(displayNumber) 30th Celebration promo"
+        default: return "\(name) \(displayNumber) 30th Celebration"
+        }
     }
 
     /// Search query used when looking a card up on a marketplace.
@@ -192,6 +216,8 @@ struct Card: Codable, Identifiable, Hashable {
             return "\(name) \(displayNumber) 30th Celebration Classic Collection"
         case .rgb:
             return "Mew \(displayNumber) 30th Celebration"
+        case .promo:
+            return "\(name) \(displayNumber) promo 30th Celebration"
         default:
             return "\(name) \(displayNumber) 30th Celebration"
         }

@@ -6,7 +6,7 @@ A native iOS app for tracking your progress on the English **Pokémon TCG: 30th 
 
 ## What it tracks
 
-Every Pokémon and Trainer card on the official 30th Celebration card list (P11221), plus the three unlisted RGB Mew secret rares — **191 cards** in total (the eight Basic Energy cards are intentionally left out):
+Every Pokémon and Trainer card on the official 30th Celebration card list (P11221), the three unlisted RGB Mew secret rares, and the 17 Black Star Promos that ship with the 30th Celebration products — **209 cards** in total (the eight Basic Energy cards are intentionally left out):
 
 | Section | Cards | Notes |
 |---|---|---|
@@ -14,6 +14,7 @@ Every Pokémon and Trainer card on the official 30th Celebration card list (P112
 | Secret rares | 129–158 | 18 Illustration Rare, 10 Special Illustration Rare, 2 Futuristic Rare |
 | RGB Mew | R/RGB, G/RGB, B/RGB | YOSHIROTTEN's Red / Green / Blue Mew |
 | Classic Collection | 30 reprints | Base Set Charizard through Paldea Evolved Magikarp, with original set and year |
+| Promos | MEP 094–110 | Tech Sticker, Poster, ex Box/Tin, ETB (plus the Pokémon Center-stamped Nidorina), Battle Deck, Figure, Ditto Premium and Ultra-Premium Collection promos, including the UPC Espeon ex / Umbreon ex |
 
 Rarities come straight from the official checklist PDF. Artists, HP, types, attacks and Pokédex text were merged in from Limitless TCG and TCGplayer.
 
@@ -24,7 +25,7 @@ Rarities come straight from the official checklist PDF. Artists, HP, types, atta
 - **Filter** by collected / missing, by any combination of rarities, and by section. **Sort** by number, name, rarity, market price, or recently collected, ascending or descending.
 - **Search** by name, number (`158/128`, `R/RGB`, `4/102`), rarity, artist, type, or original set.
 - **Card detail** opens on the card back and flips over to reveal the front (tap to flip again), with a 3D tilt + holographic sheen (varies by rarity), quantity, favorite, personal note, attacks, ability, Pokédex entry, and previous/next navigation.
-- **Prices in every card**, from two sources:
+- **Prices in every card**, from two sources, plus an **Open on eBay** button that jumps into the eBay app with a search for that exact card:
   - **TCGplayer** — current Market Price, the most recent day's average sale price (with count and low–high range), 30-day trend and sparkline.
   - **Card Ladder** — CL Value, most recent sale, and sales history.
 - **Progress tab**: completion ring, per-section and per-rarity progress bars, value of what you own, cost to finish, and the priciest cards you're still missing.
@@ -48,7 +49,7 @@ Every card's prices are pulled when the app launches and again when it returns t
 
 ## Card images
 
-`PokeTracker/Resources/CardImages/` holds the official scan of every card from the Pokémon TCG 30th Celebration gallery (tcg.pokemon.com), stored as 660×920 JPEGs. The three RGB Mew are not in the official gallery, so those come from TCGplayer's product images at the same resolution. The card back and the 30th Celebration logo are in the asset catalog. Each card also carries the URL of its official gallery scan, which the image store uses if a bundled file is ever missing.
+`PokeTracker/Resources/CardImages/` holds the official scan of every card from the Pokémon TCG 30th Celebration gallery (tcg.pokemon.com), stored as 660×920 JPEGs. The three RGB Mew and the promos are not in the official gallery, so those come from TCGplayer's product images at the same resolution. The card back and the 30th Celebration logo are in the asset catalog. Each card also carries the URL of its official gallery scan, which the image store uses if a bundled file is ever missing.
 
 ## Project layout
 
@@ -59,7 +60,7 @@ PokeTracker/
   Services/                   ImageStore, TCGPlayerService, CardLadderService, PriceCenter
   Theme/                      Colors, fonts, rarity badges, holo/tilt effect
   Views/                      Collection grid, filters, card detail, prices, progress, settings
-  Resources/cards.json        The 191-card catalog
+  Resources/cards.json        The 209-card catalog
   Resources/CardImages/       Card scans
 ```
 

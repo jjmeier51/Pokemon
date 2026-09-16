@@ -1,0 +1,78 @@
+import Foundation
+import Observation
+import Security
+
+/// User preferences. Small values live in UserDefaults; the Card Ladder key lives in the Keychain.
+@MainActor
+@Observable
+final class AppSettings {
+    private let defaults = UserDefaults.standard
+
+    var cardLadderAPIKey: String {
+        didSet { Keychain.set(cardLadderAPIKey, for: Keychain.cardLadderKey) }
+    }
+
+    var cardLadderBaseURL: String {
+        didSet { defaults.set(cardLadderBaseURL, forKey: "cardLadderBaseURL") }
+    }
+
+    var autoRefreshPrices: Bool {
+        didSet { defaults.set(autoRefreshPrices, forKey: "autoRefreshPrices") }
+    }
+
+    var hapticsEnabled: Bool {
+        didSet { defaults.set(hapticsEnabled, forKey: "hapticsEnabled") }
+    }
+
+    var gridColumns: Int {
+        didSet { defaults.set(gridColumns, forKey: "gridColumns") }
+    }
+
+    var dimMissingCards: Bool {
+        didSet { defaults.set(dimMissingCards, forKey: "dimMissingCards") }
+    }
+
+    static let defaultCardLadderBaseURL = "https://api.parse.bot/scraper/97d5f4bc-6c65-4546-8f71-76149a5533cb"
+
+    init() {
+        cardLadderAPIKey = Keychain.get(Keychain.cardLadderKey) ?? ""
+        cardLadderBaseURL = defaults.string(forKey: "cardLadderBaseURL") ?? Self.defaultCardLadderBaseURL
+        autoRefreshPrices = defaults.object(forKey: "autoRefreshPrices") as? Bool ?? true
+        hapticsEnabled = defaults.object(forKey: "hapticsEnabled") as? Bool ?? true
+        gridColumns = defaults.object(forKey: "gridColumns") as? Int ?? 3
+        dimMissingCards = defaults.object(forKey: "dimMissingCards") as? Bool ?? true
+    }
+
+    var hasCardLadderKey: Bool { !cardLadderAPIKey.trimmingCharacters(in: .whitespaces).isEmpty }
+}
+
+/// Minimal Keychain wrapper for storing API keys.
+enum Keychain {
+    static let cardLadderKey = "com.jjmeier.PokeTracker.cardladder.apikey"
+
+    static func get(_ key: String) -> String? {
+        let query: [String: Any] = [
+            kSecClass as String: kSecClassGenericPassword,
+            kSecAttrAccount as String: key,
+            kSecReturnData as String: true,
+            kSecMatchLimit as String: kSecMatchLimitOne
+        ]
+        var item: CFTypeRef?
+        let status = SecItemCopyMatching(query as CFDictionary, &item)
+        guard status == errSecSuccess, let data = item as? Data else { return nil }
+        return String(data: data, encoding: .utf8)
+    }
+
+    static func set(_ value: String, for key: String) {
+        let base: [String: Any] = [
+            kSecClass as String: kSecClassGenericPassword,
+            kSecAttrAccount as String: key
+        ]
+        SecItemDelete(base as CFDictionary)
+        guard !value.isEmpty, let data = value.data(using: .utf8) else { return }
+        var add = base
+        add[kSecValueData as String] = data
+        add[kSecAttrAccessible as String] = kSecAttrAccessibleAfterFirstUnlock
+        SecItemAdd(add as CFDictionary, nil)
+    }
+}

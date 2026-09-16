@@ -28,8 +28,8 @@ final class AppSettings {
         didSet { defaults.set(gridColumns, forKey: "gridColumns") }
     }
 
-    var dimMissingCards: Bool {
-        didSet { defaults.set(dimMissingCards, forKey: "dimMissingCards") }
+    var dimCollectedCards: Bool {
+        didSet { defaults.set(dimCollectedCards, forKey: "dimCollectedCards") }
     }
 
     static let defaultCardLadderBaseURL = "https://api.parse.bot/scraper/97d5f4bc-6c65-4546-8f71-76149a5533cb"
@@ -40,7 +40,7 @@ final class AppSettings {
         autoRefreshPrices = defaults.object(forKey: "autoRefreshPrices") as? Bool ?? true
         hapticsEnabled = defaults.object(forKey: "hapticsEnabled") as? Bool ?? true
         gridColumns = defaults.object(forKey: "gridColumns") as? Int ?? 3
-        dimMissingCards = defaults.object(forKey: "dimMissingCards") as? Bool ?? true
+        dimCollectedCards = defaults.object(forKey: "dimCollectedCards") as? Bool ?? true
     }
 
     var hasCardLadderKey: Bool { !cardLadderAPIKey.trimmingCharacters(in: .whitespaces).isEmpty }

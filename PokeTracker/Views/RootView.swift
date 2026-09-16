@@ -5,6 +5,8 @@ struct RootView: View {
     @Environment(CollectionStore.self) private var collection
     @Environment(PriceCenter.self) private var prices
     @Environment(AppSettings.self) private var settings
+    @Environment(\.scenePhase) private var scenePhase
+    @State private var lastFullRefresh: Date?
 
     var body: some View {
         TabView {
@@ -18,10 +20,19 @@ struct RootView: View {
         .toolbarBackground(PokeTheme.deepNavy.opacity(0.95), for: .tabBar)
         .toolbarBackground(.visible, for: .tabBar)
         .task {
-            // Warm the price cache for anything the user has collected so the Progress tab has numbers.
-            guard settings.autoRefreshPrices else { return }
-            let owned = catalog.cards.filter { collection.isCollected($0) }
-            await prices.refreshAll(owned, settings: settings, onlyStale: true)
+            await refreshEverything()
         }
+        .onChange(of: scenePhase) { _, phase in
+            // Re-pull prices when the app is brought back to the foreground (skip if we just did).
+            guard phase == .active, let last = lastFullRefresh, Date().timeIntervalSince(last) > 120 else { return }
+            Task { await refreshEverything() }
+        }
+    }
+
+    private func refreshEverything() async {
+        guard prices.bulkProgress == nil else { return }
+        lastFullRefresh = Date()
+        await prices.refreshAll(catalog.cards, settings: settings, onlyStale: false)
+        lastFullRefresh = Date()
     }
 }

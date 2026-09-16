@@ -6,7 +6,7 @@ A native iOS app for tracking your progress on the English **Pokémon TCG: 30th 
 
 ## What it tracks
 
-All **196 cards** on the official 30th Celebration card list (P11221), plus the three unlisted RGB Mew secret rares — **199 cards** in total:
+Every Pokémon and Trainer card on the official 30th Celebration card list (P11221), plus the three unlisted RGB Mew secret rares — **191 cards** in total (the eight Basic Energy cards are intentionally left out):
 
 | Section | Cards | Notes |
 |---|---|---|
@@ -14,17 +14,16 @@ All **196 cards** on the official 30th Celebration card list (P11221), plus the 
 | Secret rares | 129–158 | 18 Illustration Rare, 10 Special Illustration Rare, 2 Futuristic Rare |
 | RGB Mew | R/RGB, G/RGB, B/RGB | YOSHIROTTEN's Red / Green / Blue Mew |
 | Classic Collection | 30 reprints | Base Set Charizard through Paldea Evolved Magikarp, with original set and year |
-| Basic Energy | 009–016 | Eight foil energies |
 
 Rarities come straight from the official checklist PDF. Artists, HP, types, attacks and Pokédex text were merged in from Limitless TCG and TCGplayer.
 
 ## Features
 
-- **Card grid** with the scan of every card, gold border and check badge for cards you own, dimmed greyscale for cards you still need.
+- **Card grid** with the official scan of every card. Cards you still need show in full color; cards you've collected get a gold border, a check badge, and are greyed out so the remaining chase is obvious at a glance.
 - **One-tap collecting**: tap the `+` badge on any card (or long-press for a menu). Haptic feedback and a pop animation on each catch.
 - **Filter** by collected / missing, by any combination of rarities, and by section. **Sort** by number, name, rarity, market price, or recently collected, ascending or descending.
 - **Search** by name, number (`158/128`, `R/RGB`, `4/102`), rarity, artist, type, or original set.
-- **Card detail** with a 3D tilt + holographic sheen (varies by rarity), quantity, favorite, personal note, attacks, ability, Pokédex entry, and previous/next navigation.
+- **Card detail** opens on the card back and flips over to reveal the front (tap to flip again), with a 3D tilt + holographic sheen (varies by rarity), quantity, favorite, personal note, attacks, ability, Pokédex entry, and previous/next navigation.
 - **Prices in every card**, from two sources:
   - **TCGplayer** — current Market Price, the most recent day's average sale price (with count and low–high range), 30-day trend and sparkline.
   - **Card Ladder** — CL Value, most recent sale, and sales history.
@@ -45,11 +44,11 @@ No third-party dependencies. Everything is SwiftUI + Foundation.
 
 **Card Ladder** has no public API and its website sits behind a bot challenge, so the app uses the [Parse.bot Card Ladder API](https://parse.bot/marketplace/5554022d-8a04-46d0-b2c5-56f3b5abcea2/cardladder-com-api) wrapper (`search_cards`, `get_card_value`, `get_card_sales`). Create a key (there is a free tier) and paste it into **Settings → Card Ladder**. The base URL is editable, so any bridge that mirrors those routes works too. Until a key is added, the Card Ladder panel shows a prompt and an "Open on Card Ladder" link.
 
-Prices are cached for six hours and refreshed automatically when you open a card; **Progress → refresh** or **Settings → Refresh every card now** reloads the whole set.
+Every card's prices are pulled when the app launches and again when it returns to the foreground; **Progress → refresh** or **Settings → Refresh every card now** reloads the whole set on demand, and opening a card refreshes that card if its quote is more than six hours old.
 
 ## Card images
 
-`PokeTracker/Resources/CardImages/` holds a scan of every card (mostly 716×1000 from TCGplayer's official product images, with a few Illustration Rares currently at 460×640 or 660×920 because larger scans weren't published yet). The image store checks each bundled scan's resolution and transparently fetches and caches TCGplayer's 1000px version at runtime once it exists, so those cards sharpen up on their own.
+`PokeTracker/Resources/CardImages/` holds the official scan of every card from the Pokémon TCG 30th Celebration gallery (tcg.pokemon.com), stored as 660×920 JPEGs. The three RGB Mew are not in the official gallery, so those come from TCGplayer's product images at the same resolution. The card back and the 30th Celebration logo are in the asset catalog. Each card also carries the URL of its official gallery scan, which the image store uses if a bundled file is ever missing.
 
 ## Project layout
 
@@ -60,7 +59,7 @@ PokeTracker/
   Services/                   ImageStore, TCGPlayerService, CardLadderService, PriceCenter
   Theme/                      Colors, fonts, rarity badges, holo/tilt effect
   Views/                      Collection grid, filters, card detail, prices, progress, settings
-  Resources/cards.json        The 199-card catalog
+  Resources/cards.json        The 191-card catalog
   Resources/CardImages/       Card scans
 ```
 

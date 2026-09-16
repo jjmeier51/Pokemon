@@ -77,7 +77,6 @@ extension Rarity {
         case .futuristicRare: return Color(hex: 0x2FE3C6)
         case .rgbSecret: return Color(hex: 0xFF5C8A)
         case .classicCollection: return Color(hex: 0xE4C56B)
-        case .foilEnergy: return Color(hex: 0x9FE870)
         }
     }
 

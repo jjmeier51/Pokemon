@@ -22,31 +22,27 @@ struct CollectionView: View {
         NavigationStack {
             ZStack {
                 PokeTheme.background
-                ScrollView {
-                    LazyVStack(spacing: 16, pinnedViews: []) {
-                        header
-                        sectionChips
-                        statusPicker
-                        grid
+                GeometryReader { proxy in
+                    ScrollView {
+                        VStack(spacing: 16) {
+                            logoBanner
+                            header
+                            sectionChips
+                            statusPicker
+                            grid
+                        }
+                        .padding(.horizontal, 16)
+                        .padding(.bottom, 32)
+                        .frame(width: proxy.size.width)
                     }
-                    .padding(.horizontal, 16)
-                    .padding(.bottom, 32)
+                    .scrollDismissesKeyboard(.immediately)
                 }
-                .scrollDismissesKeyboard(.immediately)
             }
             .navigationTitle("PokeTracker")
             .navigationBarTitleDisplayMode(.inline)
             .toolbarBackground(PokeTheme.deepNavy.opacity(0.9), for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
             .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
-                    HStack(spacing: 6) {
-                        Image(systemName: "sparkles")
-                            .foregroundStyle(PokeTheme.yellow)
-                        Text("30th Celebration")
-                            .font(PokeTheme.headline(15))
-                    }
-                }
                 ToolbarItemGroup(placement: .topBarTrailing) {
                     sortMenu
                     Button {
@@ -73,6 +69,34 @@ struct CollectionView: View {
 
     // MARK: - Header
 
+    private var logoBanner: some View {
+        HStack(alignment: .center, spacing: 14) {
+            Image("Celebration30Logo")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(height: 64)
+                .shadow(color: PokeTheme.gold.opacity(0.45), radius: 12, y: 4)
+            VStack(alignment: .leading, spacing: 3) {
+                Text("Pokémon TCG")
+                    .font(PokeTheme.caption(11))
+                    .tracking(1.2)
+                    .foregroundStyle(PokeTheme.textSecondary)
+                Text("30th Celebration")
+                    .font(PokeTheme.title(20))
+                Text("English master set · Sept 16, 2026")
+                    .font(PokeTheme.caption(11))
+                    .foregroundStyle(PokeTheme.textTertiary)
+            }
+            Spacer(minLength: 0)
+            Image("Pikachu30")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(height: 40)
+                .opacity(0.9)
+        }
+        .padding(.top, 10)
+    }
+
     private var scopedCards: [Card] {
         if let section = filter.section { return catalog.cards(in: section) }
         return catalog.cards
@@ -96,6 +120,8 @@ struct CollectionView: View {
             }
             VStack(alignment: .leading, spacing: 6) {
                 Text(filter.section?.title ?? "Master Set")
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.8)
                     .font(PokeTheme.title(22))
                 Text("\(owned) of \(total) cards collected")
                     .font(PokeTheme.body(14))
@@ -133,8 +159,11 @@ struct CollectionView: View {
                     chip(title: section.shortTitle, image: section.systemImage, section: section)
                 }
             }
-            .padding(.vertical, 2)
+            .padding(.vertical, 4)
+            .padding(.horizontal, 16)
         }
+        .padding(.horizontal, -16)
+        .frame(maxWidth: .infinity)
     }
 
     private func chip(title: String, image: String, section: CardSection?) -> some View {
@@ -199,7 +228,7 @@ struct CollectionView: View {
                     .foregroundStyle(PokeTheme.yellow)
                 }
             }
-            LazyVGrid(columns: columns, spacing: 14) {
+            LazyVGrid(columns: columns, spacing: 16) {
                 ForEach(cards) { card in
                     CardGridCell(card: card) {
                         selectedCard = card
@@ -207,6 +236,7 @@ struct CollectionView: View {
                     .id(card.id)
                 }
             }
+            .padding(.horizontal, 2)
             .animation(.snappy(duration: 0.3), value: cards.map(\.id))
         }
     }

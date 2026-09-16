@@ -6,7 +6,6 @@ enum CardSection: String, Codable, CaseIterable, Identifiable {
     case secret
     case rgb
     case classic
-    case energy
 
     var id: String { rawValue }
 
@@ -16,7 +15,6 @@ enum CardSection: String, Codable, CaseIterable, Identifiable {
         case .secret: return "Secret Rares"
         case .rgb: return "RGB Mew"
         case .classic: return "Classic Collection"
-        case .energy: return "Basic Energy"
         }
     }
 
@@ -26,7 +24,6 @@ enum CardSection: String, Codable, CaseIterable, Identifiable {
         case .secret: return "Secrets"
         case .rgb: return "RGB"
         case .classic: return "Classic"
-        case .energy: return "Energy"
         }
     }
 
@@ -36,7 +33,6 @@ enum CardSection: String, Codable, CaseIterable, Identifiable {
         case .secret: return "129–158"
         case .rgb: return "R · G · B"
         case .classic: return "30 reprints"
-        case .energy: return "009–016"
         }
     }
 
@@ -46,7 +42,6 @@ enum CardSection: String, Codable, CaseIterable, Identifiable {
         case .secret: return "sparkles"
         case .rgb: return "circle.hexagongrid.fill"
         case .classic: return "clock.arrow.circlepath"
-        case .energy: return "bolt.fill"
         }
     }
 }
@@ -62,7 +57,6 @@ enum Rarity: String, Codable, CaseIterable, Identifiable {
     case futuristicRare
     case rgbSecret
     case classicCollection
-    case foilEnergy
 
     var id: String { rawValue }
 
@@ -77,7 +71,6 @@ enum Rarity: String, Codable, CaseIterable, Identifiable {
         case .futuristicRare: return "Futuristic Rare"
         case .rgbSecret: return "RGB Secret"
         case .classicCollection: return "Classic Collection"
-        case .foilEnergy: return "Foil Energy"
         }
     }
 
@@ -92,7 +85,6 @@ enum Rarity: String, Codable, CaseIterable, Identifiable {
         case .futuristicRare: return "FR"
         case .rgbSecret: return "RGB"
         case .classicCollection: return "CC"
-        case .foilEnergy: return "E"
         }
     }
 
@@ -108,14 +100,12 @@ enum Rarity: String, Codable, CaseIterable, Identifiable {
         case .futuristicRare: return "★"
         case .rgbSecret: return "◆"
         case .classicCollection: return "★C"
-        case .foilEnergy: return "◉"
         }
     }
 
     /// Higher is rarer. Used for sorting.
     var rank: Int {
         switch self {
-        case .foilEnergy: return 0
         case .common: return 1
         case .rare: return 2
         case .doubleRare: return 3
@@ -200,8 +190,6 @@ struct Card: Codable, Identifiable, Hashable {
         switch section {
         case .classic:
             return "\(name) \(displayNumber) 30th Celebration Classic Collection"
-        case .energy:
-            return "\(name) \(number) 30th Celebration"
         case .rgb:
             return "Mew \(displayNumber) 30th Celebration"
         default:

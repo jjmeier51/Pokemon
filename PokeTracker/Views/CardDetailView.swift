@@ -55,12 +55,10 @@ struct CardDetailView: View {
     // MARK: - Sections
 
     private var artwork: some View {
-        CardImageView(card: card, full: true, cornerRadius: 18)
+        FlipCardView(card: card, dimmed: collected && settings.dimCollectedCards)
             .frame(maxWidth: 340)
-            .tiltCard(rarity: card.rarity, enabled: true)
             .padding(.top, 12)
             .padding(.bottom, 8)
-            .saturation(collected || !settings.dimMissingCards ? 1 : 0.15)
             .animation(.easeInOut(duration: 0.4), value: collected)
     }
 

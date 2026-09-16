@@ -35,7 +35,7 @@ struct SettingsView: View {
                 }
 
                 Section("Prices") {
-                    Toggle("Refresh prices when viewing a card", isOn: $settings.autoRefreshPrices)
+                    Toggle("Also refresh a card's prices when you open it", isOn: $settings.autoRefreshPrices)
                     Button {
                         Task { await prices.refreshAll(catalog.cards, settings: settings, onlyStale: false) }
                     } label: {
@@ -56,7 +56,7 @@ struct SettingsView: View {
 
                 Section("Display") {
                     Stepper("Grid columns: \(settings.gridColumns)", value: $settings.gridColumns, in: 2...4)
-                    Toggle("Dim cards you don't own", isOn: $settings.dimMissingCards)
+                    Toggle("Grey out cards you've collected", isOn: $settings.dimCollectedCards)
                     Toggle("Haptics", isOn: $settings.hapticsEnabled)
                     Button("Clear downloaded artwork cache") { ImageStore.shared.clearDiskCache() }
                 }

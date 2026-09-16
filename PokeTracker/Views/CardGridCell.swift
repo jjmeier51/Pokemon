@@ -15,8 +15,8 @@ struct CardGridCell: View {
         VStack(spacing: 6) {
             ZStack(alignment: .topTrailing) {
                 CardImageView(card: card, maxPixelSize: 520, cornerRadius: 9)
-                    .saturation(collected || !settings.dimMissingCards ? 1 : 0.05)
-                    .opacity(collected || !settings.dimMissingCards ? 1 : 0.5)
+                    .saturation(collected && settings.dimCollectedCards ? 0.05 : 1)
+                    .opacity(collected && settings.dimCollectedCards ? 0.55 : 1)
                     .overlay {
                         RoundedRectangle(cornerRadius: 9, style: .continuous)
                             .strokeBorder(collected ? PokeTheme.goldGradient : LinearGradient(colors: [.white.opacity(0.12)], startPoint: .top, endPoint: .bottom), lineWidth: collected ? 2 : 1)
@@ -27,8 +27,9 @@ struct CardGridCell: View {
                     .onTapGesture { open() }
 
                 checkButton
-                    .padding(6)
+                    .padding(5)
             }
+            .padding(.top, 2)
 
             HStack(alignment: .center, spacing: 4) {
                 Text(card.displayNumber)

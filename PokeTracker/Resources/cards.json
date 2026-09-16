@@ -2,7 +2,7 @@
  "setName": "30th Celebration",
  "setCode": "30C",
  "releaseDate": "2026-09-16",
- "source": "Official Pokémon TCG 30th Celebration card list (P11221) + Limitless TCG + TCGplayer",
+ "source": "Official Pokémon TCG 30th Celebration card list (P11221); scans from tcg.pokemon.com gallery (RGB Mew from TCGplayer); card text from Limitless TCG + TCGplayer",
  "cards": [
   {
    "id": "30C-001",
@@ -28,7 +28,8 @@
    "tcgplayerProductId": 716435,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716435/pokemon-me-30th-celebration-exeggcute",
    "imageName": "30C-001",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716435_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_1-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-002",
@@ -54,7 +55,8 @@
    "tcgplayerProductId": 716436,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716436/pokemon-me-30th-celebration-alolan-exeggutor-002-128",
    "imageName": "30C-002",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716436_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_2-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-003",
@@ -81,7 +83,8 @@
    "tcgplayerProductId": 716437,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716437/pokemon-me-30th-celebration-volbeat",
    "imageName": "30C-003",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716437_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_3-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-004",
@@ -107,7 +110,8 @@
    "tcgplayerProductId": 716438,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716438/pokemon-me-30th-celebration-illumise",
    "imageName": "30C-004",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716438_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_4-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-005",
@@ -134,7 +138,8 @@
    "tcgplayerProductId": 716439,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716439/pokemon-me-30th-celebration-tropius",
    "imageName": "30C-005",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716439_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_5-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-006",
@@ -161,7 +166,8 @@
    "tcgplayerProductId": 716440,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716440/pokemon-me-30th-celebration-cherubi",
    "imageName": "30C-006",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716440_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_6-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-007",
@@ -188,7 +194,8 @@
    "tcgplayerProductId": 716441,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716441/pokemon-me-30th-celebration-cherrim",
    "imageName": "30C-007",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716441_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_7-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-008",
@@ -214,7 +221,8 @@
    "tcgplayerProductId": 716442,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716442/pokemon-me-30th-celebration-vivillon",
    "imageName": "30C-008",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716442_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_8-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-009",
@@ -240,7 +248,8 @@
    "tcgplayerProductId": 716443,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716443/pokemon-me-30th-celebration-vulpix",
    "imageName": "30C-009",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716443_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_9-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-010",
@@ -266,7 +275,8 @@
    "tcgplayerProductId": 716444,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716444/pokemon-me-30th-celebration-ninetales",
    "imageName": "30C-010",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716444_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_10-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-011",
@@ -292,7 +302,8 @@
    "tcgplayerProductId": 716445,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716445/pokemon-me-30th-celebration-moltres-011-128",
    "imageName": "30C-011",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716445_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_11-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-012",
@@ -319,7 +330,8 @@
    "tcgplayerProductId": 716446,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716446/pokemon-me-30th-celebration-ho-oh",
    "imageName": "30C-012",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716446_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_12-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-013",
@@ -346,7 +358,8 @@
    "tcgplayerProductId": 696830,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696830/pokemon-me-30th-celebration-victini",
    "imageName": "30C-013",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696830_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_13-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-014",
@@ -373,7 +386,8 @@
    "tcgplayerProductId": 716447,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716447/pokemon-me-30th-celebration-reshiram",
    "imageName": "30C-014",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716447_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_14-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-015",
@@ -400,7 +414,8 @@
    "tcgplayerProductId": 716448,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716448/pokemon-me-30th-celebration-fuecoco-ex-015-128",
    "imageName": "30C-015",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716448_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_15-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-016",
@@ -427,7 +442,8 @@
    "tcgplayerProductId": 716449,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716449/pokemon-me-30th-celebration-slowpoke",
    "imageName": "30C-016",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716449_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_16-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-017",
@@ -454,7 +470,8 @@
    "tcgplayerProductId": 716450,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716450/pokemon-me-30th-celebration-lapras-017-128",
    "imageName": "30C-017",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716450_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_17-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-018",
@@ -480,7 +497,8 @@
    "tcgplayerProductId": 716451,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716451/pokemon-me-30th-celebration-articuno-018-128",
    "imageName": "30C-018",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716451_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_18-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-019",
@@ -506,7 +524,8 @@
    "tcgplayerProductId": 716452,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716452/pokemon-me-30th-celebration-kyogre",
    "imageName": "30C-019",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716452_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_19-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-020",
@@ -532,7 +551,8 @@
    "tcgplayerProductId": 716453,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716453/pokemon-me-30th-celebration-palkia",
    "imageName": "30C-020",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716453_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_20-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-021",
@@ -559,7 +579,8 @@
    "tcgplayerProductId": 696676,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696676/pokemon-me-30th-celebration-greninja-ex-021-128",
    "imageName": "30C-021",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696676_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_21-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-022",
@@ -585,7 +606,8 @@
    "tcgplayerProductId": 716454,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716454/pokemon-me-30th-celebration-wishiwashi",
    "imageName": "30C-022",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716454_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_22-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-023",
@@ -611,7 +633,8 @@
    "tcgplayerProductId": 712934,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712934/pokemon-me-30th-celebration-pikachu-023-128",
    "imageName": "30C-023",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712934_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_23-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-024",
@@ -637,7 +660,8 @@
    "tcgplayerProductId": 716309,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716309/pokemon-me-30th-celebration-pikachu-024-128",
    "imageName": "30C-024",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716309_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_24-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-025",
@@ -663,7 +687,8 @@
    "tcgplayerProductId": 712935,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712935/pokemon-me-30th-celebration-pikachu-025-128",
    "imageName": "30C-025",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712935_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_25-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-026",
@@ -689,7 +714,8 @@
    "tcgplayerProductId": 712936,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712936/pokemon-me-30th-celebration-pikachu-026-128",
    "imageName": "30C-026",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712936_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_26-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-027",
@@ -715,7 +741,8 @@
    "tcgplayerProductId": 716310,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716310/pokemon-me-30th-celebration-pikachu-027-128",
    "imageName": "30C-027",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716310_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_27-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-028",
@@ -741,7 +768,8 @@
    "tcgplayerProductId": 712937,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712937/pokemon-me-30th-celebration-pikachu-028-128",
    "imageName": "30C-028",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712937_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_28-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-029",
@@ -767,7 +795,8 @@
    "tcgplayerProductId": 716311,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716311/pokemon-me-30th-celebration-pikachu-029-128",
    "imageName": "30C-029",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716311_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_29-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-030",
@@ -793,7 +822,8 @@
    "tcgplayerProductId": 712938,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712938/pokemon-me-30th-celebration-pikachu-030-128",
    "imageName": "30C-030",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712938_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_30-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-031",
@@ -819,7 +849,8 @@
    "tcgplayerProductId": 716312,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716312/pokemon-me-30th-celebration-pikachu-031-128",
    "imageName": "30C-031",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716312_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_31-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-032",
@@ -845,7 +876,8 @@
    "tcgplayerProductId": 712939,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712939/pokemon-me-30th-celebration-pikachu-032-128",
    "imageName": "30C-032",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712939_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_32-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-033",
@@ -871,7 +903,8 @@
    "tcgplayerProductId": 712940,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712940/pokemon-me-30th-celebration-pikachu-033-128",
    "imageName": "30C-033",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712940_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_33-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-034",
@@ -897,7 +930,8 @@
    "tcgplayerProductId": 712941,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712941/pokemon-me-30th-celebration-pikachu-034-128",
    "imageName": "30C-034",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712941_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_34-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-035",
@@ -923,7 +957,8 @@
    "tcgplayerProductId": 716313,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716313/pokemon-me-30th-celebration-pikachu-035-128",
    "imageName": "30C-035",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716313_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_35-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-036",
@@ -949,7 +984,8 @@
    "tcgplayerProductId": 696680,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696680/pokemon-me-30th-celebration-pikachu-036-128",
    "imageName": "30C-036",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696680_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_36-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-037",
@@ -976,7 +1012,8 @@
    "tcgplayerProductId": 696681,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696681/pokemon-me-30th-celebration-pikachu-037-128",
    "imageName": "30C-037",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696681_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_37-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-038",
@@ -1002,7 +1039,8 @@
    "tcgplayerProductId": 712942,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712942/pokemon-me-30th-celebration-pikachu-038-128",
    "imageName": "30C-038",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712942_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_38-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-039",
@@ -1028,7 +1066,8 @@
    "tcgplayerProductId": 712943,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712943/pokemon-me-30th-celebration-pikachu-039-128",
    "imageName": "30C-039",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712943_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_39-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-040",
@@ -1054,7 +1093,8 @@
    "tcgplayerProductId": 712944,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712944/pokemon-me-30th-celebration-pikachu-040-128",
    "imageName": "30C-040",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712944_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_40-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-041",
@@ -1081,7 +1121,8 @@
    "tcgplayerProductId": 712945,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712945/pokemon-me-30th-celebration-pikachu-041-128",
    "imageName": "30C-041",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712945_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_41-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-042",
@@ -1108,7 +1149,8 @@
    "tcgplayerProductId": 712946,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712946/pokemon-me-30th-celebration-pikachu-042-128",
    "imageName": "30C-042",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712946_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_42-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-043",
@@ -1134,7 +1176,8 @@
    "tcgplayerProductId": 712947,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712947/pokemon-me-30th-celebration-pikachu-043-128",
    "imageName": "30C-043",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712947_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_43-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-044",
@@ -1160,7 +1203,8 @@
    "tcgplayerProductId": 712948,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712948/pokemon-me-30th-celebration-pikachu-044-128",
    "imageName": "30C-044",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712948_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_44-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-045",
@@ -1187,7 +1231,8 @@
    "tcgplayerProductId": 716314,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716314/pokemon-me-30th-celebration-pikachu-045-128",
    "imageName": "30C-045",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716314_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_45-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-046",
@@ -1214,7 +1259,8 @@
    "tcgplayerProductId": 716315,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716315/pokemon-me-30th-celebration-pikachu-046-128",
    "imageName": "30C-046",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716315_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_46-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-047",
@@ -1240,7 +1286,8 @@
    "tcgplayerProductId": 696682,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696682/pokemon-me-30th-celebration-pikachu-047-128",
    "imageName": "30C-047",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696682_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_47-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-048",
@@ -1266,7 +1313,8 @@
    "tcgplayerProductId": 716316,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716316/pokemon-me-30th-celebration-pikachu-048-128",
    "imageName": "30C-048",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716316_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_48-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-049",
@@ -1292,7 +1340,8 @@
    "tcgplayerProductId": 712949,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712949/pokemon-me-30th-celebration-pikachu-049-128",
    "imageName": "30C-049",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712949_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_49-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-050",
@@ -1318,7 +1367,8 @@
    "tcgplayerProductId": 712950,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712950/pokemon-me-30th-celebration-pikachu-050-128",
    "imageName": "30C-050",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712950_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_50-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-051",
@@ -1344,7 +1394,8 @@
    "tcgplayerProductId": 716317,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716317/pokemon-me-30th-celebration-pikachu-051-128",
    "imageName": "30C-051",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716317_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_51-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-052",
@@ -1370,7 +1421,8 @@
    "tcgplayerProductId": 716318,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716318/pokemon-me-30th-celebration-pikachu-052-128",
    "imageName": "30C-052",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716318_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_52-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-053",
@@ -1397,7 +1449,8 @@
    "tcgplayerProductId": 712951,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712951/pokemon-me-30th-celebration-pikachu-ex-053-128",
    "imageName": "30C-053",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712951_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_53-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-054",
@@ -1424,7 +1477,8 @@
    "tcgplayerProductId": 712952,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712952/pokemon-me-30th-celebration-pikachu-ex-054-128",
    "imageName": "30C-054",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712952_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_54-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-055",
@@ -1450,7 +1504,8 @@
    "tcgplayerProductId": 716455,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716455/pokemon-me-30th-celebration-zapdos-055-128",
    "imageName": "30C-055",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716455_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_55-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-056",
@@ -1477,7 +1532,8 @@
    "tcgplayerProductId": 716456,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716456/pokemon-me-30th-celebration-zekrom",
    "imageName": "30C-056",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716456_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_56-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-057",
@@ -1504,7 +1560,8 @@
    "tcgplayerProductId": 696831,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696831/pokemon-me-30th-celebration-zeraora",
    "imageName": "30C-057",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696831_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_57-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-058",
@@ -1530,7 +1587,8 @@
    "tcgplayerProductId": 716457,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716457/pokemon-me-30th-celebration-toxel",
    "imageName": "30C-058",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716457_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_58-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-059",
@@ -1556,7 +1614,8 @@
    "tcgplayerProductId": 716458,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716458/pokemon-me-30th-celebration-toxtricity-059-128",
    "imageName": "30C-059",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716458_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_59-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-060",
@@ -1583,7 +1642,8 @@
    "tcgplayerProductId": 716459,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716459/pokemon-me-30th-celebration-toxtricity-060-128",
    "imageName": "30C-060",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716459_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_60-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-061",
@@ -1610,7 +1670,8 @@
    "tcgplayerProductId": 716460,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716460/pokemon-me-30th-celebration-morpeko-061-128",
    "imageName": "30C-061",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716460_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_61-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-062",
@@ -1636,7 +1697,8 @@
    "tcgplayerProductId": 716461,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716461/pokemon-me-30th-celebration-miraidon",
    "imageName": "30C-062",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716461_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_62-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-063",
@@ -1663,7 +1725,8 @@
    "tcgplayerProductId": 716462,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716462/pokemon-me-30th-celebration-mewtwo",
    "imageName": "30C-063",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716462_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_63-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-064",
@@ -1690,7 +1753,8 @@
    "tcgplayerProductId": 716463,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716463/pokemon-me-30th-celebration-mewtwo-ex-064-128",
    "imageName": "30C-064",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716463_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_64-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-065",
@@ -1716,7 +1780,8 @@
    "tcgplayerProductId": 716464,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716464/pokemon-me-30th-celebration-mew",
    "imageName": "30C-065",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716464_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_65-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-066",
@@ -1742,7 +1807,8 @@
    "tcgplayerProductId": 716465,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716465/pokemon-me-30th-celebration-mew-ex-066-128",
    "imageName": "30C-066",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716465_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_66-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-067",
@@ -1768,7 +1834,8 @@
    "tcgplayerProductId": 716466,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716466/pokemon-me-30th-celebration-marill",
    "imageName": "30C-067",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716466_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_67-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-068",
@@ -1794,7 +1861,8 @@
    "tcgplayerProductId": 716467,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716467/pokemon-me-30th-celebration-azumarill",
    "imageName": "30C-068",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716467_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_68-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-069",
@@ -1821,7 +1889,8 @@
    "tcgplayerProductId": 696678,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696678/pokemon-me-30th-celebration-espeon",
    "imageName": "30C-069",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696678_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_69-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-070",
@@ -1847,7 +1916,8 @@
    "tcgplayerProductId": 696834,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696834/pokemon-me-30th-celebration-espeon-ex",
    "imageName": "30C-070",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696834_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_70-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-071",
@@ -1873,7 +1943,8 @@
    "tcgplayerProductId": 696677,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696677/pokemon-me-30th-celebration-sylveon-ex-071-128",
    "imageName": "30C-071",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696677_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_71-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-072",
@@ -1899,7 +1970,8 @@
    "tcgplayerProductId": 716468,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716468/pokemon-me-30th-celebration-unown",
    "imageName": "30C-072",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716468_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_72-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-073",
@@ -1925,7 +1997,8 @@
    "tcgplayerProductId": 716469,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716469/pokemon-me-30th-celebration-drifloon-073-128",
    "imageName": "30C-073",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716469_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_73-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-074",
@@ -1951,7 +2024,8 @@
    "tcgplayerProductId": 716470,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716470/pokemon-me-30th-celebration-cresselia",
    "imageName": "30C-074",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716470_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_74-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-075",
@@ -1977,7 +2051,8 @@
    "tcgplayerProductId": 716471,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716471/pokemon-me-30th-celebration-chandelure-075-128",
    "imageName": "30C-075",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716471_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_75-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-076",
@@ -2003,7 +2078,8 @@
    "tcgplayerProductId": 716472,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716472/pokemon-me-30th-celebration-xerneas",
    "imageName": "30C-076",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716472_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_76-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-077",
@@ -2029,7 +2105,8 @@
    "tcgplayerProductId": 716473,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716473/pokemon-me-30th-celebration-comfey",
    "imageName": "30C-077",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716473_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_77-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-078",
@@ -2055,7 +2132,8 @@
    "tcgplayerProductId": 716474,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716474/pokemon-me-30th-celebration-cosmog",
    "imageName": "30C-078",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716474_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_78-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-079",
@@ -2081,7 +2159,8 @@
    "tcgplayerProductId": 716475,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716475/pokemon-me-30th-celebration-cosmoem",
    "imageName": "30C-079",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716475_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_79-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-080",
@@ -2107,7 +2186,8 @@
    "tcgplayerProductId": 716476,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716476/pokemon-me-30th-celebration-lunala",
    "imageName": "30C-080",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716476_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_80-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-081",
@@ -2133,7 +2213,8 @@
    "tcgplayerProductId": 716477,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716477/pokemon-me-30th-celebration-gimmighoul",
    "imageName": "30C-081",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716477_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_81-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-082",
@@ -2159,7 +2240,8 @@
    "tcgplayerProductId": 716478,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716478/pokemon-me-30th-celebration-groudon",
    "imageName": "30C-082",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716478_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_82-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-083",
@@ -2185,7 +2267,8 @@
    "tcgplayerProductId": 716479,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716479/pokemon-me-30th-celebration-lucario",
    "imageName": "30C-083",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716479_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_83-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-084",
@@ -2211,7 +2294,8 @@
    "tcgplayerProductId": 716480,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716480/pokemon-me-30th-celebration-seismitoad",
    "imageName": "30C-084",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716480_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_84-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-085",
@@ -2238,7 +2322,8 @@
    "tcgplayerProductId": 716481,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716481/pokemon-me-30th-celebration-lycanroc-085-128",
    "imageName": "30C-085",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716481_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_85-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-086",
@@ -2265,7 +2350,8 @@
    "tcgplayerProductId": 716482,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716482/pokemon-me-30th-celebration-koraidon",
    "imageName": "30C-086",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716482_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_86-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-087",
@@ -2291,7 +2377,8 @@
    "tcgplayerProductId": 716483,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716483/pokemon-me-30th-celebration-nidoran-f",
    "imageName": "30C-087",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716483_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_87-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-088",
@@ -2317,7 +2404,8 @@
    "tcgplayerProductId": 716484,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716484/pokemon-me-30th-celebration-nidorina",
    "imageName": "30C-088",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716484_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_88-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-089",
@@ -2343,7 +2431,8 @@
    "tcgplayerProductId": 714359,
    "tcgplayerURL": "https://www.tcgplayer.com/product/714359/pokemon-me-30th-celebration-alolan-meowth-089-128",
    "imageName": "30C-089",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/714359_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_89-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-090",
@@ -2369,7 +2458,8 @@
    "tcgplayerProductId": 716485,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716485/pokemon-me-30th-celebration-gengar-ex-090-128",
    "imageName": "30C-090",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716485_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_90-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-091",
@@ -2396,7 +2486,8 @@
    "tcgplayerProductId": 696679,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696679/pokemon-me-30th-celebration-umbreon",
    "imageName": "30C-091",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696679_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_91-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-092",
@@ -2422,7 +2513,8 @@
    "tcgplayerProductId": 696835,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696835/pokemon-me-30th-celebration-umbreon-ex",
    "imageName": "30C-092",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696835_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_92-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-093",
@@ -2448,7 +2540,8 @@
    "tcgplayerProductId": 716486,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716486/pokemon-me-30th-celebration-murkrow",
    "imageName": "30C-093",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716486_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_93-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-094",
@@ -2475,7 +2568,8 @@
    "tcgplayerProductId": 716487,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716487/pokemon-me-30th-celebration-scraggy-094-128",
    "imageName": "30C-094",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716487_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_94-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-095",
@@ -2501,7 +2595,8 @@
    "tcgplayerProductId": 716488,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716488/pokemon-me-30th-celebration-zorua",
    "imageName": "30C-095",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716488_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_95-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-096",
@@ -2527,7 +2622,8 @@
    "tcgplayerProductId": 716489,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716489/pokemon-me-30th-celebration-zoroark",
    "imageName": "30C-096",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716489_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_96-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-097",
@@ -2553,7 +2649,8 @@
    "tcgplayerProductId": 716490,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716490/pokemon-me-30th-celebration-deino",
    "imageName": "30C-097",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716490_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_97-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-098",
@@ -2579,7 +2676,8 @@
    "tcgplayerProductId": 716491,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716491/pokemon-me-30th-celebration-zweilous",
    "imageName": "30C-098",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716491_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_98-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-099",
@@ -2605,7 +2703,8 @@
    "tcgplayerProductId": 716492,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716492/pokemon-me-30th-celebration-hydreigon",
    "imageName": "30C-099",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716492_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_99-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-100",
@@ -2631,7 +2730,8 @@
    "tcgplayerProductId": 716493,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716493/pokemon-me-30th-celebration-yveltal",
    "imageName": "30C-100",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716493_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_100-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-101",
@@ -2658,7 +2758,8 @@
    "tcgplayerProductId": 716494,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716494/pokemon-me-30th-celebration-galarian-meowth-101-128",
    "imageName": "30C-101",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716494_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_101-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-102",
@@ -2685,7 +2786,8 @@
    "tcgplayerProductId": 716495,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716495/pokemon-me-30th-celebration-jirachi-ex-102-128",
    "imageName": "30C-102",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716495_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_102-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-103",
@@ -2712,7 +2814,8 @@
    "tcgplayerProductId": 716496,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716496/pokemon-me-30th-celebration-dialga",
    "imageName": "30C-103",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716496_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_103-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-104",
@@ -2738,7 +2841,8 @@
    "tcgplayerProductId": 716497,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716497/pokemon-me-30th-celebration-ferrothorn",
    "imageName": "30C-104",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716497_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_104-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-105",
@@ -2764,7 +2868,8 @@
    "tcgplayerProductId": 716498,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716498/pokemon-me-30th-celebration-solgaleo",
    "imageName": "30C-105",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716498_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_105-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-106",
@@ -2791,7 +2896,8 @@
    "tcgplayerProductId": 716499,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716499/pokemon-me-30th-celebration-zacian",
    "imageName": "30C-106",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716499_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_106-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-107",
@@ -2818,7 +2924,8 @@
    "tcgplayerProductId": 716500,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716500/pokemon-me-30th-celebration-zamazenta",
    "imageName": "30C-107",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716500_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_107-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-108",
@@ -2845,7 +2952,8 @@
    "tcgplayerProductId": 716501,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716501/pokemon-me-30th-celebration-gholdengo-108-128",
    "imageName": "30C-108",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716501_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_108-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-109",
@@ -2872,7 +2980,8 @@
    "tcgplayerProductId": 716502,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716502/pokemon-me-30th-celebration-salamence-ex-109-128",
    "imageName": "30C-109",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716502_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_109-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-110",
@@ -2898,7 +3007,8 @@
    "tcgplayerProductId": 716503,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716503/pokemon-me-30th-celebration-jangmo-o",
    "imageName": "30C-110",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716503_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_110-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-111",
@@ -2924,7 +3034,8 @@
    "tcgplayerProductId": 716504,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716504/pokemon-me-30th-celebration-hakamo-o",
    "imageName": "30C-111",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716504_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_111-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-112",
@@ -2950,7 +3061,8 @@
    "tcgplayerProductId": 716505,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716505/pokemon-me-30th-celebration-kommo-o-112-128",
    "imageName": "30C-112",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716505_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_112-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-113",
@@ -2976,7 +3088,8 @@
    "tcgplayerProductId": 714356,
    "tcgplayerURL": "https://www.tcgplayer.com/product/714356/pokemon-me-30th-celebration-meowth-113-128",
    "imageName": "30C-113",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/714356_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_113-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-114",
@@ -3003,7 +3116,8 @@
    "tcgplayerProductId": 716506,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716506/pokemon-me-30th-celebration-kangaskhan",
    "imageName": "30C-114",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716506_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_114-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-115",
@@ -3029,7 +3143,8 @@
    "tcgplayerProductId": 716507,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716507/pokemon-me-30th-celebration-ditto",
    "imageName": "30C-115",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716507_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_115-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-116",
@@ -3056,7 +3171,8 @@
    "tcgplayerProductId": 714357,
    "tcgplayerURL": "https://www.tcgplayer.com/product/714357/pokemon-me-30th-celebration-eevee-116-128",
    "imageName": "30C-116",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/714357_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_116-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-117",
@@ -3082,7 +3198,8 @@
    "tcgplayerProductId": 696832,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696832/pokemon-me-30th-celebration-eevee-117-128",
    "imageName": "30C-117",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696832_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_117-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-118",
@@ -3108,7 +3225,8 @@
    "tcgplayerProductId": 696833,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696833/pokemon-me-30th-celebration-eevee-118-128",
    "imageName": "30C-118",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696833_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_118-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-119",
@@ -3134,7 +3252,8 @@
    "tcgplayerProductId": 716508,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716508/pokemon-me-30th-celebration-snorlax",
    "imageName": "30C-119",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716508_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_119-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-120",
@@ -3160,7 +3279,8 @@
    "tcgplayerProductId": 716509,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716509/pokemon-me-30th-celebration-igglybuff",
    "imageName": "30C-120",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716509_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_120-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-121",
@@ -3186,7 +3306,8 @@
    "tcgplayerProductId": 716510,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716510/pokemon-me-30th-celebration-lugia",
    "imageName": "30C-121",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716510_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_121-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-122",
@@ -3212,7 +3333,8 @@
    "tcgplayerProductId": 716511,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716511/pokemon-me-30th-celebration-hisuian-zorua-122-128",
    "imageName": "30C-122",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716511_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_122-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-123",
@@ -3238,7 +3360,8 @@
    "tcgplayerProductId": 716512,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716512/pokemon-me-30th-celebration-hisuian-zoroark",
    "imageName": "30C-123",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716512_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_123-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-124",
@@ -3264,7 +3387,8 @@
    "tcgplayerProductId": 716513,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716513/pokemon-me-30th-celebration-minior",
    "imageName": "30C-124",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716513_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_124-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-125",
@@ -3291,7 +3415,8 @@
    "tcgplayerProductId": 716514,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716514/pokemon-me-30th-celebration-maushold-125-128",
    "imageName": "30C-125",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716514_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_125-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-126",
@@ -3315,7 +3440,8 @@
    "tcgplayerProductId": 716515,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716515/pokemon-me-30th-celebration-poke-pad",
    "imageName": "30C-126",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716515_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_126-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-127",
@@ -3339,7 +3465,8 @@
    "tcgplayerProductId": 716516,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716516/pokemon-me-30th-celebration-switch",
    "imageName": "30C-127",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716516_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_127-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-128",
@@ -3363,7 +3490,8 @@
    "tcgplayerProductId": 716517,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716517/pokemon-me-30th-celebration-ultra-ball",
    "imageName": "30C-128",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716517_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_128-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-129",
@@ -3389,7 +3517,8 @@
    "tcgplayerProductId": 716218,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716218/pokemon-me-30th-celebration-alolan-exeggutor-129-128",
    "imageName": "30C-129",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716218_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_129-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-130",
@@ -3415,7 +3544,8 @@
    "tcgplayerProductId": 716219,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716219/pokemon-me-30th-celebration-moltres-130-128",
    "imageName": "30C-130",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716219_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_130-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-131",
@@ -3442,7 +3572,8 @@
    "tcgplayerProductId": 696683,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696683/pokemon-me-30th-celebration-lapras-131-128",
    "imageName": "30C-131",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696683_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_131-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-132",
@@ -3468,7 +3599,8 @@
    "tcgplayerProductId": 716220,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716220/pokemon-me-30th-celebration-articuno-132-128",
    "imageName": "30C-132",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716220_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_132-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-133",
@@ -3494,7 +3626,8 @@
    "tcgplayerProductId": 716221,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716221/pokemon-me-30th-celebration-zapdos-133-128",
    "imageName": "30C-133",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716221_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_133-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-134",
@@ -3521,7 +3654,8 @@
    "tcgplayerProductId": 716222,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716222/pokemon-me-30th-celebration-toxtricity-134-128",
    "imageName": "30C-134",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716222_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_134-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-135",
@@ -3548,7 +3682,8 @@
    "tcgplayerProductId": 716223,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716223/pokemon-me-30th-celebration-morpeko-135-128",
    "imageName": "30C-135",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716223_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_135-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-136",
@@ -3574,7 +3709,8 @@
    "tcgplayerProductId": 696684,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696684/pokemon-me-30th-celebration-drifloon-136-128",
    "imageName": "30C-136",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696684_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_136-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-137",
@@ -3600,7 +3736,8 @@
    "tcgplayerProductId": 716224,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716224/pokemon-me-30th-celebration-chandelure-137-128",
    "imageName": "30C-137",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716224_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_137-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-138",
@@ -3627,7 +3764,8 @@
    "tcgplayerProductId": 696685,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696685/pokemon-me-30th-celebration-lycanroc-138-128",
    "imageName": "30C-138",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696685_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_138-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-139",
@@ -3653,7 +3791,8 @@
    "tcgplayerProductId": 714360,
    "tcgplayerURL": "https://www.tcgplayer.com/product/714360/pokemon-me-30th-celebration-alolan-meowth-139-128",
    "imageName": "30C-139",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/714360_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_139-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-140",
@@ -3680,7 +3819,8 @@
    "tcgplayerProductId": 716225,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716225/pokemon-me-30th-celebration-scraggy-140-128",
    "imageName": "30C-140",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716225_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_140-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-141",
@@ -3707,7 +3847,8 @@
    "tcgplayerProductId": 716226,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716226/pokemon-me-30th-celebration-galarian-meowth-141-128",
    "imageName": "30C-141",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716226_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_141-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-142",
@@ -3734,7 +3875,8 @@
    "tcgplayerProductId": 716227,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716227/pokemon-me-30th-celebration-gholdengo-142-128",
    "imageName": "30C-142",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716227_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_142-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-143",
@@ -3760,7 +3902,8 @@
    "tcgplayerProductId": 717621,
    "tcgplayerURL": "https://www.tcgplayer.com/product/717621/pokemon-me-30th-celebration-kommo-o-143-128",
    "imageName": "30C-143",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/717621_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_143-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-144",
@@ -3786,7 +3929,8 @@
    "tcgplayerProductId": 714358,
    "tcgplayerURL": "https://www.tcgplayer.com/product/714358/pokemon-me-30th-celebration-meowth-144-128",
    "imageName": "30C-144",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/714358_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_144-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-145",
@@ -3812,7 +3956,8 @@
    "tcgplayerProductId": 696686,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696686/pokemon-me-30th-celebration-hisuian-zorua-145-128",
    "imageName": "30C-145",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696686_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_145-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-146",
@@ -3839,7 +3984,8 @@
    "tcgplayerProductId": 716228,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716228/pokemon-me-30th-celebration-maushold-146-128",
    "imageName": "30C-146",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716228_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_146-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-147",
@@ -3866,7 +4012,8 @@
    "tcgplayerProductId": 716229,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716229/pokemon-me-30th-celebration-fuecoco-ex-147-128",
    "imageName": "30C-147",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716229_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_147-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-148",
@@ -3893,7 +4040,8 @@
    "tcgplayerProductId": 716230,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716230/pokemon-me-30th-celebration-greninja-ex-148-128",
    "imageName": "30C-148",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716230_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_148-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-149",
@@ -3920,7 +4068,8 @@
    "tcgplayerProductId": 712953,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712953/pokemon-me-30th-celebration-pikachu-ex-149-128",
    "imageName": "30C-149",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712953_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_149-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-150",
@@ -3947,7 +4096,8 @@
    "tcgplayerProductId": 712954,
    "tcgplayerURL": "https://www.tcgplayer.com/product/712954/pokemon-me-30th-celebration-pikachu-ex-150-128",
    "imageName": "30C-150",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/712954_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_150-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-151",
@@ -3974,7 +4124,8 @@
    "tcgplayerProductId": 717603,
    "tcgplayerURL": "https://www.tcgplayer.com/product/717603/pokemon-me-30th-celebration-mewtwo-ex-151-128",
    "imageName": "30C-151",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/717603_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_151-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-152",
@@ -4000,7 +4151,8 @@
    "tcgplayerProductId": 717605,
    "tcgplayerURL": "https://www.tcgplayer.com/product/717605/pokemon-me-30th-celebration-mew-ex-152-128",
    "imageName": "30C-152",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/717605_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_152-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-153",
@@ -4026,7 +4178,8 @@
    "tcgplayerProductId": 716231,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716231/pokemon-me-30th-celebration-sylveon-ex-153-128",
    "imageName": "30C-153",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716231_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_153-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-154",
@@ -4052,7 +4205,8 @@
    "tcgplayerProductId": 717610,
    "tcgplayerURL": "https://www.tcgplayer.com/product/717610/pokemon-me-30th-celebration-gengar-ex-154-128",
    "imageName": "30C-154",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/717610_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_154-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-155",
@@ -4079,7 +4233,8 @@
    "tcgplayerProductId": 716232,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716232/pokemon-me-30th-celebration-jirachi-ex-155-128",
    "imageName": "30C-155",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716232_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_155-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-156",
@@ -4106,7 +4261,8 @@
    "tcgplayerProductId": 716233,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716233/pokemon-me-30th-celebration-salamence-ex-156-128",
    "imageName": "30C-156",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716233_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_156-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-157",
@@ -4133,7 +4289,8 @@
    "tcgplayerProductId": 696687,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696687/pokemon-me-30th-celebration-mewtwo-ex-157-128",
    "imageName": "30C-157",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696687_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_157-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-158",
@@ -4159,7 +4316,8 @@
    "tcgplayerProductId": 696688,
    "tcgplayerURL": "https://www.tcgplayer.com/product/696688/pokemon-me-30th-celebration-mew-ex-158-128",
    "imageName": "30C-158",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/696688_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_158-2x.png",
+   "imageSource": "pokemon.com"
   },
   {
    "id": "30C-R",
@@ -4186,7 +4344,8 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/717607/pokemon-me-30th-celebration-mew-r-rgb",
    "imageName": "30C-R",
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/717607_in_1000x1000.jpg",
-   "notes": "One of three unlisted 'RGB' Mew secret rares by YOSHIROTTEN, one for each original Game Boy version (Red, Green, Blue). Numbered R/RGB."
+   "notes": "One of three unlisted 'RGB' Mew secret rares by YOSHIROTTEN, one for each original Game Boy version (Red, Green, Blue). Numbered R/RGB.",
+   "imageSource": "tcgplayer"
   },
   {
    "id": "30C-G",
@@ -4213,7 +4372,8 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/717608/pokemon-me-30th-celebration-mew-g-rgb",
    "imageName": "30C-G",
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/717608_in_1000x1000.jpg",
-   "notes": "One of three unlisted 'RGB' Mew secret rares by YOSHIROTTEN, one for each original Game Boy version (Red, Green, Blue). Numbered G/RGB."
+   "notes": "One of three unlisted 'RGB' Mew secret rares by YOSHIROTTEN, one for each original Game Boy version (Red, Green, Blue). Numbered G/RGB.",
+   "imageSource": "tcgplayer"
   },
   {
    "id": "30C-B",
@@ -4240,7 +4400,8 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/717609/pokemon-me-30th-celebration-mew-b-rgb",
    "imageName": "30C-B",
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/717609_in_1000x1000.jpg",
-   "notes": "One of three unlisted 'RGB' Mew secret rares by YOSHIROTTEN, one for each original Game Boy version (Red, Green, Blue). Numbered B/RGB."
+   "notes": "One of three unlisted 'RGB' Mew secret rares by YOSHIROTTEN, one for each original Game Boy version (Red, Green, Blue). Numbered B/RGB.",
+   "imageSource": "tcgplayer"
   },
   {
    "id": "CLC-01",
@@ -4272,7 +4433,9 @@
    "tcgplayerProductId": 716194,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716194/pokemon-me-30th-celebration-classic-collection-pikachu",
    "imageName": "CLC-01",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716194_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_14-2x.png",
+   "officialGalleryIndex": 14,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-02",
@@ -4304,7 +4467,9 @@
    "tcgplayerProductId": 714372,
    "tcgplayerURL": "https://www.tcgplayer.com/product/714372/pokemon-me-30th-celebration-classic-collection-charizard",
    "imageName": "CLC-02",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/714372_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_1-2x.png",
+   "officialGalleryIndex": 1,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-03",
@@ -4333,7 +4498,9 @@
    "tcgplayerProductId": 716159,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716159/pokemon-me-30th-celebration-classic-collection-misty",
    "imageName": "CLC-03",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716159_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_5-2x.png",
+   "officialGalleryIndex": 5,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-04",
@@ -4365,7 +4532,9 @@
    "tcgplayerProductId": 716195,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716195/pokemon-me-30th-celebration-classic-collection-erikas-jigglypuff",
    "imageName": "CLC-04",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716195_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_15-2x.png",
+   "officialGalleryIndex": 15,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-05",
@@ -4397,7 +4566,9 @@
    "tcgplayerProductId": 716161,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716161/pokemon-me-30th-celebration-classic-collection-sneasel",
    "imageName": "CLC-05",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716161_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_7-2x.png",
+   "officialGalleryIndex": 7,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-06",
@@ -4429,7 +4600,9 @@
    "tcgplayerProductId": 716205,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716205/pokemon-me-30th-celebration-classic-collection-shining-celebi",
    "imageName": "CLC-06",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716205_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_24-2x.png",
+   "officialGalleryIndex": 24,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-07",
@@ -4461,7 +4634,9 @@
    "tcgplayerProductId": 714386,
    "tcgplayerURL": "https://www.tcgplayer.com/product/714386/pokemon-me-30th-celebration-classic-collection-lugia",
    "imageName": "CLC-07",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/714386_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_29-2x.png",
+   "officialGalleryIndex": 29,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-08",
@@ -4492,7 +4667,9 @@
    "tcgplayerProductId": 716156,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716156/pokemon-me-30th-celebration-classic-collection-delcatty",
    "imageName": "CLC-08",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716156_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_2-2x.png",
+   "officialGalleryIndex": 2,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-09",
@@ -4525,7 +4702,9 @@
    "tcgplayerProductId": 716160,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716160/pokemon-me-30th-celebration-classic-collection-dark-tyranitar",
    "imageName": "CLC-09",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716160_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_6-2x.png",
+   "officialGalleryIndex": 6,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-10",
@@ -4557,7 +4736,9 @@
    "tcgplayerProductId": 716206,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716206/pokemon-me-30th-celebration-classic-collection-scizor-ex",
    "imageName": "CLC-10",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716206_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_25-2x.png",
+   "officialGalleryIndex": 25,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-11",
@@ -4588,7 +4769,9 @@
    "tcgplayerProductId": 716157,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716157/pokemon-me-30th-celebration-classic-collection-metagross-delta-species",
    "imageName": "CLC-11",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716157_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_3-2x.png",
+   "officialGalleryIndex": 3,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-12",
@@ -4619,7 +4802,9 @@
    "tcgplayerProductId": 716203,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716203/pokemon-me-30th-celebration-classic-collection-palkia-lvx",
    "imageName": "CLC-12",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716203_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_22-2x.png",
+   "officialGalleryIndex": 22,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-13",
@@ -4650,7 +4835,9 @@
    "tcgplayerProductId": 716163,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716163/pokemon-me-30th-celebration-classic-collection-uxie",
    "imageName": "CLC-13",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716163_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_10-2x.png",
+   "officialGalleryIndex": 10,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-14",
@@ -4681,7 +4868,9 @@
    "tcgplayerProductId": 716191,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716191/pokemon-me-30th-celebration-classic-collection-crobat-g",
    "imageName": "CLC-14",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716191_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_11-2x.png",
+   "officialGalleryIndex": 11,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-15",
@@ -4713,7 +4902,9 @@
    "tcgplayerProductId": 716198,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716198/pokemon-me-30th-celebration-classic-collection-gengar-prime",
    "imageName": "CLC-15",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716198_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_18-2x.png",
+   "officialGalleryIndex": 18,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-16",
@@ -4745,7 +4936,9 @@
    "tcgplayerProductId": 716199,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716199/pokemon-me-30th-celebration-classic-collection-darkrai-and-cresselia-legend-top",
    "imageName": "CLC-16",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716199_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_19-2x.png",
+   "officialGalleryIndex": 19,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-17",
@@ -4777,7 +4970,9 @@
    "tcgplayerProductId": 716200,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716200/pokemon-me-30th-celebration-classic-collection-darkrai-and-cresselia-legend-bottom",
    "imageName": "CLC-17",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716200_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_20-2x.png",
+   "officialGalleryIndex": 20,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-18",
@@ -4806,7 +5001,9 @@
    "tcgplayerProductId": 716202,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716202/pokemon-me-30th-celebration-classic-collection-n",
    "imageName": "CLC-18",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716202_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_21-2x.png",
+   "officialGalleryIndex": 21,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-19",
@@ -4838,7 +5035,9 @@
    "tcgplayerProductId": 716196,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716196/pokemon-me-30th-celebration-classic-collection-rayquaza-ex",
    "imageName": "CLC-19",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716196_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_16-2x.png",
+   "officialGalleryIndex": 16,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-20",
@@ -4869,7 +5068,9 @@
    "tcgplayerProductId": 716158,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716158/pokemon-me-30th-celebration-classic-collection-genesect-ex-team-plasma",
    "imageName": "CLC-20",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716158_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_4-2x.png",
+   "officialGalleryIndex": 4,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-21",
@@ -4900,7 +5101,9 @@
    "tcgplayerProductId": 716204,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716204/pokemon-me-30th-celebration-classic-collection-m-gardevoir-ex",
    "imageName": "CLC-21",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716204_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_23-2x.png",
+   "officialGalleryIndex": 23,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-22",
@@ -4929,7 +5132,9 @@
    "tcgplayerProductId": 716162,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716162/pokemon-me-30th-celebration-classic-collection-greninja-break",
    "imageName": "CLC-22",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716162_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_9-2x.png",
+   "officialGalleryIndex": 9,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-23",
@@ -4961,7 +5166,9 @@
    "tcgplayerProductId": 716197,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716197/pokemon-me-30th-celebration-classic-collection-solgaleo-gx",
    "imageName": "CLC-23",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716197_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_17-2x.png",
+   "officialGalleryIndex": 17,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-24",
@@ -4994,7 +5201,9 @@
    "tcgplayerProductId": 716193,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716193/pokemon-me-30th-celebration-classic-collection-buzzwole-gx",
    "imageName": "CLC-24",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716193_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_13-2x.png",
+   "officialGalleryIndex": 13,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-25",
@@ -5026,7 +5235,9 @@
    "tcgplayerProductId": 714373,
    "tcgplayerURL": "https://www.tcgplayer.com/product/714373/pokemon-me-30th-celebration-classic-collection-pikachu-and-zekrom-gx",
    "imageName": "CLC-25",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/714373_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_8-2x.png",
+   "officialGalleryIndex": 8,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-26",
@@ -5057,7 +5268,9 @@
    "tcgplayerProductId": 716209,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716209/pokemon-me-30th-celebration-classic-collection-zacian-v",
    "imageName": "CLC-26",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716209_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_28-2x.png",
+   "officialGalleryIndex": 28,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-27",
@@ -5088,7 +5301,9 @@
    "tcgplayerProductId": 716192,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716192/pokemon-me-30th-celebration-classic-collection-raikou",
    "imageName": "CLC-27",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716192_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_12-2x.png",
+   "officialGalleryIndex": 12,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-28",
@@ -5120,7 +5335,9 @@
    "tcgplayerProductId": 716207,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716207/pokemon-me-30th-celebration-classic-collection-mew-vmax",
    "imageName": "CLC-28",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716207_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_26-2x.png",
+   "officialGalleryIndex": 26,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-29",
@@ -5151,7 +5368,9 @@
    "tcgplayerProductId": 716208,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716208/pokemon-me-30th-celebration-classic-collection-arceus-vstar",
    "imageName": "CLC-29",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716208_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_27-2x.png",
+   "officialGalleryIndex": 27,
+   "imageSource": "pokemon.com"
   },
   {
    "id": "CLC-30",
@@ -5182,199 +5401,9 @@
    "tcgplayerProductId": 716210,
    "tcgplayerURL": "https://www.tcgplayer.com/product/716210/pokemon-me-30th-celebration-classic-collection-magikarp",
    "imageName": "CLC-30",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/716210_in_1000x1000.jpg"
-  },
-  {
-   "id": "NRG-009",
-   "sortIndex": 192,
-   "name": "Basic Grass Energy",
-   "number": "009",
-   "displayNumber": "009",
-   "section": "energy",
-   "rarity": "foilEnergy",
-   "energyType": "grass",
-   "cardKind": "energy",
-   "stage": null,
-   "hp": null,
-   "artist": null,
-   "flavorText": null,
-   "ability": null,
-   "attacks": null,
-   "weakness": null,
-   "resistance": null,
-   "retreatCost": null,
-   "tcgplayerProductId": 713248,
-   "tcgplayerURL": "https://www.tcgplayer.com/product/713248",
-   "imageName": "NRG-009",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713248_in_1000x1000.jpg"
-  },
-  {
-   "id": "NRG-010",
-   "sortIndex": 193,
-   "name": "Basic Fire Energy",
-   "number": "010",
-   "displayNumber": "010",
-   "section": "energy",
-   "rarity": "foilEnergy",
-   "energyType": "fire",
-   "cardKind": "energy",
-   "stage": null,
-   "hp": null,
-   "artist": null,
-   "flavorText": null,
-   "ability": null,
-   "attacks": null,
-   "weakness": null,
-   "resistance": null,
-   "retreatCost": null,
-   "tcgplayerProductId": 713249,
-   "tcgplayerURL": "https://www.tcgplayer.com/product/713249",
-   "imageName": "NRG-010",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713249_in_1000x1000.jpg"
-  },
-  {
-   "id": "NRG-011",
-   "sortIndex": 194,
-   "name": "Basic Water Energy",
-   "number": "011",
-   "displayNumber": "011",
-   "section": "energy",
-   "rarity": "foilEnergy",
-   "energyType": "water",
-   "cardKind": "energy",
-   "stage": null,
-   "hp": null,
-   "artist": null,
-   "flavorText": null,
-   "ability": null,
-   "attacks": null,
-   "weakness": null,
-   "resistance": null,
-   "retreatCost": null,
-   "tcgplayerProductId": 713250,
-   "tcgplayerURL": "https://www.tcgplayer.com/product/713250",
-   "imageName": "NRG-011",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713250_in_1000x1000.jpg"
-  },
-  {
-   "id": "NRG-012",
-   "sortIndex": 195,
-   "name": "Basic Lightning Energy",
-   "number": "012",
-   "displayNumber": "012",
-   "section": "energy",
-   "rarity": "foilEnergy",
-   "energyType": "lightning",
-   "cardKind": "energy",
-   "stage": null,
-   "hp": null,
-   "artist": null,
-   "flavorText": null,
-   "ability": null,
-   "attacks": null,
-   "weakness": null,
-   "resistance": null,
-   "retreatCost": null,
-   "tcgplayerProductId": 713251,
-   "tcgplayerURL": "https://www.tcgplayer.com/product/713251",
-   "imageName": "NRG-012",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713251_in_1000x1000.jpg"
-  },
-  {
-   "id": "NRG-013",
-   "sortIndex": 196,
-   "name": "Basic Psychic Energy",
-   "number": "013",
-   "displayNumber": "013",
-   "section": "energy",
-   "rarity": "foilEnergy",
-   "energyType": "psychic",
-   "cardKind": "energy",
-   "stage": null,
-   "hp": null,
-   "artist": null,
-   "flavorText": null,
-   "ability": null,
-   "attacks": null,
-   "weakness": null,
-   "resistance": null,
-   "retreatCost": null,
-   "tcgplayerProductId": 713252,
-   "tcgplayerURL": "https://www.tcgplayer.com/product/713252",
-   "imageName": "NRG-013",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713252_in_1000x1000.jpg"
-  },
-  {
-   "id": "NRG-014",
-   "sortIndex": 197,
-   "name": "Basic Fighting Energy",
-   "number": "014",
-   "displayNumber": "014",
-   "section": "energy",
-   "rarity": "foilEnergy",
-   "energyType": "fighting",
-   "cardKind": "energy",
-   "stage": null,
-   "hp": null,
-   "artist": null,
-   "flavorText": null,
-   "ability": null,
-   "attacks": null,
-   "weakness": null,
-   "resistance": null,
-   "retreatCost": null,
-   "tcgplayerProductId": 713253,
-   "tcgplayerURL": "https://www.tcgplayer.com/product/713253",
-   "imageName": "NRG-014",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713253_in_1000x1000.jpg"
-  },
-  {
-   "id": "NRG-015",
-   "sortIndex": 198,
-   "name": "Basic Darkness Energy",
-   "number": "015",
-   "displayNumber": "015",
-   "section": "energy",
-   "rarity": "foilEnergy",
-   "energyType": "darkness",
-   "cardKind": "energy",
-   "stage": null,
-   "hp": null,
-   "artist": null,
-   "flavorText": null,
-   "ability": null,
-   "attacks": null,
-   "weakness": null,
-   "resistance": null,
-   "retreatCost": null,
-   "tcgplayerProductId": 713254,
-   "tcgplayerURL": "https://www.tcgplayer.com/product/713254",
-   "imageName": "NRG-015",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713254_in_1000x1000.jpg"
-  },
-  {
-   "id": "NRG-016",
-   "sortIndex": 199,
-   "name": "Basic Metal Energy",
-   "number": "016",
-   "displayNumber": "016",
-   "section": "energy",
-   "rarity": "foilEnergy",
-   "energyType": "metal",
-   "cardKind": "energy",
-   "stage": null,
-   "hp": null,
-   "artist": null,
-   "flavorText": null,
-   "ability": null,
-   "attacks": null,
-   "weakness": null,
-   "resistance": null,
-   "retreatCost": null,
-   "tcgplayerProductId": 713255,
-   "tcgplayerURL": "https://www.tcgplayer.com/product/713255",
-   "imageName": "NRG-016",
-   "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713255_in_1000x1000.jpg"
+   "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_30-2x.png",
+   "officialGalleryIndex": 30,
+   "imageSource": "pokemon.com"
   }
  ]
 }

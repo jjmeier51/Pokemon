@@ -10,8 +10,10 @@ struct CollectionView: View {
     @State private var showFilters = false
     @State private var selectedCard: Card?
 
+    private var currentSet: CardSet { catalog.selectedSet(id: settings.selectedSetID) }
+
     private var visibleCards: [Card] {
-        filter.apply(to: catalog.cards, collection: collection, prices: prices)
+        filter.apply(to: currentSet.cards, collection: collection, prices: prices)
     }
 
     private var columns: [GridItem] {
@@ -24,6 +26,8 @@ struct CollectionView: View {
                 PokeTheme.background
                 ScrollView {
                     VStack(spacing: 16) {
+                        SetSwitcher()
+                            .padding(.top, 8)
                         logoBanner
                         header
                         sectionChips
@@ -54,7 +58,7 @@ struct CollectionView: View {
             }
             .searchable(text: $filter.search, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search cards, numbers, artists…")
             .sheet(isPresented: $showFilters) {
-                FilterSheet(filter: $filter, rarities: catalog.rarities)
+                FilterSheet(filter: $filter, rarities: currentSet.rarities, sections: currentSet.sections)
                     .presentationDetents([.medium, .large])
                     .presentationDragIndicator(.visible)
                     .preferredColorScheme(.dark)
@@ -69,35 +73,40 @@ struct CollectionView: View {
 
     private var logoBanner: some View {
         HStack(alignment: .center, spacing: 14) {
-            Image("Celebration30Logo")
+            Image(currentSet.logoAsset)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(height: 64)
+                .frame(height: currentSet.id == "CEL" ? 44 : 64)
+                .frame(maxWidth: currentSet.id == "CEL" ? 190 : nil)
                 .shadow(color: PokeTheme.gold.opacity(0.45), radius: 12, y: 4)
             VStack(alignment: .leading, spacing: 3) {
                 Text("Pokémon TCG")
                     .font(PokeTheme.caption(11))
                     .tracking(1.2)
                     .foregroundStyle(PokeTheme.textSecondary)
-                Text("30th Celebration")
+                Text(currentSet.shortName)
                     .font(PokeTheme.title(20))
-                Text("English master set · Sept 16, 2026")
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.7)
+                Text(currentSet.tagline)
                     .font(PokeTheme.caption(11))
                     .foregroundStyle(PokeTheme.textTertiary)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.7)
             }
             Spacer(minLength: 0)
-            Image("Pikachu30")
+            Image(currentSet.markAsset)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(height: 40)
                 .opacity(0.9)
         }
-        .padding(.top, 10)
+        .padding(.top, 2)
     }
 
     private var scopedCards: [Card] {
-        if let section = filter.section { return catalog.cards(in: section) }
-        return catalog.cards
+        if let section = filter.section { return currentSet.cards(in: section) }
+        return currentSet.cards
     }
 
     private var header: some View {
@@ -142,9 +151,9 @@ struct CollectionView: View {
 
     private var collectedValue: Double? {
         let owned = scopedCards.filter { collection.isCollected($0) }
-        let priced = owned.filter { prices.value(of: $0) != nil }
-        guard !priced.isEmpty else { return nil }
-        return prices.totalValue(of: priced)
+        let values = owned.compactMap { prices.value(of: $0, grading: collection.entry(for: $0)?.grading) }
+        guard !values.isEmpty else { return nil }
+        return values.reduce(0, +)
     }
 
     // MARK: - Chips and pickers
@@ -153,7 +162,7 @@ struct CollectionView: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 8) {
                 chip(title: "All", image: "square.grid.2x2.fill", section: nil)
-                ForEach(CardSection.allCases) { section in
+                ForEach(currentSet.sections) { section in
                     chip(title: section.shortTitle, image: section.systemImage, section: section)
                 }
             }

@@ -55,6 +55,11 @@ enum CardSection: String, Codable, CaseIterable, Identifiable {
 enum Rarity: String, Codable, CaseIterable, Identifiable {
     case common
     case rare
+    case holoRare
+    case holoRareV
+    case holoRareVMAX
+    case ultraRare
+    case secretRare
     case doubleRare
     case pikachuRare
     case illustrationRare
@@ -70,6 +75,11 @@ enum Rarity: String, Codable, CaseIterable, Identifiable {
         switch self {
         case .common: return "Common"
         case .rare: return "Rare"
+        case .holoRare: return "Holo Rare"
+        case .holoRareV: return "Holo Rare V"
+        case .holoRareVMAX: return "Holo Rare VMAX"
+        case .ultraRare: return "Ultra Rare"
+        case .secretRare: return "Secret Rare"
         case .doubleRare: return "Double Rare"
         case .pikachuRare: return "Pikachu Rare"
         case .illustrationRare: return "Illustration Rare"
@@ -85,6 +95,11 @@ enum Rarity: String, Codable, CaseIterable, Identifiable {
         switch self {
         case .common: return "C"
         case .rare: return "R"
+        case .holoRare: return "H"
+        case .holoRareV: return "V"
+        case .holoRareVMAX: return "VMAX"
+        case .ultraRare: return "UR"
+        case .secretRare: return "SR"
         case .doubleRare: return "RR"
         case .pikachuRare: return "PR"
         case .illustrationRare: return "IR"
@@ -101,6 +116,11 @@ enum Rarity: String, Codable, CaseIterable, Identifiable {
         switch self {
         case .common: return "●"
         case .rare: return "★"
+        case .holoRare: return "★H"
+        case .holoRareV: return "☆"
+        case .holoRareVMAX: return "☆X"
+        case .ultraRare: return "★U"
+        case .secretRare: return "★S"
         case .doubleRare: return "★★"
         case .pikachuRare: return "⚡︎"
         case .illustrationRare: return "★"
@@ -118,7 +138,12 @@ enum Rarity: String, Codable, CaseIterable, Identifiable {
         case .common: return 1
         case .promo: return 2
         case .rare: return 2
+        case .holoRare: return 3
+        case .holoRareV: return 3
         case .doubleRare: return 3
+        case .holoRareVMAX: return 4
+        case .ultraRare: return 6
+        case .secretRare: return 8
         case .pikachuRare: return 4
         case .classicCollection: return 5
         case .illustrationRare: return 6
@@ -176,6 +201,10 @@ struct Card: Codable, Identifiable, Hashable {
     let notes: String?
     /// For promos: the product the card ships in.
     let productName: String?
+    /// PriceCharting product page path, e.g. "/game/pokemon-celebrations/charizard-4".
+    let pricechartingPath: String?
+    /// Set code the card belongs to ("30C", "CEL"). Older catalog files omit it; the catalog fills it in.
+    let setCode: String?
 
     static func == (lhs: Card, rhs: Card) -> Bool { lhs.id == rhs.id }
     func hash(into hasher: inout Hasher) { hasher.combine(id) }
@@ -199,13 +228,25 @@ struct Card: Codable, Identifiable, Hashable {
         return rarity.title
     }
 
+    /// Human name of the expansion, used in marketplace searches.
+    var setSearchName: String {
+        switch setCode ?? (id.hasPrefix("CEL") ? "CEL" : "30C") {
+        case "CEL": return "Celebrations"
+        default: return "30th Celebration"
+        }
+    }
+
+    private var baseName: String {
+        name.replacingOccurrences(of: #"\s*\(.*?\)"#, with: "", options: .regularExpression)
+    }
+
     /// Search query used on eBay.
     var ebayQuery: String {
         switch section {
-        case .classic: return "\(name) \(displayNumber) 30th Celebration Classic Collection"
+        case .classic: return "\(baseName) \(displayNumber) \(setSearchName) Classic Collection"
         case .rgb: return "Mew \(displayNumber) 30th Celebration RGB"
-        case .promo: return "\(name) \(displayNumber) 30th Celebration promo"
-        default: return "\(name) \(displayNumber) 30th Celebration"
+        case .promo: return "\(baseName) \(displayNumber) \(setSearchName) promo"
+        default: return "\(baseName) \(displayNumber) \(setSearchName)"
         }
     }
 
@@ -213,13 +254,13 @@ struct Card: Codable, Identifiable, Hashable {
     var marketplaceQuery: String {
         switch section {
         case .classic:
-            return "\(name) \(displayNumber) 30th Celebration Classic Collection"
+            return "\(baseName) \(displayNumber) \(setSearchName) Classic Collection"
         case .rgb:
             return "Mew \(displayNumber) 30th Celebration"
         case .promo:
-            return "\(name) \(displayNumber) promo 30th Celebration"
+            return "\(baseName) \(displayNumber) promo \(setSearchName)"
         default:
-            return "\(name) \(displayNumber) 30th Celebration"
+            return "\(baseName) \(displayNumber) \(setSearchName)"
         }
     }
 }

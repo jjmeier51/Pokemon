@@ -37,7 +37,7 @@ struct SettingsView: View {
                 Section("Prices") {
                     Toggle("Also refresh a card's prices when you open it", isOn: $settings.autoRefreshPrices)
                     Button {
-                        Task { await prices.refreshAll(catalog.cards, settings: settings, onlyStale: false) }
+                        Task { await prices.refreshAll(catalog.allCards, settings: settings, onlyStale: false) }
                     } label: {
                         HStack {
                             Text("Refresh every card now")
@@ -51,7 +51,7 @@ struct SettingsView: View {
                     if let last = prices.lastUpdated {
                         LabeledContent("Last updated") { Text(last, style: .relative) + Text(" ago") }
                     }
-                    Button("Clear price cache", role: .destructive) { prices.clearCache() }
+                    Button("Clear price cache (raw and graded)", role: .destructive) { prices.clearCache() }
                 }
 
                 Section("Display") {
@@ -80,13 +80,17 @@ struct SettingsView: View {
                     }
                 }
 
-                Section("About") {
-                    LabeledContent("Set", value: "\(catalog.setName) (\(catalog.setCode))")
-                    LabeledContent("Cards tracked", value: "\(catalog.cards.count)")
-                    if let release = catalog.releaseDate {
-                        LabeledContent("Released", value: release.formatted(date: .long, time: .omitted))
+                Section("Sets") {
+                    ForEach(catalog.sets) { set in
+                        LabeledContent(set.name) {
+                            Text("\(set.cards.count) cards" + (set.releaseDate.map { " · \($0.formatted(date: .abbreviated, time: .omitted))" } ?? ""))
+                        }
                     }
-                    Text("Card list and rarities follow the official Pokémon TCG: 30th Celebration checklist, plus the three unlisted RGB Mew secret rares. Market data from TCGplayer and Card Ladder. PokeTracker is a fan-made collection tracker and is not affiliated with The Pokémon Company, Nintendo, Creatures or GAME FREAK.")
+                }
+
+                Section("About") {
+                    LabeledContent("Cards tracked", value: "\(catalog.allCards.count)")
+                    Text("Card lists and rarities follow the official Pokémon TCG checklists for 30th Celebration and Celebrations, plus the unlisted RGB Mew and the products' promo cards. Raw market data from TCGplayer and Card Ladder; graded values and sales from PriceCharting. PokeTracker is a fan-made collection tracker and is not affiliated with The Pokémon Company, Nintendo, Creatures, GAME FREAK, TCGplayer, Card Ladder or PriceCharting.")
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 }

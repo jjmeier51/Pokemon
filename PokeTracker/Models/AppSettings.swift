@@ -36,6 +36,23 @@ final class AppSettings {
         didSet { defaults.set(sparkleEffects, forKey: "sparkleEffects") }
     }
 
+    /// Which expansion the app is showing.
+    var selectedSetID: String {
+        didSet {
+            defaults.set(selectedSetID, forKey: "selectedSetID")
+            PokeTheme.apply(setID: selectedSetID)
+        }
+    }
+
+    /// Last grading company / grade the user looked at in the graded price panel.
+    var preferredGradingCompany: GradingCompany {
+        didSet { defaults.set(preferredGradingCompany.rawValue, forKey: "preferredGradingCompany") }
+    }
+
+    var preferredGrade: Double {
+        didSet { defaults.set(preferredGrade, forKey: "preferredGrade") }
+    }
+
     static let defaultCardLadderBaseURL = "https://api.parse.bot/scraper/97d5f4bc-6c65-4546-8f71-76149a5533cb"
 
     init() {
@@ -46,6 +63,10 @@ final class AppSettings {
         gridColumns = defaults.object(forKey: "gridColumns") as? Int ?? 3
         dimCollectedCards = defaults.object(forKey: "dimCollectedCards") as? Bool ?? true
         sparkleEffects = defaults.object(forKey: "sparkleEffects") as? Bool ?? true
+        selectedSetID = defaults.string(forKey: "selectedSetID") ?? CardSet.order[0]
+        preferredGradingCompany = GradingCompany(rawValue: defaults.string(forKey: "preferredGradingCompany") ?? "") ?? .psa
+        preferredGrade = defaults.object(forKey: "preferredGrade") as? Double ?? 10
+        PokeTheme.apply(setID: selectedSetID)
     }
 
     var hasCardLadderKey: Bool { !cardLadderAPIKey.trimmingCharacters(in: .whitespaces).isEmpty }

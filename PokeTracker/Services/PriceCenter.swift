@@ -9,17 +9,24 @@ final class PriceCenter {
     private(set) var loading: Set<String> = []
     private(set) var errors: [String: [PriceSource: String]] = [:]
     private(set) var bulkProgress: (done: Int, total: Int)?
+    private(set) var graded: [String: GradedQuote] = [:]
+    private(set) var gradedLoading: Set<String> = []
+    private(set) var gradedErrors: [String: String] = [:]
 
     /// Quotes older than this are refreshed automatically when a card is viewed.
     var staleInterval: TimeInterval = 6 * 60 * 60
 
     private let fileURL: URL
     private let tcgplayer = TCGPlayerService()
+    private let pricecharting = PriceChartingService()
+    private var gradedTasks: [String: Task<Void, Never>] = [:]
+    private let gradedFileURL: URL
     private var tasks: [String: Task<Void, Never>] = [:]
 
     init(fileURL: URL? = nil) {
         let caches = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first!
         self.fileURL = fileURL ?? caches.appendingPathComponent("prices.json")
+        self.gradedFileURL = caches.appendingPathComponent("graded-prices.json")
         load()
     }
 
@@ -43,6 +50,61 @@ final class PriceCenter {
     }
 
     var lastUpdated: Date? { prices.values.map(\.updatedAt).max() }
+
+    // MARK: - Graded (PriceCharting)
+
+    func gradedQuote(for card: Card) -> GradedQuote? { graded[card.id] }
+
+    func isGradedLoading(_ card: Card) -> Bool { gradedLoading.contains(card.id) }
+
+    func gradedError(for card: Card) -> String? { gradedErrors[card.id] }
+
+    /// The value to count a collected card at: the grade's guide price when it is slabbed, else the raw market price.
+    func value(of card: Card, grading: Grading?) -> Double? {
+        if let grading, let quote = graded[card.id], let guide = quote.guideValue(company: grading.company, grade: grading.grade) {
+            return guide.value
+        }
+        return value(of: card)
+    }
+
+    func refreshGradedIfStale(_ card: Card, maxAge: TimeInterval = 12 * 60 * 60) {
+        if let quote = graded[card.id], Date().timeIntervalSince(quote.fetchedAt) < maxAge { return }
+        refreshGraded(card)
+    }
+
+    func refreshGraded(_ card: Card) {
+        if gradedTasks[card.id] != nil { return }
+        gradedLoading.insert(card.id)
+        let service = pricecharting
+        gradedTasks[card.id] = Task { [weak self] in
+            let result: Result<GradedQuote, Error> = await Self.captureGraded { try await service.quote(for: card) }
+            guard let self else { return }
+            switch result {
+            case .success(let quote):
+                self.graded[card.id] = quote
+                self.gradedErrors[card.id] = nil
+                self.saveGraded()
+            case .failure(let error):
+                self.gradedErrors[card.id] = error.localizedDescription
+            }
+            self.gradedLoading.remove(card.id)
+            self.gradedTasks[card.id] = nil
+        }
+    }
+
+    private static func captureGraded(_ work: @escaping @Sendable () async throws -> GradedQuote) async -> Result<GradedQuote, Error> {
+        do { return .success(try await work()) } catch { return .failure(error) }
+    }
+
+    private func saveGraded() {
+        let snapshot = graded
+        let url = gradedFileURL
+        Task.detached(priority: .utility) {
+            let encoder = JSONEncoder()
+            encoder.dateEncodingStrategy = .iso8601
+            if let data = try? encoder.encode(snapshot) { try? data.write(to: url, options: .atomic) }
+        }
+    }
 
     // MARK: - Refreshing
 
@@ -106,7 +168,10 @@ final class PriceCenter {
     func clearCache() {
         prices = [:]
         errors = [:]
+        graded = [:]
+        gradedErrors = [:]
         try? FileManager.default.removeItem(at: fileURL)
+        try? FileManager.default.removeItem(at: gradedFileURL)
     }
 
     // MARK: - Internals
@@ -151,6 +216,10 @@ final class PriceCenter {
         decoder.dateDecodingStrategy = .iso8601
         if let decoded = try? decoder.decode([String: CardPrices].self, from: data) {
             prices = decoded
+        }
+        if let gradedData = try? Data(contentsOf: gradedFileURL),
+           let decodedGraded = try? decoder.decode([String: GradedQuote].self, from: gradedData) {
+            graded = decodedGraded
         }
     }
 

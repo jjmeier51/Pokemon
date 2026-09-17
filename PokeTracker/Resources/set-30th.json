@@ -29,7 +29,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716435/pokemon-me-30th-celebration-exeggcute",
    "imageName": "30C-001",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_1-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/exeggcute-1"
   },
   {
    "id": "30C-002",
@@ -56,7 +58,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716436/pokemon-me-30th-celebration-alolan-exeggutor-002-128",
    "imageName": "30C-002",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_2-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/alolan-exeggutor-2"
   },
   {
    "id": "30C-003",
@@ -84,7 +88,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716437/pokemon-me-30th-celebration-volbeat",
    "imageName": "30C-003",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_3-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/volbeat-3"
   },
   {
    "id": "30C-004",
@@ -111,7 +117,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716438/pokemon-me-30th-celebration-illumise",
    "imageName": "30C-004",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_4-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/illumise-4"
   },
   {
    "id": "30C-005",
@@ -139,7 +147,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716439/pokemon-me-30th-celebration-tropius",
    "imageName": "30C-005",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_5-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/tropius-5"
   },
   {
    "id": "30C-006",
@@ -167,7 +177,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716440/pokemon-me-30th-celebration-cherubi",
    "imageName": "30C-006",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_6-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/cherubi-6"
   },
   {
    "id": "30C-007",
@@ -195,7 +207,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716441/pokemon-me-30th-celebration-cherrim",
    "imageName": "30C-007",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_7-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/cherrim-7"
   },
   {
    "id": "30C-008",
@@ -222,7 +236,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716442/pokemon-me-30th-celebration-vivillon",
    "imageName": "30C-008",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_8-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/vivillon-8"
   },
   {
    "id": "30C-009",
@@ -249,7 +265,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716443/pokemon-me-30th-celebration-vulpix",
    "imageName": "30C-009",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_9-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/vulpix-9"
   },
   {
    "id": "30C-010",
@@ -276,7 +294,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716444/pokemon-me-30th-celebration-ninetales",
    "imageName": "30C-010",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_10-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/ninetales-10"
   },
   {
    "id": "30C-011",
@@ -303,7 +323,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716445/pokemon-me-30th-celebration-moltres-011-128",
    "imageName": "30C-011",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_11-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/moltres-11"
   },
   {
    "id": "30C-012",
@@ -331,7 +353,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716446/pokemon-me-30th-celebration-ho-oh",
    "imageName": "30C-012",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_12-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/ho-oh-12"
   },
   {
    "id": "30C-013",
@@ -359,7 +383,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696830/pokemon-me-30th-celebration-victini",
    "imageName": "30C-013",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_13-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/victini-13"
   },
   {
    "id": "30C-014",
@@ -387,7 +413,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716447/pokemon-me-30th-celebration-reshiram",
    "imageName": "30C-014",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_14-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/reshiram-14"
   },
   {
    "id": "30C-015",
@@ -415,7 +443,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716448/pokemon-me-30th-celebration-fuecoco-ex-015-128",
    "imageName": "30C-015",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_15-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/fuecoco-ex-15"
   },
   {
    "id": "30C-016",
@@ -443,7 +473,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716449/pokemon-me-30th-celebration-slowpoke",
    "imageName": "30C-016",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_16-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/slowpoke-16"
   },
   {
    "id": "30C-017",
@@ -471,7 +503,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716450/pokemon-me-30th-celebration-lapras-017-128",
    "imageName": "30C-017",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_17-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/lapras-17"
   },
   {
    "id": "30C-018",
@@ -498,7 +532,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716451/pokemon-me-30th-celebration-articuno-018-128",
    "imageName": "30C-018",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_18-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/articuno-18"
   },
   {
    "id": "30C-019",
@@ -525,7 +561,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716452/pokemon-me-30th-celebration-kyogre",
    "imageName": "30C-019",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_19-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/kyogre-19"
   },
   {
    "id": "30C-020",
@@ -552,7 +590,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716453/pokemon-me-30th-celebration-palkia",
    "imageName": "30C-020",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_20-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/palkia-20"
   },
   {
    "id": "30C-021",
@@ -580,7 +620,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696676/pokemon-me-30th-celebration-greninja-ex-021-128",
    "imageName": "30C-021",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_21-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/greninja-ex-21"
   },
   {
    "id": "30C-022",
@@ -607,7 +649,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716454/pokemon-me-30th-celebration-wishiwashi",
    "imageName": "30C-022",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_22-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/wishiwashi-22"
   },
   {
    "id": "30C-023",
@@ -634,7 +678,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712934/pokemon-me-30th-celebration-pikachu-023-128",
    "imageName": "30C-023",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_23-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-23"
   },
   {
    "id": "30C-024",
@@ -661,7 +707,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716309/pokemon-me-30th-celebration-pikachu-024-128",
    "imageName": "30C-024",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_24-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-24"
   },
   {
    "id": "30C-025",
@@ -688,7 +736,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712935/pokemon-me-30th-celebration-pikachu-025-128",
    "imageName": "30C-025",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_25-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-25"
   },
   {
    "id": "30C-026",
@@ -715,7 +765,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712936/pokemon-me-30th-celebration-pikachu-026-128",
    "imageName": "30C-026",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_26-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-26"
   },
   {
    "id": "30C-027",
@@ -742,7 +794,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716310/pokemon-me-30th-celebration-pikachu-027-128",
    "imageName": "30C-027",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_27-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-27"
   },
   {
    "id": "30C-028",
@@ -769,7 +823,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712937/pokemon-me-30th-celebration-pikachu-028-128",
    "imageName": "30C-028",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_28-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-28"
   },
   {
    "id": "30C-029",
@@ -796,7 +852,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716311/pokemon-me-30th-celebration-pikachu-029-128",
    "imageName": "30C-029",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_29-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-29"
   },
   {
    "id": "30C-030",
@@ -823,7 +881,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712938/pokemon-me-30th-celebration-pikachu-030-128",
    "imageName": "30C-030",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_30-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-30"
   },
   {
    "id": "30C-031",
@@ -850,7 +910,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716312/pokemon-me-30th-celebration-pikachu-031-128",
    "imageName": "30C-031",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_31-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-31"
   },
   {
    "id": "30C-032",
@@ -877,7 +939,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712939/pokemon-me-30th-celebration-pikachu-032-128",
    "imageName": "30C-032",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_32-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-32"
   },
   {
    "id": "30C-033",
@@ -904,7 +968,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712940/pokemon-me-30th-celebration-pikachu-033-128",
    "imageName": "30C-033",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_33-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-33"
   },
   {
    "id": "30C-034",
@@ -931,7 +997,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712941/pokemon-me-30th-celebration-pikachu-034-128",
    "imageName": "30C-034",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_34-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-34"
   },
   {
    "id": "30C-035",
@@ -958,7 +1026,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716313/pokemon-me-30th-celebration-pikachu-035-128",
    "imageName": "30C-035",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_35-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-35"
   },
   {
    "id": "30C-036",
@@ -985,7 +1055,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696680/pokemon-me-30th-celebration-pikachu-036-128",
    "imageName": "30C-036",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_36-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-36"
   },
   {
    "id": "30C-037",
@@ -1013,7 +1085,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696681/pokemon-me-30th-celebration-pikachu-037-128",
    "imageName": "30C-037",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_37-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-37"
   },
   {
    "id": "30C-038",
@@ -1040,7 +1114,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712942/pokemon-me-30th-celebration-pikachu-038-128",
    "imageName": "30C-038",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_38-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-38"
   },
   {
    "id": "30C-039",
@@ -1067,7 +1143,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712943/pokemon-me-30th-celebration-pikachu-039-128",
    "imageName": "30C-039",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_39-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-39"
   },
   {
    "id": "30C-040",
@@ -1094,7 +1172,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712944/pokemon-me-30th-celebration-pikachu-040-128",
    "imageName": "30C-040",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_40-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-40"
   },
   {
    "id": "30C-041",
@@ -1122,7 +1202,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712945/pokemon-me-30th-celebration-pikachu-041-128",
    "imageName": "30C-041",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_41-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-41"
   },
   {
    "id": "30C-042",
@@ -1150,7 +1232,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712946/pokemon-me-30th-celebration-pikachu-042-128",
    "imageName": "30C-042",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_42-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-42"
   },
   {
    "id": "30C-043",
@@ -1177,7 +1261,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712947/pokemon-me-30th-celebration-pikachu-043-128",
    "imageName": "30C-043",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_43-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-43"
   },
   {
    "id": "30C-044",
@@ -1204,7 +1290,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712948/pokemon-me-30th-celebration-pikachu-044-128",
    "imageName": "30C-044",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_44-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-44"
   },
   {
    "id": "30C-045",
@@ -1232,7 +1320,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716314/pokemon-me-30th-celebration-pikachu-045-128",
    "imageName": "30C-045",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_45-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-45"
   },
   {
    "id": "30C-046",
@@ -1260,7 +1350,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716315/pokemon-me-30th-celebration-pikachu-046-128",
    "imageName": "30C-046",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_46-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-46"
   },
   {
    "id": "30C-047",
@@ -1287,7 +1379,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696682/pokemon-me-30th-celebration-pikachu-047-128",
    "imageName": "30C-047",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_47-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-47"
   },
   {
    "id": "30C-048",
@@ -1314,7 +1408,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716316/pokemon-me-30th-celebration-pikachu-048-128",
    "imageName": "30C-048",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_48-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-48"
   },
   {
    "id": "30C-049",
@@ -1341,7 +1437,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712949/pokemon-me-30th-celebration-pikachu-049-128",
    "imageName": "30C-049",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_49-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-49"
   },
   {
    "id": "30C-050",
@@ -1368,7 +1466,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712950/pokemon-me-30th-celebration-pikachu-050-128",
    "imageName": "30C-050",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_50-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-50"
   },
   {
    "id": "30C-051",
@@ -1395,7 +1495,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716317/pokemon-me-30th-celebration-pikachu-051-128",
    "imageName": "30C-051",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_51-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-51"
   },
   {
    "id": "30C-052",
@@ -1422,7 +1524,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716318/pokemon-me-30th-celebration-pikachu-052-128",
    "imageName": "30C-052",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_52-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-52"
   },
   {
    "id": "30C-053",
@@ -1450,7 +1554,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712951/pokemon-me-30th-celebration-pikachu-ex-053-128",
    "imageName": "30C-053",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_53-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-ex-53"
   },
   {
    "id": "30C-054",
@@ -1478,7 +1584,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712952/pokemon-me-30th-celebration-pikachu-ex-054-128",
    "imageName": "30C-054",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_54-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-ex-54"
   },
   {
    "id": "30C-055",
@@ -1505,7 +1613,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716455/pokemon-me-30th-celebration-zapdos-055-128",
    "imageName": "30C-055",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_55-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/zapdos-55"
   },
   {
    "id": "30C-056",
@@ -1533,7 +1643,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716456/pokemon-me-30th-celebration-zekrom",
    "imageName": "30C-056",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_56-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/zekrom-56"
   },
   {
    "id": "30C-057",
@@ -1561,7 +1673,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696831/pokemon-me-30th-celebration-zeraora",
    "imageName": "30C-057",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_57-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/zeraora-57"
   },
   {
    "id": "30C-058",
@@ -1588,7 +1702,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716457/pokemon-me-30th-celebration-toxel",
    "imageName": "30C-058",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_58-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/toxel-58"
   },
   {
    "id": "30C-059",
@@ -1615,7 +1731,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716458/pokemon-me-30th-celebration-toxtricity-059-128",
    "imageName": "30C-059",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_59-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/toxtricity-59"
   },
   {
    "id": "30C-060",
@@ -1643,7 +1761,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716459/pokemon-me-30th-celebration-toxtricity-060-128",
    "imageName": "30C-060",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_60-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/toxtricity-60"
   },
   {
    "id": "30C-061",
@@ -1671,7 +1791,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716460/pokemon-me-30th-celebration-morpeko-061-128",
    "imageName": "30C-061",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_61-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/morpeko-61"
   },
   {
    "id": "30C-062",
@@ -1698,7 +1820,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716461/pokemon-me-30th-celebration-miraidon",
    "imageName": "30C-062",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_62-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/miraidon-62"
   },
   {
    "id": "30C-063",
@@ -1726,7 +1850,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716462/pokemon-me-30th-celebration-mewtwo",
    "imageName": "30C-063",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_63-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/mewtwo-63"
   },
   {
    "id": "30C-064",
@@ -1754,7 +1880,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716463/pokemon-me-30th-celebration-mewtwo-ex-064-128",
    "imageName": "30C-064",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_64-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/mewtwo-ex-64"
   },
   {
    "id": "30C-065",
@@ -1781,7 +1909,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716464/pokemon-me-30th-celebration-mew",
    "imageName": "30C-065",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_65-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/mew-65"
   },
   {
    "id": "30C-066",
@@ -1808,7 +1938,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716465/pokemon-me-30th-celebration-mew-ex-066-128",
    "imageName": "30C-066",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_66-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/mew-ex-66"
   },
   {
    "id": "30C-067",
@@ -1835,7 +1967,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716466/pokemon-me-30th-celebration-marill",
    "imageName": "30C-067",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_67-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/marill-67"
   },
   {
    "id": "30C-068",
@@ -1862,7 +1996,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716467/pokemon-me-30th-celebration-azumarill",
    "imageName": "30C-068",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_68-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/azumarill-68"
   },
   {
    "id": "30C-069",
@@ -1890,7 +2026,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696678/pokemon-me-30th-celebration-espeon",
    "imageName": "30C-069",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_69-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/espeon-69"
   },
   {
    "id": "30C-070",
@@ -1917,7 +2055,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696834/pokemon-me-30th-celebration-espeon-ex",
    "imageName": "30C-070",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_70-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/espeon-ex-70"
   },
   {
    "id": "30C-071",
@@ -1944,7 +2084,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696677/pokemon-me-30th-celebration-sylveon-ex-071-128",
    "imageName": "30C-071",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_71-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/sylveon-ex-71"
   },
   {
    "id": "30C-072",
@@ -1971,7 +2113,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716468/pokemon-me-30th-celebration-unown",
    "imageName": "30C-072",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_72-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/unown-72"
   },
   {
    "id": "30C-073",
@@ -1998,7 +2142,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716469/pokemon-me-30th-celebration-drifloon-073-128",
    "imageName": "30C-073",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_73-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/drifloon-73"
   },
   {
    "id": "30C-074",
@@ -2025,7 +2171,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716470/pokemon-me-30th-celebration-cresselia",
    "imageName": "30C-074",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_74-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/cresselia-74"
   },
   {
    "id": "30C-075",
@@ -2052,7 +2200,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716471/pokemon-me-30th-celebration-chandelure-075-128",
    "imageName": "30C-075",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_75-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/chandelure-75"
   },
   {
    "id": "30C-076",
@@ -2079,7 +2229,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716472/pokemon-me-30th-celebration-xerneas",
    "imageName": "30C-076",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_76-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/xerneas-76"
   },
   {
    "id": "30C-077",
@@ -2106,7 +2258,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716473/pokemon-me-30th-celebration-comfey",
    "imageName": "30C-077",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_77-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/comfey-77"
   },
   {
    "id": "30C-078",
@@ -2133,7 +2287,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716474/pokemon-me-30th-celebration-cosmog",
    "imageName": "30C-078",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_78-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/cosmog-78"
   },
   {
    "id": "30C-079",
@@ -2160,7 +2316,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716475/pokemon-me-30th-celebration-cosmoem",
    "imageName": "30C-079",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_79-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/cosmoem-79"
   },
   {
    "id": "30C-080",
@@ -2187,7 +2345,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716476/pokemon-me-30th-celebration-lunala",
    "imageName": "30C-080",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_80-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/lunala-80"
   },
   {
    "id": "30C-081",
@@ -2214,7 +2374,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716477/pokemon-me-30th-celebration-gimmighoul",
    "imageName": "30C-081",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_81-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/gimmighoul-81"
   },
   {
    "id": "30C-082",
@@ -2241,7 +2403,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716478/pokemon-me-30th-celebration-groudon",
    "imageName": "30C-082",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_82-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/groudon-82"
   },
   {
    "id": "30C-083",
@@ -2268,7 +2432,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716479/pokemon-me-30th-celebration-lucario",
    "imageName": "30C-083",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_83-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/lucario-83"
   },
   {
    "id": "30C-084",
@@ -2295,7 +2461,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716480/pokemon-me-30th-celebration-seismitoad",
    "imageName": "30C-084",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_84-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/seismitoad-84"
   },
   {
    "id": "30C-085",
@@ -2323,7 +2491,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716481/pokemon-me-30th-celebration-lycanroc-085-128",
    "imageName": "30C-085",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_85-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/lycanroc-85"
   },
   {
    "id": "30C-086",
@@ -2351,7 +2521,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716482/pokemon-me-30th-celebration-koraidon",
    "imageName": "30C-086",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_86-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/koraidon-86"
   },
   {
    "id": "30C-087",
@@ -2378,7 +2550,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716483/pokemon-me-30th-celebration-nidoran-f",
    "imageName": "30C-087",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_87-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/nidoran-87"
   },
   {
    "id": "30C-088",
@@ -2405,7 +2579,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716484/pokemon-me-30th-celebration-nidorina",
    "imageName": "30C-088",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_88-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/nidorina-88"
   },
   {
    "id": "30C-089",
@@ -2432,7 +2608,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/714359/pokemon-me-30th-celebration-alolan-meowth-089-128",
    "imageName": "30C-089",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_89-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/alolan-meowth-89"
   },
   {
    "id": "30C-090",
@@ -2459,7 +2637,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716485/pokemon-me-30th-celebration-gengar-ex-090-128",
    "imageName": "30C-090",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_90-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/gengar-ex-90"
   },
   {
    "id": "30C-091",
@@ -2487,7 +2667,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696679/pokemon-me-30th-celebration-umbreon",
    "imageName": "30C-091",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_91-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/umbreon-91"
   },
   {
    "id": "30C-092",
@@ -2514,7 +2696,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696835/pokemon-me-30th-celebration-umbreon-ex",
    "imageName": "30C-092",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_92-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/umbreon-ex-92"
   },
   {
    "id": "30C-093",
@@ -2541,7 +2725,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716486/pokemon-me-30th-celebration-murkrow",
    "imageName": "30C-093",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_93-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/murkrow-93"
   },
   {
    "id": "30C-094",
@@ -2569,7 +2755,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716487/pokemon-me-30th-celebration-scraggy-094-128",
    "imageName": "30C-094",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_94-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/scraggy-94"
   },
   {
    "id": "30C-095",
@@ -2596,7 +2784,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716488/pokemon-me-30th-celebration-zorua",
    "imageName": "30C-095",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_95-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/zorua-95"
   },
   {
    "id": "30C-096",
@@ -2623,7 +2813,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716489/pokemon-me-30th-celebration-zoroark",
    "imageName": "30C-096",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_96-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/zoroark-96"
   },
   {
    "id": "30C-097",
@@ -2650,7 +2842,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716490/pokemon-me-30th-celebration-deino",
    "imageName": "30C-097",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_97-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/deino-97"
   },
   {
    "id": "30C-098",
@@ -2677,7 +2871,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716491/pokemon-me-30th-celebration-zweilous",
    "imageName": "30C-098",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_98-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/zweilous-98"
   },
   {
    "id": "30C-099",
@@ -2704,7 +2900,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716492/pokemon-me-30th-celebration-hydreigon",
    "imageName": "30C-099",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_99-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/hydreigon-99"
   },
   {
    "id": "30C-100",
@@ -2731,7 +2929,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716493/pokemon-me-30th-celebration-yveltal",
    "imageName": "30C-100",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_100-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/yveltal-100"
   },
   {
    "id": "30C-101",
@@ -2759,7 +2959,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716494/pokemon-me-30th-celebration-galarian-meowth-101-128",
    "imageName": "30C-101",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_101-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/galarian-meowth-101"
   },
   {
    "id": "30C-102",
@@ -2787,7 +2989,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716495/pokemon-me-30th-celebration-jirachi-ex-102-128",
    "imageName": "30C-102",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_102-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/jirachi-ex-102"
   },
   {
    "id": "30C-103",
@@ -2815,7 +3019,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716496/pokemon-me-30th-celebration-dialga",
    "imageName": "30C-103",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_103-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/dialga-103"
   },
   {
    "id": "30C-104",
@@ -2842,7 +3048,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716497/pokemon-me-30th-celebration-ferrothorn",
    "imageName": "30C-104",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_104-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/ferrothorn-104"
   },
   {
    "id": "30C-105",
@@ -2869,7 +3077,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716498/pokemon-me-30th-celebration-solgaleo",
    "imageName": "30C-105",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_105-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/solgaleo-105"
   },
   {
    "id": "30C-106",
@@ -2897,7 +3107,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716499/pokemon-me-30th-celebration-zacian",
    "imageName": "30C-106",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_106-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/zacian-106"
   },
   {
    "id": "30C-107",
@@ -2925,7 +3137,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716500/pokemon-me-30th-celebration-zamazenta",
    "imageName": "30C-107",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_107-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/zamazenta-107"
   },
   {
    "id": "30C-108",
@@ -2953,7 +3167,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716501/pokemon-me-30th-celebration-gholdengo-108-128",
    "imageName": "30C-108",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_108-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/gholdengo-108"
   },
   {
    "id": "30C-109",
@@ -2981,7 +3197,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716502/pokemon-me-30th-celebration-salamence-ex-109-128",
    "imageName": "30C-109",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_109-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/salamence-ex-109"
   },
   {
    "id": "30C-110",
@@ -3008,7 +3226,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716503/pokemon-me-30th-celebration-jangmo-o",
    "imageName": "30C-110",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_110-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/jangmo-o-110"
   },
   {
    "id": "30C-111",
@@ -3035,7 +3255,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716504/pokemon-me-30th-celebration-hakamo-o",
    "imageName": "30C-111",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_111-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/hakamo-o-111"
   },
   {
    "id": "30C-112",
@@ -3062,7 +3284,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716505/pokemon-me-30th-celebration-kommo-o-112-128",
    "imageName": "30C-112",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_112-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/kommo-o-112"
   },
   {
    "id": "30C-113",
@@ -3089,7 +3313,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/714356/pokemon-me-30th-celebration-meowth-113-128",
    "imageName": "30C-113",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_113-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/meowth-113"
   },
   {
    "id": "30C-114",
@@ -3117,7 +3343,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716506/pokemon-me-30th-celebration-kangaskhan",
    "imageName": "30C-114",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_114-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/kangaskhan-114"
   },
   {
    "id": "30C-115",
@@ -3144,7 +3372,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716507/pokemon-me-30th-celebration-ditto",
    "imageName": "30C-115",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_115-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/ditto-115"
   },
   {
    "id": "30C-116",
@@ -3172,7 +3402,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/714357/pokemon-me-30th-celebration-eevee-116-128",
    "imageName": "30C-116",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_116-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/eevee-116"
   },
   {
    "id": "30C-117",
@@ -3199,7 +3431,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696832/pokemon-me-30th-celebration-eevee-117-128",
    "imageName": "30C-117",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_117-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/eevee-117"
   },
   {
    "id": "30C-118",
@@ -3226,7 +3460,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696833/pokemon-me-30th-celebration-eevee-118-128",
    "imageName": "30C-118",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_118-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/eevee-118"
   },
   {
    "id": "30C-119",
@@ -3253,7 +3489,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716508/pokemon-me-30th-celebration-snorlax",
    "imageName": "30C-119",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_119-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/snorlax-119"
   },
   {
    "id": "30C-120",
@@ -3280,7 +3518,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716509/pokemon-me-30th-celebration-igglybuff",
    "imageName": "30C-120",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_120-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/igglybuff-120"
   },
   {
    "id": "30C-121",
@@ -3307,7 +3547,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716510/pokemon-me-30th-celebration-lugia",
    "imageName": "30C-121",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_121-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/lugia-121"
   },
   {
    "id": "30C-122",
@@ -3334,7 +3576,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716511/pokemon-me-30th-celebration-hisuian-zorua-122-128",
    "imageName": "30C-122",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_122-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-japanese-30th-celebration/hisuian-zorua-122"
   },
   {
    "id": "30C-123",
@@ -3361,7 +3605,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716512/pokemon-me-30th-celebration-hisuian-zoroark",
    "imageName": "30C-123",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_123-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/hisuian-zoroark-123"
   },
   {
    "id": "30C-124",
@@ -3388,7 +3634,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716513/pokemon-me-30th-celebration-minior",
    "imageName": "30C-124",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_124-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/minior-124"
   },
   {
    "id": "30C-125",
@@ -3416,7 +3664,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716514/pokemon-me-30th-celebration-maushold-125-128",
    "imageName": "30C-125",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_125-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/maushold-125"
   },
   {
    "id": "30C-126",
@@ -3441,7 +3691,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716515/pokemon-me-30th-celebration-poke-pad",
    "imageName": "30C-126",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_126-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/poke-pad-126"
   },
   {
    "id": "30C-127",
@@ -3466,7 +3718,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716516/pokemon-me-30th-celebration-switch",
    "imageName": "30C-127",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_127-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/switch-127"
   },
   {
    "id": "30C-128",
@@ -3491,7 +3745,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716517/pokemon-me-30th-celebration-ultra-ball",
    "imageName": "30C-128",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_128-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/ultra-ball-128"
   },
   {
    "id": "30C-129",
@@ -3518,7 +3774,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716218/pokemon-me-30th-celebration-alolan-exeggutor-129-128",
    "imageName": "30C-129",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_129-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/alolan-exeggutor-129"
   },
   {
    "id": "30C-130",
@@ -3545,7 +3803,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716219/pokemon-me-30th-celebration-moltres-130-128",
    "imageName": "30C-130",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_130-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/moltres-130"
   },
   {
    "id": "30C-131",
@@ -3573,7 +3833,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696683/pokemon-me-30th-celebration-lapras-131-128",
    "imageName": "30C-131",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_131-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/lapras-131"
   },
   {
    "id": "30C-132",
@@ -3600,7 +3862,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716220/pokemon-me-30th-celebration-articuno-132-128",
    "imageName": "30C-132",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_132-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/articuno-132"
   },
   {
    "id": "30C-133",
@@ -3627,7 +3891,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716221/pokemon-me-30th-celebration-zapdos-133-128",
    "imageName": "30C-133",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_133-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/zapdos-133"
   },
   {
    "id": "30C-134",
@@ -3655,7 +3921,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716222/pokemon-me-30th-celebration-toxtricity-134-128",
    "imageName": "30C-134",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_134-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/toxtricity-134"
   },
   {
    "id": "30C-135",
@@ -3683,7 +3951,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716223/pokemon-me-30th-celebration-morpeko-135-128",
    "imageName": "30C-135",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_135-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/morpeko-135"
   },
   {
    "id": "30C-136",
@@ -3710,7 +3980,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696684/pokemon-me-30th-celebration-drifloon-136-128",
    "imageName": "30C-136",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_136-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/drifloon-136"
   },
   {
    "id": "30C-137",
@@ -3737,7 +4009,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716224/pokemon-me-30th-celebration-chandelure-137-128",
    "imageName": "30C-137",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_137-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/chandelure-137"
   },
   {
    "id": "30C-138",
@@ -3765,7 +4039,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696685/pokemon-me-30th-celebration-lycanroc-138-128",
    "imageName": "30C-138",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_138-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/lycanroc-138"
   },
   {
    "id": "30C-139",
@@ -3792,7 +4068,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/714360/pokemon-me-30th-celebration-alolan-meowth-139-128",
    "imageName": "30C-139",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_139-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/alolan-meowth-139"
   },
   {
    "id": "30C-140",
@@ -3820,7 +4098,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716225/pokemon-me-30th-celebration-scraggy-140-128",
    "imageName": "30C-140",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_140-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/scraggy-140"
   },
   {
    "id": "30C-141",
@@ -3848,7 +4128,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716226/pokemon-me-30th-celebration-galarian-meowth-141-128",
    "imageName": "30C-141",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_141-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/galarian-meowth-141"
   },
   {
    "id": "30C-142",
@@ -3876,7 +4158,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716227/pokemon-me-30th-celebration-gholdengo-142-128",
    "imageName": "30C-142",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_142-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/gholdengo-142"
   },
   {
    "id": "30C-143",
@@ -3903,7 +4187,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/717621/pokemon-me-30th-celebration-kommo-o-143-128",
    "imageName": "30C-143",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_143-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-japanese-30th-celebration/delcatty-143"
   },
   {
    "id": "30C-144",
@@ -3930,7 +4216,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/714358/pokemon-me-30th-celebration-meowth-144-128",
    "imageName": "30C-144",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_144-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/meowth-144"
   },
   {
    "id": "30C-145",
@@ -3957,7 +4245,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696686/pokemon-me-30th-celebration-hisuian-zorua-145-128",
    "imageName": "30C-145",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_145-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/hisuian-zorua-145"
   },
   {
    "id": "30C-146",
@@ -3985,7 +4275,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716228/pokemon-me-30th-celebration-maushold-146-128",
    "imageName": "30C-146",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_146-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/maushold-146"
   },
   {
    "id": "30C-147",
@@ -4013,7 +4305,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716229/pokemon-me-30th-celebration-fuecoco-ex-147-128",
    "imageName": "30C-147",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_147-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/fuecoco-ex-147"
   },
   {
    "id": "30C-148",
@@ -4041,7 +4335,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716230/pokemon-me-30th-celebration-greninja-ex-148-128",
    "imageName": "30C-148",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_148-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/greninja-ex-148"
   },
   {
    "id": "30C-149",
@@ -4069,7 +4365,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712953/pokemon-me-30th-celebration-pikachu-ex-149-128",
    "imageName": "30C-149",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_149-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-ex-149"
   },
   {
    "id": "30C-150",
@@ -4097,7 +4395,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/712954/pokemon-me-30th-celebration-pikachu-ex-150-128",
    "imageName": "30C-150",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_150-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-ex-150"
   },
   {
    "id": "30C-151",
@@ -4125,7 +4425,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/717603/pokemon-me-30th-celebration-mewtwo-ex-151-128",
    "imageName": "30C-151",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_151-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/mewtwo-ex-157"
   },
   {
    "id": "30C-152",
@@ -4152,7 +4454,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/717605/pokemon-me-30th-celebration-mew-ex-152-128",
    "imageName": "30C-152",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_152-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-japanese-30th-celebration/darkrai-&-cresselia-legend-152"
   },
   {
    "id": "30C-153",
@@ -4179,7 +4483,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716231/pokemon-me-30th-celebration-sylveon-ex-153-128",
    "imageName": "30C-153",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_153-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/sylveon-ex-153"
   },
   {
    "id": "30C-154",
@@ -4206,7 +4512,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/717610/pokemon-me-30th-celebration-gengar-ex-154-128",
    "imageName": "30C-154",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_154-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/magic-30th-anniversary/hurloon-minotaur-154"
   },
   {
    "id": "30C-155",
@@ -4234,7 +4542,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716232/pokemon-me-30th-celebration-jirachi-ex-155-128",
    "imageName": "30C-155",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_155-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/jirachi-ex-155"
   },
   {
    "id": "30C-156",
@@ -4262,7 +4572,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/716233/pokemon-me-30th-celebration-salamence-ex-156-128",
    "imageName": "30C-156",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_156-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/salamence-ex-156"
   },
   {
    "id": "30C-157",
@@ -4290,7 +4602,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696687/pokemon-me-30th-celebration-mewtwo-ex-157-128",
    "imageName": "30C-157",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_157-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/mewtwo-ex-157"
   },
   {
    "id": "30C-158",
@@ -4317,7 +4631,9 @@
    "tcgplayerURL": "https://www.tcgplayer.com/product/696688/pokemon-me-30th-celebration-mew-ex-158-128",
    "imageName": "30C-158",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_158-2x.png",
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/mew-ex-158"
   },
   {
    "id": "30C-R",
@@ -4345,7 +4661,9 @@
    "imageName": "30C-R",
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/717607_in_1000x1000.jpg",
    "notes": "One of three unlisted 'RGB' Mew secret rares by YOSHIROTTEN, one for each original Game Boy version (Red, Green, Blue). Numbered R/RGB.",
-   "imageSource": "tcgplayer"
+   "imageSource": "tcgplayer",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/figure-collection-mew"
   },
   {
    "id": "30C-G",
@@ -4373,7 +4691,9 @@
    "imageName": "30C-G",
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/717608_in_1000x1000.jpg",
    "notes": "One of three unlisted 'RGB' Mew secret rares by YOSHIROTTEN, one for each original Game Boy version (Red, Green, Blue). Numbered G/RGB.",
-   "imageSource": "tcgplayer"
+   "imageSource": "tcgplayer",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/figure-collection-mew"
   },
   {
    "id": "30C-B",
@@ -4401,7 +4721,9 @@
    "imageName": "30C-B",
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/717609_in_1000x1000.jpg",
    "notes": "One of three unlisted 'RGB' Mew secret rares by YOSHIROTTEN, one for each original Game Boy version (Red, Green, Blue). Numbered B/RGB.",
-   "imageSource": "tcgplayer"
+   "imageSource": "tcgplayer",
+   "setCode": "30C",
+   "pricechartingPath": "/game/2015-garbage-pail-kids-30th-anniversary/brainless-bush-black-9b"
   },
   {
    "id": "CLC-01",
@@ -4435,7 +4757,9 @@
    "imageName": "CLC-01",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_14-2x.png",
    "officialGalleryIndex": 14,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-58"
   },
   {
    "id": "CLC-02",
@@ -4469,7 +4793,9 @@
    "imageName": "CLC-02",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_1-2x.png",
    "officialGalleryIndex": 1,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/charizard-4"
   },
   {
    "id": "CLC-03",
@@ -4500,7 +4826,9 @@
    "imageName": "CLC-03",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_5-2x.png",
    "officialGalleryIndex": 5,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/misty-18"
   },
   {
    "id": "CLC-04",
@@ -4534,7 +4862,9 @@
    "imageName": "CLC-04",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_15-2x.png",
    "officialGalleryIndex": 15,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/erika%27s-jigglypuff-69"
   },
   {
    "id": "CLC-05",
@@ -4568,7 +4898,9 @@
    "imageName": "CLC-05",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_7-2x.png",
    "officialGalleryIndex": 7,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/sneasel-25"
   },
   {
    "id": "CLC-06",
@@ -4602,7 +4934,9 @@
    "imageName": "CLC-06",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_24-2x.png",
    "officialGalleryIndex": 24,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/shining-celebi-106"
   },
   {
    "id": "CLC-07",
@@ -4636,7 +4970,9 @@
    "imageName": "CLC-07",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_29-2x.png",
    "officialGalleryIndex": 29,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/lugia-149"
   },
   {
    "id": "CLC-08",
@@ -4669,7 +5005,9 @@
    "imageName": "CLC-08",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_2-2x.png",
    "officialGalleryIndex": 2,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/delcatty-5"
   },
   {
    "id": "CLC-09",
@@ -4704,7 +5042,9 @@
    "imageName": "CLC-09",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_6-2x.png",
    "officialGalleryIndex": 6,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/dark-tyranitar-19"
   },
   {
    "id": "CLC-10",
@@ -4738,7 +5078,9 @@
    "imageName": "CLC-10",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_25-2x.png",
    "officialGalleryIndex": 25,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/scizor-ex-108"
   },
   {
    "id": "CLC-11",
@@ -4771,7 +5113,9 @@
    "imageName": "CLC-11",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_3-2x.png",
    "officialGalleryIndex": 3,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/metagross-11"
   },
   {
    "id": "CLC-12",
@@ -4804,7 +5148,9 @@
    "imageName": "CLC-12",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_22-2x.png",
    "officialGalleryIndex": 22,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/palkia-lvx-106"
   },
   {
    "id": "CLC-13",
@@ -4837,7 +5183,9 @@
    "imageName": "CLC-13",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_10-2x.png",
    "officialGalleryIndex": 10,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/uxie-43"
   },
   {
    "id": "CLC-14",
@@ -4870,7 +5218,9 @@
    "imageName": "CLC-14",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_11-2x.png",
    "officialGalleryIndex": 11,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/crobat-g-47"
   },
   {
    "id": "CLC-15",
@@ -4904,7 +5254,9 @@
    "imageName": "CLC-15",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_18-2x.png",
    "officialGalleryIndex": 18,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/gengar-94"
   },
   {
    "id": "CLC-16",
@@ -4938,7 +5290,9 @@
    "imageName": "CLC-16",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_19-2x.png",
    "officialGalleryIndex": 19,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/darkrai-&-cresselia-legend-99"
   },
   {
    "id": "CLC-17",
@@ -4972,7 +5326,9 @@
    "imageName": "CLC-17",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_20-2x.png",
    "officialGalleryIndex": 20,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/darkrai-&-cresselia-legend-100"
   },
   {
    "id": "CLC-18",
@@ -5003,7 +5359,9 @@
    "imageName": "CLC-18",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_21-2x.png",
    "officialGalleryIndex": 21,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/magic-30th-anniversary/demonic-tutor-101"
   },
   {
    "id": "CLC-19",
@@ -5037,7 +5395,9 @@
    "imageName": "CLC-19",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_16-2x.png",
    "officialGalleryIndex": 16,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/rayquaza-ex-85"
   },
   {
    "id": "CLC-20",
@@ -5070,7 +5430,9 @@
    "imageName": "CLC-20",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_4-2x.png",
    "officialGalleryIndex": 4,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/comic-books-star-wars-30th-anniversary-collection/star-wars-30th-anniversary-collection-vol-11-union-hardcover-2008"
   },
   {
    "id": "CLC-21",
@@ -5103,7 +5465,9 @@
    "imageName": "CLC-21",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_23-2x.png",
    "officialGalleryIndex": 23,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/m-gardevoir-ex-106"
   },
   {
    "id": "CLC-22",
@@ -5134,7 +5498,9 @@
    "imageName": "CLC-22",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_9-2x.png",
    "officialGalleryIndex": 9,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/greninja-break-41"
   },
   {
    "id": "CLC-23",
@@ -5168,7 +5534,9 @@
    "imageName": "CLC-23",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_17-2x.png",
    "officialGalleryIndex": 17,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/alolan-meowth-89"
   },
   {
    "id": "CLC-24",
@@ -5203,7 +5571,9 @@
    "imageName": "CLC-24",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_13-2x.png",
    "officialGalleryIndex": 13,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/zeraora-57"
   },
   {
    "id": "CLC-25",
@@ -5237,7 +5607,9 @@
    "imageName": "CLC-25",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_8-2x.png",
    "officialGalleryIndex": 8,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/pikachu-33"
   },
   {
    "id": "CLC-26",
@@ -5270,7 +5642,9 @@
    "imageName": "CLC-26",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_28-2x.png",
    "officialGalleryIndex": 28,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/zacian-v-138"
   },
   {
    "id": "CLC-27",
@@ -5303,7 +5677,9 @@
    "imageName": "CLC-27",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_12-2x.png",
    "officialGalleryIndex": 12,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/raikou-50"
   },
   {
    "id": "CLC-28",
@@ -5337,7 +5713,9 @@
    "imageName": "CLC-28",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_26-2x.png",
    "officialGalleryIndex": 26,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/mew-vmax-114"
   },
   {
    "id": "CLC-29",
@@ -5370,7 +5748,9 @@
    "imageName": "CLC-29",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_27-2x.png",
    "officialGalleryIndex": 27,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/arceus-vstar-123"
   },
   {
    "id": "CLC-30",
@@ -5403,7 +5783,9 @@
    "imageName": "CLC-30",
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_Classic_EN_30-2x.png",
    "officialGalleryIndex": 30,
-   "imageSource": "pokemon.com"
+   "imageSource": "pokemon.com",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/magikarp-203"
   },
   {
    "id": "MEP-094",
@@ -5432,7 +5814,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713262_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Tech Sticker Collection (Pokémon Day Out)",
-   "notes": "Mega Evolution Black Star Promo 094, a 30th Celebration promo that ships with the Tech Sticker Collection (Pokémon Day Out). Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 094, a 30th Celebration promo that ships with the Tech Sticker Collection (Pokémon Day Out). Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/tech-sticker-collection-alolan-exeggutor"
   },
   {
    "id": "MEP-095",
@@ -5461,7 +5845,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713263_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Tech Sticker Collection (Pokémon Night Out)",
-   "notes": "Mega Evolution Black Star Promo 095, a 30th Celebration promo that ships with the Tech Sticker Collection (Pokémon Night Out). Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 095, a 30th Celebration promo that ships with the Tech Sticker Collection (Pokémon Night Out). Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/one-piece-promo/monkeydluffy-round-1-op16-095"
   },
   {
    "id": "MEP-096",
@@ -5490,7 +5876,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713264_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Poster Collection",
-   "notes": "Mega Evolution Black Star Promo 096, a 30th Celebration promo that ships with the Poster Collection. Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 096, a 30th Celebration promo that ships with the Poster Collection. Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/one-piece-promo/girl-release-event-winner-p-096"
   },
   {
    "id": "MEP-097",
@@ -5519,7 +5907,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713265_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Poster Collection",
-   "notes": "Mega Evolution Black Star Promo 097, a 30th Celebration promo that ships with the Poster Collection. Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 097, a 30th Celebration promo that ships with the Poster Collection. Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": null
   },
   {
    "id": "MEP-098",
@@ -5548,7 +5938,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713266_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Poster Collection",
-   "notes": "Mega Evolution Black Star Promo 098, a 30th Celebration promo that ships with the Poster Collection. Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 098, a 30th Celebration promo that ships with the Poster Collection. Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": null
   },
   {
    "id": "MEP-099",
@@ -5578,7 +5970,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713268_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Pokémon ex Box / ex Tin (Greninja ex)",
-   "notes": "Mega Evolution Black Star Promo 099, a 30th Celebration promo that ships with the Pokémon ex Box / ex Tin (Greninja ex). Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 099, a 30th Celebration promo that ships with the Pokémon ex Box / ex Tin (Greninja ex). Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/one-piece-japanese-promo/monkeydluffy-nike-p-099"
   },
   {
    "id": "MEP-100",
@@ -5607,7 +6001,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713267_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Pokémon ex Box / ex Tin (Sylveon ex)",
-   "notes": "Mega Evolution Black Star Promo 100, a 30th Celebration promo that ships with the Pokémon ex Box / ex Tin (Sylveon ex). Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 100, a 30th Celebration promo that ships with the Pokémon ex Box / ex Tin (Sylveon ex). Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-promo/grafaiai-ex-100"
   },
   {
    "id": "MEP-101",
@@ -5636,7 +6032,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713260_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Elite Trainer Box",
-   "notes": "Mega Evolution Black Star Promo 101, a 30th Celebration promo that ships with the Elite Trainer Box. Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 101, a 30th Celebration promo that ships with the Elite Trainer Box. Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-promo/pikachu-berkemeja-batik-101sv-p"
   },
   {
    "id": "MEP-101PC",
@@ -5665,7 +6063,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713261_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Elite Trainer Box · Pokémon Center exclusive",
-   "notes": "Mega Evolution Black Star Promo 101, a 30th Celebration promo that ships with the Elite Trainer Box. Not part of the 128-card booster set. This version carries the Pokémon Center stamp and is only found in the Pokémon Center Elite Trainer Box."
+   "notes": "Mega Evolution Black Star Promo 101, a 30th Celebration promo that ships with the Elite Trainer Box. Not part of the 128-card booster set. This version carries the Pokémon Center stamp and is only found in the Pokémon Center Elite Trainer Box.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-promo/pikachu-berkemeja-batik-101sv-p"
   },
   {
    "id": "MEP-102",
@@ -5695,7 +6095,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713286_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Battle Deck (Espeon ex)",
-   "notes": "Mega Evolution Black Star Promo 102, a 30th Celebration promo that ships with the Battle Deck (Espeon ex). Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 102, a 30th Celebration promo that ships with the Battle Deck (Espeon ex). Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/one-piece-japanese-promo/nami-p-102"
   },
   {
    "id": "MEP-103",
@@ -5725,7 +6127,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713285_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Battle Deck (Umbreon ex)",
-   "notes": "Mega Evolution Black Star Promo 103, a 30th Celebration promo that ships with the Battle Deck (Umbreon ex). Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 103, a 30th Celebration promo that ships with the Battle Deck (Umbreon ex). Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-japanese-promo/bilingual-exeggutor-103"
   },
   {
    "id": "MEP-104",
@@ -5755,7 +6159,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713289_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Figure Collection (Mewtwo)",
-   "notes": "Mega Evolution Black Star Promo 104, a 30th Celebration promo that ships with the Figure Collection (Mewtwo). Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 104, a 30th Celebration promo that ships with the Figure Collection (Mewtwo). Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-japanese-promo/charizard-vmax-104s-p"
   },
   {
    "id": "MEP-105",
@@ -5784,7 +6190,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713288_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Figure Collection (Mew)",
-   "notes": "Mega Evolution Black Star Promo 105, a 30th Celebration promo that ships with the Figure Collection (Mew). Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 105, a 30th Celebration promo that ships with the Figure Collection (Mew). Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-japanese-promo/pikachu-105s-p"
   },
   {
    "id": "MEP-106",
@@ -5813,7 +6221,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713287_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Ditto Premium Collection",
-   "notes": "Mega Evolution Black Star Promo 106, a 30th Celebration promo that ships with the Ditto Premium Collection. Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 106, a 30th Celebration promo that ships with the Ditto Premium Collection. Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-promo/pikachu-ex-106"
   },
   {
    "id": "MEP-107",
@@ -5843,7 +6253,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713257_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Ultra-Premium Collection (Day)",
-   "notes": "Mega Evolution Black Star Promo 107, a 30th Celebration promo that ships with the Ultra-Premium Collection (Day). Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 107, a 30th Celebration promo that ships with the Ultra-Premium Collection (Day). Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-korean-promo/deoxys-107sm-p"
   },
   {
    "id": "MEP-108",
@@ -5872,7 +6284,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713258_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Ultra-Premium Collection (Day)",
-   "notes": "Mega Evolution Black Star Promo 108, a 30th Celebration promo that ships with the Ultra-Premium Collection (Day). Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 108, a 30th Celebration promo that ships with the Ultra-Premium Collection (Day). Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-30th-celebration/scizor-ex-108"
   },
   {
    "id": "MEP-109",
@@ -5902,7 +6316,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713256_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Ultra-Premium Collection (Night)",
-   "notes": "Mega Evolution Black Star Promo 109, a 30th Celebration promo that ships with the Ultra-Premium Collection (Night). Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 109, a 30th Celebration promo that ships with the Ultra-Premium Collection (Night). Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/pokemon-promo/ash%27s-pikachu-sm109"
   },
   {
    "id": "MEP-110",
@@ -5931,7 +6347,9 @@
    "remoteImageURL": "https://tcgplayer-cdn.tcgplayer.com/product/713259_in_1000x1000.jpg",
    "imageSource": "tcgplayer",
    "productName": "Ultra-Premium Collection (Night)",
-   "notes": "Mega Evolution Black Star Promo 110, a 30th Celebration promo that ships with the Ultra-Premium Collection (Night). Not part of the 128-card booster set."
+   "notes": "Mega Evolution Black Star Promo 110, a 30th Celebration promo that ships with the Ultra-Premium Collection (Night). Not part of the 128-card booster set.",
+   "setCode": "30C",
+   "pricechartingPath": "/game/one-piece-promo/monkeydluffy-p-110"
   }
  ]
 }

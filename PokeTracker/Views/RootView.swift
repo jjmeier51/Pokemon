@@ -17,6 +17,9 @@ struct RootView: View {
             SettingsView()
                 .tabItem { Label("Settings", systemImage: "gearshape.fill") }
         }
+        // Re-create the whole tree when the set changes so every view picks up the new theme.
+        .id(settings.selectedSetID)
+        .tint(PokeTheme.yellow)
         .toolbarBackground(PokeTheme.deepNavy.opacity(0.95), for: .tabBar)
         .toolbarBackground(.visible, for: .tabBar)
         .task {
@@ -32,7 +35,10 @@ struct RootView: View {
     private func refreshEverything() async {
         guard prices.bulkProgress == nil else { return }
         lastFullRefresh = Date()
-        await prices.refreshAll(catalog.cards, settings: settings, onlyStale: false)
+        // Selected set first so its numbers land quickly, then the rest.
+        let selected = catalog.selectedSet(id: settings.selectedSetID)
+        let others = catalog.sets.filter { $0.id != selected.id }.flatMap(\.cards)
+        await prices.refreshAll(selected.cards + others, settings: settings, onlyStale: false)
         lastFullRefresh = Date()
     }
 }

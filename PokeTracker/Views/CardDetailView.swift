@@ -24,6 +24,7 @@ struct CardDetailView: View {
                     collectButton
                     if collected { ownershipPanel }
                     PriceSection(card: card)
+                    GradedPriceSection(card: card)
                     detailsPanel
                     if let attacks = card.attacks, !attacks.isEmpty { attacksPanel(attacks) }
                     if let notes = card.notes { infoPanel(title: "About this card", text: notes) }
@@ -41,6 +42,7 @@ struct CardDetailView: View {
             ToolbarItem(placement: .topBarTrailing) {
                 Button {
                     prices.refresh(card, settings: settings)
+                    prices.refreshGraded(card)
                 } label: {
                     if prices.isLoading(card) { ProgressView().tint(PokeTheme.yellow) } else { Image(systemName: "arrow.clockwise") }
                 }
@@ -49,6 +51,7 @@ struct CardDetailView: View {
         }
         .task(id: card.id) {
             if settings.autoRefreshPrices { prices.refreshIfStale(card, settings: settings) }
+            prices.refreshGradedIfStale(card)
         }
     }
 
@@ -143,6 +146,7 @@ struct CardDetailView: View {
                 }
                 .fixedSize()
             }
+            gradingRows(entry)
             if let date = entry?.collectedAt {
                 HStack {
                     Label("Collected", systemImage: "calendar")
@@ -185,6 +189,70 @@ struct CardDetailView: View {
         }
     }
 
+    /// Raw vs. graded, with company / grade / cert number when slabbed.
+    @ViewBuilder
+    private func gradingRows(_ entry: CollectionStore.Entry?) -> some View {
+        let grading = entry?.grading
+        VStack(spacing: 10) {
+            HStack {
+                Label("Condition", systemImage: "shield.lefthalf.filled")
+                    .font(PokeTheme.headline(14))
+                Spacer()
+                Picker("Condition", selection: Binding(
+                    get: { grading == nil ? 0 : 1 },
+                    set: { collection.setGrading(card, $0 == 0 ? nil : Grading(company: settings.preferredGradingCompany, grade: settings.preferredGrade)) }
+                )) {
+                    Text("Raw").tag(0)
+                    Text("Graded").tag(1)
+                }
+                .pickerStyle(.segmented)
+                .frame(width: 150)
+            }
+            if let grading {
+                HStack(spacing: 10) {
+                    Picker("Company", selection: Binding(
+                        get: { grading.company },
+                        set: { company in
+                            var g = grading
+                            g.company = company
+                            if !company.grades.contains(g.grade) { g.grade = 10 }
+                            collection.setGrading(card, g)
+                        }
+                    )) {
+                        ForEach(GradingCompany.allCases) { Text($0.title).tag($0) }
+                    }
+                    .pickerStyle(.menu)
+                    .tint(PokeTheme.yellow)
+                    Picker("Grade", selection: Binding(
+                        get: { grading.grade },
+                        set: { grade in var g = grading; g.grade = grade; collection.setGrading(card, g) }
+                    )) {
+                        ForEach(grading.company.grades, id: \.self) { Text(Grade.label($0)).tag($0) }
+                    }
+                    .pickerStyle(.menu)
+                    .tint(PokeTheme.yellow)
+                    Spacer()
+                    TextField("Cert #", text: Binding(
+                        get: { grading.certNumber },
+                        set: { cert in var g = grading; g.certNumber = cert; collection.setGrading(card, g) }
+                    ))
+                    .font(PokeTheme.mono(13))
+                    .keyboardType(.numbersAndPunctuation)
+                    .textFieldStyle(.roundedBorder)
+                    .frame(width: 120)
+                }
+                if let quote = prices.gradedQuote(for: card), let guide = quote.guideValue(company: grading.company, grade: grading.grade) {
+                    HStack {
+                        Text("Counted at \(guide.label) value")
+                            .font(PokeTheme.caption(11)).foregroundStyle(PokeTheme.textTertiary)
+                        Spacer()
+                        Text(guide.value.usd).font(PokeTheme.headline(14)).foregroundStyle(PokeTheme.yellow)
+                    }
+                }
+            }
+        }
+    }
+
     private var detailsPanel: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("CARD DETAILS")
@@ -193,7 +261,7 @@ struct CardDetailView: View {
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], alignment: .leading, spacing: 12) {
                 detail("Number", card.displayNumber)
                 detail("Rarity", card.rarity.title)
-                detail("Set", card.section == .classic ? "Classic Collection" : (card.section == .promo ? "ME Black Star Promo" : "30th Celebration"))
+                detail("Set", card.section == .classic ? "\(card.setSearchName) Classic Collection" : (card.section == .promo ? "Black Star Promo (\(card.setSearchName))" : card.setSearchName))
                 if let stage = card.stage { detail("Stage", stage) }
                 if let type = card.energyType { detail("Type", type.title) }
                 if let weakness = card.weakness, !weakness.isEmpty { detail("Weakness", weakness) }

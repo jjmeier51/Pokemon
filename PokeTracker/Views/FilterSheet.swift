@@ -3,6 +3,7 @@ import SwiftUI
 struct FilterSheet: View {
     @Binding var filter: CollectionFilter
     let rarities: [Rarity]
+    var sections: [CardSection] = CardSection.allCases
     @Environment(\.dismiss) private var dismiss
 
     var body: some View {
@@ -29,7 +30,7 @@ struct FilterSheet: View {
                         group("Section") {
                             VStack(spacing: 8) {
                                 sectionRow(nil, title: "Everything")
-                                ForEach(CardSection.allCases) { section in
+                                ForEach(sections) { section in
                                     sectionRow(section, title: section.title)
                                 }
                             }

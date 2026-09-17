@@ -10,6 +10,8 @@ final class CollectionStore {
         var collectedAt: Date
         var favorite: Bool = false
         var note: String = ""
+        /// Nil means the card is held raw (ungraded).
+        var grading: Grading? = nil
     }
 
     struct Snapshot: Codable {
@@ -81,6 +83,13 @@ final class CollectionStore {
         scheduleSave()
     }
 
+    func setGrading(_ card: Card, _ grading: Grading?) {
+        guard var entry = entries[card.id] else { return }
+        entry.grading = grading
+        entries[card.id] = entry
+        scheduleSave()
+    }
+
     func setNote(_ card: Card, _ note: String) {
         guard var entry = entries[card.id] else { return }
         entry.note = note
@@ -116,7 +125,8 @@ final class CollectionStore {
                 Entry(quantity: max(current.quantity, incoming.quantity),
                       collectedAt: min(current.collectedAt, incoming.collectedAt),
                       favorite: current.favorite || incoming.favorite,
-                      note: current.note.isEmpty ? incoming.note : current.note)
+                      note: current.note.isEmpty ? incoming.note : current.note,
+                      grading: current.grading ?? incoming.grading)
             }
         } else {
             entries = snapshot.entries

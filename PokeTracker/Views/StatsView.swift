@@ -8,8 +8,9 @@ struct StatsView: View {
 
     @State private var refreshing = false
 
-    private var owned: [Card] { catalog.cards.filter { collection.isCollected($0) } }
-    private var missing: [Card] { catalog.cards.filter { !collection.isCollected($0) } }
+    private var currentSet: CardSet { catalog.selectedSet(id: settings.selectedSetID) }
+    private var owned: [Card] { currentSet.cards.filter { collection.isCollected($0) } }
+    private var missing: [Card] { currentSet.cards.filter { !collection.isCollected($0) } }
 
     var body: some View {
         NavigationStack {
@@ -17,10 +18,12 @@ struct StatsView: View {
                 PokeTheme.background
                 ScrollView {
                     VStack(spacing: 16) {
+                        SetSwitcher()
+                            .padding(.top, 8)
                         overview
                         valuePanel
-                        breakdown(title: "By section", rows: CardSection.allCases.map { BreakdownRow(title: $0.title, cards: catalog.cards(in: $0), tint: PokeTheme.brightBlue) })
-                        breakdown(title: "By rarity", rows: catalog.rarities.map { BreakdownRow(title: $0.title, cards: catalog.cards(of: $0), tint: $0.color) })
+                        breakdown(title: "By section", rows: currentSet.sections.map { BreakdownRow(title: $0.title, cards: currentSet.cards(in: $0), tint: PokeTheme.brightBlue) })
+                        breakdown(title: "By rarity", rows: currentSet.rarities.map { BreakdownRow(title: $0.title, cards: currentSet.cards(of: $0), tint: $0.color) })
                         topMissing
                     }
                     .padding(.horizontal, 16)
@@ -51,11 +54,11 @@ struct StatsView: View {
     }
 
     private func refreshAll() async {
-        await prices.refreshAll(catalog.cards, settings: settings, onlyStale: false)
+        await prices.refreshAll(currentSet.cards, settings: settings, onlyStale: false)
     }
 
     private var overview: some View {
-        let total = catalog.cards.count
+        let total = currentSet.cards.count
         let count = owned.count
         let progress = total == 0 ? 0 : Double(count) / Double(total)
         return VStack(spacing: 16) {
@@ -70,13 +73,13 @@ struct StatsView: View {
                         .foregroundStyle(PokeTheme.textSecondary)
                 }
             }
-            Text(progress >= 1 ? "Master set complete!" : "\(Int((progress * 100).rounded()))% of the 30th Celebration master set")
+            Text(progress >= 1 ? "Master set complete!" : "\(Int((progress * 100).rounded()))% of the \(currentSet.shortName) master set")
                 .font(PokeTheme.headline(15))
                 .multilineTextAlignment(.center)
             HStack(spacing: 10) {
                 stat("Collected", "\(count)", PokeTheme.yellow)
                 stat("Missing", "\(total - count)", PokeTheme.red)
-                stat("Favorites", "\(collection.entries.values.filter(\.favorite).count)", Color(hex: 0xFF5C8A))
+                stat("Graded", "\(owned.filter { collection.entry(for: $0)?.grading != nil }.count)", Color(hex: 0xFF5C8A))
             }
         }
         .padding(20)
@@ -96,7 +99,8 @@ struct StatsView: View {
     }
 
     private var valuePanel: some View {
-        let ownedPriced = owned.filter { prices.value(of: $0) != nil }
+        let ownedValues = owned.compactMap { prices.value(of: $0, grading: collection.entry(for: $0)?.grading) }
+        let ownedPriced = ownedValues
         let missingPriced = missing.filter { prices.value(of: $0) != nil }
         return VStack(alignment: .leading, spacing: 12) {
             Text("COLLECTION VALUE")
@@ -104,7 +108,7 @@ struct StatsView: View {
                 .foregroundStyle(PokeTheme.textTertiary)
             HStack(alignment: .top) {
                 VStack(alignment: .leading, spacing: 4) {
-                    Text(prices.totalValue(of: ownedPriced).usd)
+                    Text(ownedValues.reduce(0, +).usd)
                         .font(PokeTheme.display(30))
                         .foregroundStyle(PokeTheme.yellow)
                     Text("Owned · \(ownedPriced.count) of \(owned.count) priced")
@@ -120,7 +124,7 @@ struct StatsView: View {
                 }
             }
             if let last = prices.lastUpdated {
-                Text("TCGplayer market prices · updated \(last, style: .relative) ago")
+                Text("TCGplayer market prices (PriceCharting guide for graded cards) · updated \(last, style: .relative) ago")
                     .font(PokeTheme.caption(10)).foregroundStyle(PokeTheme.textTertiary)
             } else {
                 Text("Tap refresh to load TCGplayer market prices for every card.")

@@ -17,6 +17,18 @@ extension Rarity {
         case .rare:
             return GlitterStyle(colors: [Color(hex: 0xD9E2F5), .white, Color(hex: 0xB8C6E6)],
                                 sparkleColors: [.white, Color(hex: 0xE8EEFF)], density: 0.45, intensity: 0.6)
+        case .holoRare, .holoRareV:
+            return GlitterStyle(colors: [Color(hex: 0xBFE0FF), .white, Color(hex: 0x8FC3FF), Color(hex: 0xE8F4FF)],
+                                sparkleColors: [.white, Color(hex: 0xDDEEFF), Color(hex: 0xFFF3A0)], density: 0.8, intensity: 0.85)
+        case .holoRareVMAX:
+            return GlitterStyle(colors: [Color(hex: 0xFF5F9E), .white, Color(hex: 0xC77DFF), Color(hex: 0xFF5F9E)],
+                                sparkleColors: [.white, Color(hex: 0xFFD6EC), Color(hex: 0xE9D5FF)], density: 1.1, intensity: 0.95)
+        case .ultraRare:
+            return GlitterStyle(colors: [Color(hex: 0xFFE27A), Color(hex: 0xF5B700), .white, Color(hex: 0xD99A00)],
+                                sparkleColors: [.white, Color(hex: 0xFFF1B8), Color(hex: 0xFFD166)], density: 1.1, intensity: 0.95)
+        case .secretRare:
+            return GlitterStyle(colors: [Color(hex: 0xFFF3A0), Color(hex: 0xFFD700), .white, Color(hex: 0xC48F0A), Color(hex: 0xFFF3A0)],
+                                sparkleColors: [.white, Color(hex: 0xFFF1B8), Color(hex: 0xFFE27A)], density: 1.4, intensity: 1)
         case .doubleRare:
             return GlitterStyle(colors: [Color(hex: 0xFFE27A), .white, Color(hex: 0xE3B341)],
                                 sparkleColors: [.white, Color(hex: 0xFFF1B8)], density: 0.7, intensity: 0.8)

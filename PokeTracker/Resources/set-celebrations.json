@@ -679,7 +679,7 @@
    "remoteImageURL": "https://images.pokemontcg.io/cel25/23_hires.png",
    "imageSource": "pokemontcg.io",
    "setCode": "CEL",
-   "pricechartingPath": null
+   "pricechartingPath": "/game/pokemon-celebrations/professor%27s-research-23"
   },
   {
    "id": "CEL-024",
@@ -706,7 +706,7 @@
    "remoteImageURL": "https://images.pokemontcg.io/cel25/24_hires.png",
    "imageSource": "pokemontcg.io",
    "setCode": "CEL",
-   "pricechartingPath": null
+   "pricechartingPath": "/game/pokemon-celebrations/professor%27s-research-24"
   },
   {
    "id": "CEL-025",
@@ -970,7 +970,7 @@
    "remoteImageURL": "https://images.pokemontcg.io/cel25c/15_C_hires.png",
    "imageSource": "pokemontcg.io",
    "setCode": "CEL",
-   "pricechartingPath": null
+   "pricechartingPath": "/game/pokemon-celebrations/rocket%27s-zapdos-15"
   },
   {
    "id": "CEL-CLC-08",
@@ -1140,7 +1140,7 @@
    "remoteImageURL": "https://images.pokemontcg.io/cel25c/86_A_hires.png",
    "imageSource": "pokemontcg.io",
    "setCode": "CEL",
-   "pricechartingPath": null
+   "pricechartingPath": "/game/pokemon-celebrations/rocket%27s-admin-86"
   },
   {
    "id": "CEL-CLC-13",
@@ -1484,7 +1484,7 @@
    "remoteImageURL": "https://images.pokemontcg.io/cel25c/54_A_hires.png",
    "imageSource": "pokemontcg.io",
    "setCode": "CEL",
-   "pricechartingPath": null
+   "pricechartingPath": "/game/pokemon-celebrations/mewtwo-ex-54"
   },
   {
    "id": "CEL-CLC-23",
@@ -1519,7 +1519,7 @@
    "remoteImageURL": "https://images.pokemontcg.io/cel25c/97_A_hires.png",
    "imageSource": "pokemontcg.io",
    "setCode": "CEL",
-   "pricechartingPath": null
+   "pricechartingPath": "/game/pokemon-celebrations/xerneas-ex-97"
   },
   {
    "id": "CEL-CLC-24",

@@ -24,6 +24,7 @@ Rarities come straight from the official checklist PDF. Artists, HP, types, atta
 - **One-tap collecting**: tap the `+` badge on any card (or long-press for a menu). Haptic feedback and a pop animation on each catch.
 - **Filter** by collected / missing, by any combination of rarities, and by section. **Sort** by number, name, rarity, market price, or recently collected, ascending or descending.
 - **Search** by name, number (`158/128`, `R/RGB`, `4/102`), rarity, artist, type, or original set.
+- **Glitter borders** on every rarity above Common: a foil sheen sweeps around the edge while sparkles twinkle, tinted per rarity (gold for Classic Collection and Illustration Rares, rainbow for Special Illustration Rares, teal for Futuristic Rares, red/green/blue for the RGB Mew). Honors Reduce Motion and can be switched off in Settings.
 - **Card detail** opens on the card back and flips over to reveal the front (tap to flip again), with a 3D tilt + holographic sheen (varies by rarity), quantity, favorite, personal note, attacks, ability, Pokédex entry, and previous/next navigation.
 - **Prices in every card**, from two sources, plus an **Open on eBay** button that jumps into the eBay app with a search for that exact card:
   - **TCGplayer** — current Market Price, the most recent day's average sale price (with count and low–high range), 30-day trend and sparkline.

@@ -169,6 +169,7 @@ struct StatsView: View {
                     NavigationLink(value: card) {
                         HStack(spacing: 12) {
                             CardImageView(card: card, maxPixelSize: 200, cornerRadius: 6)
+                                .glitterBorder(for: card.rarity, cornerRadius: 6, lineWidth: 1.4, sparkles: 14, enabled: settings.sparkleEffects)
                                 .frame(width: 44)
                             VStack(alignment: .leading, spacing: 2) {
                                 Text(card.name).font(PokeTheme.headline(14))

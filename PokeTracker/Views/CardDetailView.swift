@@ -55,7 +55,7 @@ struct CardDetailView: View {
     // MARK: - Sections
 
     private var artwork: some View {
-        FlipCardView(card: card, dimmed: collected && settings.dimCollectedCards)
+        FlipCardView(card: card, dimmed: collected && settings.dimCollectedCards, sparkle: settings.sparkleEffects)
             .frame(maxWidth: 340)
             .padding(.top, 12)
             .padding(.bottom, 8)

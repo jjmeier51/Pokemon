@@ -32,6 +32,10 @@ final class AppSettings {
         didSet { defaults.set(dimCollectedCards, forKey: "dimCollectedCards") }
     }
 
+    var sparkleEffects: Bool {
+        didSet { defaults.set(sparkleEffects, forKey: "sparkleEffects") }
+    }
+
     static let defaultCardLadderBaseURL = "https://api.parse.bot/scraper/97d5f4bc-6c65-4546-8f71-76149a5533cb"
 
     init() {
@@ -41,6 +45,7 @@ final class AppSettings {
         hapticsEnabled = defaults.object(forKey: "hapticsEnabled") as? Bool ?? true
         gridColumns = defaults.object(forKey: "gridColumns") as? Int ?? 3
         dimCollectedCards = defaults.object(forKey: "dimCollectedCards") as? Bool ?? true
+        sparkleEffects = defaults.object(forKey: "sparkleEffects") as? Bool ?? true
     }
 
     var hasCardLadderKey: Bool { !cardLadderAPIKey.trimmingCharacters(in: .whitespaces).isEmpty }

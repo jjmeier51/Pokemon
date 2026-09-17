@@ -21,6 +21,8 @@ struct CardGridCell: View {
                         RoundedRectangle(cornerRadius: 9, style: .continuous)
                             .strokeBorder(collected ? PokeTheme.goldGradient : LinearGradient(colors: [.white.opacity(0.12)], startPoint: .top, endPoint: .bottom), lineWidth: collected ? 2 : 1)
                     }
+                    .glitterBorder(for: card.rarity, cornerRadius: 9, lineWidth: 2.2, sparkles: 34,
+                                   enabled: settings.sparkleEffects, opacity: collected && settings.dimCollectedCards ? 0.45 : 1)
                     .shadow(color: collected ? PokeTheme.gold.opacity(0.35) : .black.opacity(0.4), radius: collected ? 10 : 6, y: 4)
                     .scaleEffect(pulse ? 1.06 : 1)
                     .contentShape(Rectangle())

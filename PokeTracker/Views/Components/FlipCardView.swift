@@ -6,6 +6,7 @@ import SwiftUI
 struct FlipCardView: View {
     let card: Card
     var dimmed = false
+    var sparkle = true
 
     @State private var showingFront = false
     @State private var angle: Double = 0
@@ -19,6 +20,7 @@ struct FlipCardView: View {
             if showingFront {
                 CardImageView(card: card, full: true, cornerRadius: 18)
                     .saturation(dimmed ? 0.15 : 1)
+                    .glitterBorder(for: card.rarity, cornerRadius: 18, lineWidth: 3.5, sparkles: 70, enabled: sparkle, opacity: dimmed ? 0.5 : 1)
                     .tiltCard(rarity: card.rarity, enabled: !flipping)
             } else {
                 Image("CardBack")

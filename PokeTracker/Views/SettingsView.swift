@@ -57,6 +57,7 @@ struct SettingsView: View {
                 Section("Display") {
                     Stepper("Grid columns: \(settings.gridColumns)", value: $settings.gridColumns, in: 2...4)
                     Toggle("Grey out cards you've collected", isOn: $settings.dimCollectedCards)
+                    Toggle("Glitter borders on rare cards", isOn: $settings.sparkleEffects)
                     Toggle("Haptics", isOn: $settings.hapticsEnabled)
                     Button("Clear downloaded artwork cache") { ImageStore.shared.clearDiskCache() }
                 }

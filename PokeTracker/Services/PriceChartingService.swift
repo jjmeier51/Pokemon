@@ -129,8 +129,17 @@ struct PriceChartingService: Sendable {
             if let first = card.name.lowercased().split(separator: " ").first, title.contains(first) { score += 3 }
             return score
         }
-        guard let best = rows.max(by: { score($0) < score($1) }), score(best) >= 9,
-              let url = URL(string: best[2]) else { throw PriceError.notFound }
+        // Only accept a result that names this exact card number in the expected set; a wrong
+        // page would silently show another card's prices.
+        let trimmedNumber = number.trimmingCharacters(in: CharacterSet(charactersIn: "0"))
+        let acceptable = rows.filter { row in
+            let title = row[3].lowercased(), set = row[4].lowercased()
+            let numberOK = title.contains("#\(trimmedNumber)") || title.contains("#\(number)")
+            let setOK = set.contains(setWord) || (card.section == .promo && set.contains("promo"))
+            let nameOK = card.name.lowercased().split(separator: " ").first.map { title.contains($0) } ?? true
+            return numberOK && setOK && nameOK && !set.contains("japanese")
+        }
+        guard let best = acceptable.max(by: { score($0) < score($1) }), let url = URL(string: best[2]) else { throw PriceError.notFound }
         return url.path
     }
 

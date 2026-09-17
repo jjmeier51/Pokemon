@@ -3578,7 +3578,7 @@
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_122-2x.png",
    "imageSource": "pokemon.com",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-japanese-30th-celebration/hisuian-zorua-122"
+   "pricechartingPath": null
   },
   {
    "id": "30C-123",
@@ -4189,7 +4189,7 @@
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_143-2x.png",
    "imageSource": "pokemon.com",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-japanese-30th-celebration/delcatty-143"
+   "pricechartingPath": null
   },
   {
    "id": "30C-144",
@@ -4427,7 +4427,7 @@
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_151-2x.png",
    "imageSource": "pokemon.com",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-30th-celebration/mewtwo-ex-157"
+   "pricechartingPath": null
   },
   {
    "id": "30C-152",
@@ -4456,7 +4456,7 @@
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_152-2x.png",
    "imageSource": "pokemon.com",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-japanese-30th-celebration/darkrai-&-cresselia-legend-152"
+   "pricechartingPath": null
   },
   {
    "id": "30C-153",
@@ -4514,7 +4514,7 @@
    "remoteImageURL": "https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us/2M6P_EN_154-2x.png",
    "imageSource": "pokemon.com",
    "setCode": "30C",
-   "pricechartingPath": "/game/magic-30th-anniversary/hurloon-minotaur-154"
+   "pricechartingPath": null
   },
   {
    "id": "30C-155",
@@ -4663,7 +4663,7 @@
    "notes": "One of three unlisted 'RGB' Mew secret rares by YOSHIROTTEN, one for each original Game Boy version (Red, Green, Blue). Numbered R/RGB.",
    "imageSource": "tcgplayer",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-30th-celebration/figure-collection-mew"
+   "pricechartingPath": null
   },
   {
    "id": "30C-G",
@@ -4693,7 +4693,7 @@
    "notes": "One of three unlisted 'RGB' Mew secret rares by YOSHIROTTEN, one for each original Game Boy version (Red, Green, Blue). Numbered G/RGB.",
    "imageSource": "tcgplayer",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-30th-celebration/figure-collection-mew"
+   "pricechartingPath": null
   },
   {
    "id": "30C-B",
@@ -4723,7 +4723,7 @@
    "notes": "One of three unlisted 'RGB' Mew secret rares by YOSHIROTTEN, one for each original Game Boy version (Red, Green, Blue). Numbered B/RGB.",
    "imageSource": "tcgplayer",
    "setCode": "30C",
-   "pricechartingPath": "/game/2015-garbage-pail-kids-30th-anniversary/brainless-bush-black-9b"
+   "pricechartingPath": null
   },
   {
    "id": "CLC-01",
@@ -4864,7 +4864,7 @@
    "officialGalleryIndex": 15,
    "imageSource": "pokemon.com",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-30th-celebration/erika%27s-jigglypuff-69"
+   "pricechartingPath": null
   },
   {
    "id": "CLC-05",
@@ -5361,7 +5361,7 @@
    "officialGalleryIndex": 21,
    "imageSource": "pokemon.com",
    "setCode": "30C",
-   "pricechartingPath": "/game/magic-30th-anniversary/demonic-tutor-101"
+   "pricechartingPath": null
   },
   {
    "id": "CLC-19",
@@ -5397,7 +5397,7 @@
    "officialGalleryIndex": 16,
    "imageSource": "pokemon.com",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-30th-celebration/rayquaza-ex-85"
+   "pricechartingPath": null
   },
   {
    "id": "CLC-20",
@@ -5432,7 +5432,7 @@
    "officialGalleryIndex": 4,
    "imageSource": "pokemon.com",
    "setCode": "30C",
-   "pricechartingPath": "/game/comic-books-star-wars-30th-anniversary-collection/star-wars-30th-anniversary-collection-vol-11-union-hardcover-2008"
+   "pricechartingPath": null
   },
   {
    "id": "CLC-21",
@@ -5536,7 +5536,7 @@
    "officialGalleryIndex": 17,
    "imageSource": "pokemon.com",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-30th-celebration/alolan-meowth-89"
+   "pricechartingPath": null
   },
   {
    "id": "CLC-24",
@@ -5573,7 +5573,7 @@
    "officialGalleryIndex": 13,
    "imageSource": "pokemon.com",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-30th-celebration/zeraora-57"
+   "pricechartingPath": null
   },
   {
    "id": "CLC-25",
@@ -5816,7 +5816,7 @@
    "productName": "Tech Sticker Collection (Pokémon Day Out)",
    "notes": "Mega Evolution Black Star Promo 094, a 30th Celebration promo that ships with the Tech Sticker Collection (Pokémon Day Out). Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-30th-celebration/tech-sticker-collection-alolan-exeggutor"
+   "pricechartingPath": "/game/pokemon-promo/alolan-exeggutor-94-94"
   },
   {
    "id": "MEP-095",
@@ -5847,7 +5847,7 @@
    "productName": "Tech Sticker Collection (Pokémon Night Out)",
    "notes": "Mega Evolution Black Star Promo 095, a 30th Celebration promo that ships with the Tech Sticker Collection (Pokémon Night Out). Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/one-piece-promo/monkeydluffy-round-1-op16-095"
+   "pricechartingPath": "/game/pokemon-promo/lucario-sm95"
   },
   {
    "id": "MEP-096",
@@ -5878,7 +5878,7 @@
    "productName": "Poster Collection",
    "notes": "Mega Evolution Black Star Promo 096, a 30th Celebration promo that ships with the Poster Collection. Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/one-piece-promo/girl-release-event-winner-p-096"
+   "pricechartingPath": "/game/pokemon-promo/moltres-96"
   },
   {
    "id": "MEP-097",
@@ -5909,7 +5909,7 @@
    "productName": "Poster Collection",
    "notes": "Mega Evolution Black Star Promo 097, a 30th Celebration promo that ships with the Poster Collection. Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": null
+   "pricechartingPath": "/game/pokemon-promo/articuno-promo-97-97"
   },
   {
    "id": "MEP-098",
@@ -5940,7 +5940,7 @@
    "productName": "Poster Collection",
    "notes": "Mega Evolution Black Star Promo 098, a 30th Celebration promo that ships with the Poster Collection. Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": null
+   "pricechartingPath": "/game/pokemon-promo/zapdos-98"
   },
   {
    "id": "MEP-099",
@@ -5972,7 +5972,7 @@
    "productName": "Pokémon ex Box / ex Tin (Greninja ex)",
    "notes": "Mega Evolution Black Star Promo 099, a 30th Celebration promo that ships with the Pokémon ex Box / ex Tin (Greninja ex). Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/one-piece-japanese-promo/monkeydluffy-nike-p-099"
+   "pricechartingPath": "/game/pokemon-promo/greninja-ex-99"
   },
   {
    "id": "MEP-100",
@@ -6003,7 +6003,7 @@
    "productName": "Pokémon ex Box / ex Tin (Sylveon ex)",
    "notes": "Mega Evolution Black Star Promo 100, a 30th Celebration promo that ships with the Pokémon ex Box / ex Tin (Sylveon ex). Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-promo/grafaiai-ex-100"
+   "pricechartingPath": null
   },
   {
    "id": "MEP-101",
@@ -6034,7 +6034,7 @@
    "productName": "Elite Trainer Box",
    "notes": "Mega Evolution Black Star Promo 101, a 30th Celebration promo that ships with the Elite Trainer Box. Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-promo/pikachu-berkemeja-batik-101sv-p"
+   "pricechartingPath": "/game/pokemon-promo/nidorina-101"
   },
   {
    "id": "MEP-101PC",
@@ -6065,7 +6065,7 @@
    "productName": "Elite Trainer Box · Pokémon Center exclusive",
    "notes": "Mega Evolution Black Star Promo 101, a 30th Celebration promo that ships with the Elite Trainer Box. Not part of the 128-card booster set. This version carries the Pokémon Center stamp and is only found in the Pokémon Center Elite Trainer Box.",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-promo/pikachu-berkemeja-batik-101sv-p"
+   "pricechartingPath": "/game/pokemon-promo/nidorina-101"
   },
   {
    "id": "MEP-102",
@@ -6097,7 +6097,7 @@
    "productName": "Battle Deck (Espeon ex)",
    "notes": "Mega Evolution Black Star Promo 102, a 30th Celebration promo that ships with the Battle Deck (Espeon ex). Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/one-piece-japanese-promo/nami-p-102"
+   "pricechartingPath": null
   },
   {
    "id": "MEP-103",
@@ -6129,7 +6129,7 @@
    "productName": "Battle Deck (Umbreon ex)",
    "notes": "Mega Evolution Black Star Promo 103, a 30th Celebration promo that ships with the Battle Deck (Umbreon ex). Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-japanese-promo/bilingual-exeggutor-103"
+   "pricechartingPath": null
   },
   {
    "id": "MEP-104",
@@ -6161,7 +6161,7 @@
    "productName": "Figure Collection (Mewtwo)",
    "notes": "Mega Evolution Black Star Promo 104, a 30th Celebration promo that ships with the Figure Collection (Mewtwo). Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-japanese-promo/charizard-vmax-104s-p"
+   "pricechartingPath": null
   },
   {
    "id": "MEP-105",
@@ -6192,7 +6192,7 @@
    "productName": "Figure Collection (Mew)",
    "notes": "Mega Evolution Black Star Promo 105, a 30th Celebration promo that ships with the Figure Collection (Mew). Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-japanese-promo/pikachu-105s-p"
+   "pricechartingPath": null
   },
   {
    "id": "MEP-106",
@@ -6223,7 +6223,7 @@
    "productName": "Ditto Premium Collection",
    "notes": "Mega Evolution Black Star Promo 106, a 30th Celebration promo that ships with the Ditto Premium Collection. Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-promo/pikachu-ex-106"
+   "pricechartingPath": null
   },
   {
    "id": "MEP-107",
@@ -6255,7 +6255,7 @@
    "productName": "Ultra-Premium Collection (Day)",
    "notes": "Mega Evolution Black Star Promo 107, a 30th Celebration promo that ships with the Ultra-Premium Collection (Day). Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-korean-promo/deoxys-107sm-p"
+   "pricechartingPath": null
   },
   {
    "id": "MEP-108",
@@ -6286,7 +6286,7 @@
    "productName": "Ultra-Premium Collection (Day)",
    "notes": "Mega Evolution Black Star Promo 108, a 30th Celebration promo that ships with the Ultra-Premium Collection (Day). Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-30th-celebration/scizor-ex-108"
+   "pricechartingPath": null
   },
   {
    "id": "MEP-109",
@@ -6318,7 +6318,7 @@
    "productName": "Ultra-Premium Collection (Night)",
    "notes": "Mega Evolution Black Star Promo 109, a 30th Celebration promo that ships with the Ultra-Premium Collection (Night). Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/pokemon-promo/ash%27s-pikachu-sm109"
+   "pricechartingPath": null
   },
   {
    "id": "MEP-110",
@@ -6349,7 +6349,7 @@
    "productName": "Ultra-Premium Collection (Night)",
    "notes": "Mega Evolution Black Star Promo 110, a 30th Celebration promo that ships with the Ultra-Premium Collection (Night). Not part of the 128-card booster set.",
    "setCode": "30C",
-   "pricechartingPath": "/game/one-piece-promo/monkeydluffy-p-110"
+   "pricechartingPath": null
   }
  ]
 }

@@ -151,7 +151,8 @@ struct StatsView: View {
                 } else if atGrade == gradedOwned.count {
                     Text("All \(gradedOwned.count) graded cards valued at their grade")
                 } else {
-                    Text("\(atGrade) of \(gradedOwned.count) graded cards valued at their grade · \(gradedOwned.count - atGrade) still at raw price")
+                    let failed = gradedOwned.filter { prices.gradedError(for: $0) != nil }.count
+                    Text("\(atGrade) of \(gradedOwned.count) graded cards valued at their grade · \(gradedOwned.count - atGrade) still at raw price" + (failed > 0 ? " · \(failed) PriceCharting lookups failed" : ""))
                 }
                 Spacer()
                 if prices.gradedBulkProgress == nil, atGrade < gradedOwned.count {

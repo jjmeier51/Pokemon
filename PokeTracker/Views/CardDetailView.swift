@@ -241,7 +241,7 @@ struct CardDetailView: View {
                     .textFieldStyle(.roundedBorder)
                     .frame(width: 120)
                 }
-                if let quote = prices.gradedQuote(for: card), let guide = quote.guideValue(company: grading.company, grade: grading.grade) {
+                if let quote = prices.gradedQuote(for: card), let guide = quote.value(company: grading.company, grade: grading.grade) {
                     HStack {
                         Text("Counted at \(guide.label) value")
                             .font(PokeTheme.caption(11)).foregroundStyle(PokeTheme.textTertiary)

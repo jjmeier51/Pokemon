@@ -27,7 +27,7 @@ final class PriceCenter {
     init(fileURL: URL? = nil) {
         let caches = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first!
         self.fileURL = fileURL ?? caches.appendingPathComponent("prices.json")
-        self.gradedFileURL = caches.appendingPathComponent("graded-prices.json")
+        self.gradedFileURL = caches.appendingPathComponent("graded-prices-v2.json")
         load()
     }
 
@@ -62,8 +62,8 @@ final class PriceCenter {
 
     /// The value to count a collected card at: the grade's guide price when it is slabbed, else the raw market price.
     func value(of card: Card, grading: Grading?) -> Double? {
-        if let grading, let quote = graded[card.id], let guide = quote.guideValue(company: grading.company, grade: grading.grade) {
-            return guide.value
+        if let grading, let quote = graded[card.id], let valued = quote.value(company: grading.company, grade: grading.grade) {
+            return valued.value
         }
         return value(of: card)
     }
@@ -128,7 +128,7 @@ final class PriceCenter {
     /// Whether a collected, graded card is currently being counted at its grade's value.
     func isValuedAtGrade(_ card: Card, grading: Grading?) -> Bool {
         guard let grading, let quote = graded[card.id] else { return false }
-        return quote.guideValue(company: grading.company, grade: grading.grade) != nil
+        return quote.value(company: grading.company, grade: grading.grade) != nil
     }
 
     private static func captureGraded(_ work: @escaping @Sendable () async throws -> GradedQuote) async -> Result<GradedQuote, Error> {

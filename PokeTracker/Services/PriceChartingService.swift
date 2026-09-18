@@ -44,6 +44,13 @@ struct GradedQuote: Codable, Hashable {
         return nil
     }
 
+    /// The value to count a slab at: the guide row for its grade, else its most recent matching sale.
+    func value(company: GradingCompany, grade: Double) -> (label: String, value: Double)? {
+        if let guide = guideValue(company: company, grade: grade) { return guide }
+        if let sale = latestSale(company: company, grade: grade) { return ("last \(company.title) \(Grade.label(grade)) sale", sale.price) }
+        return nil
+    }
+
     /// Most recent completed sale matching the company + grade (or raw when company is nil).
     func latestSale(company: GradingCompany?, grade: Double?) -> GradedSale? {
         sales
@@ -149,7 +156,8 @@ struct PriceChartingService: Sendable {
         var guide: [String: Double] = [:]
         guard let start = html.range(of: "id=\"full-prices\"") else { return guide }
         let segment = String(html[start.upperBound...].prefix(12_000))
-        for row in regexMatches(#"<tr>\s*<td>\s*([^<]+?)\s*</td>\s*<td>\s*<span class="price js-price">\s*([^<]+?)\s*</span>"#, in: segment) {
+        // Rows look like: <tr><td>Grade 9</td><td class="price js-price">$186.25</td></tr>
+        for row in regexMatches(#"<tr>\s*<td[^>]*>\s*([^<]+?)\s*</td>\s*<td[^>]*class="[^"]*js-price[^"]*"[^>]*>\s*(?:<span[^>]*>)?\s*([^<]+?)\s*<"#, in: segment) {
             if let value = parsePrice(row[2]) { guide[row[1]] = value }
         }
         return guide

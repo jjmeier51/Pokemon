@@ -12,6 +12,7 @@ final class PriceCenter {
     private(set) var graded: [String: GradedQuote] = [:]
     private(set) var gradedLoading: Set<String> = []
     private(set) var gradedErrors: [String: String] = [:]
+    private(set) var gradedBulkProgress: (done: Int, total: Int)?
 
     /// Quotes older than this are refreshed automatically when a card is viewed.
     var staleInterval: TimeInterval = 6 * 60 * 60
@@ -90,6 +91,44 @@ final class PriceCenter {
             self.gradedLoading.remove(card.id)
             self.gradedTasks[card.id] = nil
         }
+    }
+
+    /// Fetches PriceCharting pages for many cards with limited concurrency (each page is large).
+    func refreshGradedAll(_ cards: [Card], onlyStale: Bool = true, maxAge: TimeInterval = 12 * 60 * 60) async {
+        let targets = cards.filter { card in
+            guard onlyStale, let quote = graded[card.id] else { return true }
+            return Date().timeIntervalSince(quote.fetchedAt) > maxAge
+        }
+        guard !targets.isEmpty else { return }
+        gradedBulkProgress = (0, targets.count)
+        let service = pricecharting
+        var done = 0
+        for chunk in targets.chunked(into: 3) {
+            await withTaskGroup(of: (Card, Result<GradedQuote, Error>).self) { group in
+                for card in chunk {
+                    group.addTask { (card, await Self.captureGraded { try await service.quote(for: card) }) }
+                }
+                for await (card, result) in group {
+                    switch result {
+                    case .success(let quote):
+                        graded[card.id] = quote
+                        gradedErrors[card.id] = nil
+                    case .failure(let error):
+                        gradedErrors[card.id] = error.localizedDescription
+                    }
+                    done += 1
+                    gradedBulkProgress = (done, targets.count)
+                }
+            }
+        }
+        saveGraded()
+        gradedBulkProgress = nil
+    }
+
+    /// Whether a collected, graded card is currently being counted at its grade's value.
+    func isValuedAtGrade(_ card: Card, grading: Grading?) -> Bool {
+        guard let grading, let quote = graded[card.id] else { return false }
+        return quote.guideValue(company: grading.company, grade: grading.grade) != nil
     }
 
     private static func captureGraded(_ work: @escaping @Sendable () async throws -> GradedQuote) async -> Result<GradedQuote, Error> {

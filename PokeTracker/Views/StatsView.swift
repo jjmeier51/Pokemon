@@ -38,13 +38,13 @@ struct StatsView: View {
                     Button {
                         Task { await refreshAll() }
                     } label: {
-                        if let progress = prices.bulkProgress {
+                        if let progress = prices.bulkProgress ?? prices.gradedBulkProgress {
                             Text("\(progress.done)/\(progress.total)").font(PokeTheme.mono(12))
                         } else {
                             Image(systemName: "arrow.clockwise")
                         }
                     }
-                    .disabled(prices.bulkProgress != nil)
+                    .disabled(prices.bulkProgress != nil || prices.gradedBulkProgress != nil)
                 }
             }
             .navigationDestination(for: Card.self) { card in
@@ -55,6 +55,8 @@ struct StatsView: View {
 
     private func refreshAll() async {
         await prices.refreshAll(currentSet.cards, settings: settings, onlyStale: false)
+        let gradedOwned = owned.filter { collection.entry(for: $0)?.grading != nil }
+        await prices.refreshGradedAll(gradedOwned, onlyStale: false)
     }
 
     private var overview: some View {
@@ -123,8 +125,9 @@ struct StatsView: View {
                         .font(PokeTheme.caption(11)).foregroundStyle(PokeTheme.textTertiary)
                 }
             }
+            gradedValuationStatus
             if let last = prices.lastUpdated {
-                Text("TCGplayer market prices (PriceCharting guide for graded cards) · updated \(last, style: .relative) ago")
+                Text("Raw cards at TCGplayer market price · graded cards at PriceCharting's value for their grade · updated \(last, style: .relative) ago")
                     .font(PokeTheme.caption(10)).foregroundStyle(PokeTheme.textTertiary)
             } else {
                 Text("Tap refresh to load TCGplayer market prices for every card.")
@@ -133,6 +136,31 @@ struct StatsView: View {
         }
         .padding(16)
         .panel()
+    }
+
+    @ViewBuilder
+    private var gradedValuationStatus: some View {
+        let gradedOwned = owned.filter { collection.entry(for: $0)?.grading != nil }
+        if !gradedOwned.isEmpty {
+            let atGrade = gradedOwned.filter { prices.isValuedAtGrade($0, grading: collection.entry(for: $0)?.grading) }.count
+            HStack(spacing: 8) {
+                Image(systemName: atGrade == gradedOwned.count ? "checkmark.seal.fill" : "clock.arrow.circlepath")
+                    .foregroundStyle(atGrade == gradedOwned.count ? Color(hex: 0x2ED573) : PokeTheme.yellow)
+                if let progress = prices.gradedBulkProgress {
+                    Text("Loading graded values… \(progress.done)/\(progress.total)")
+                } else if atGrade == gradedOwned.count {
+                    Text("All \(gradedOwned.count) graded cards valued at their grade")
+                } else {
+                    Text("\(atGrade) of \(gradedOwned.count) graded cards valued at their grade · \(gradedOwned.count - atGrade) still at raw price")
+                }
+                Spacer()
+                if prices.gradedBulkProgress == nil, atGrade < gradedOwned.count {
+                    Button("Fetch") { Task { await prices.refreshGradedAll(gradedOwned, onlyStale: false) } }
+                        .font(PokeTheme.caption(12)).foregroundStyle(PokeTheme.yellow)
+                }
+            }
+            .font(PokeTheme.caption(11)).foregroundStyle(PokeTheme.textSecondary)
+        }
     }
 
     private func breakdown(title: String, rows: [BreakdownRow]) -> some View {

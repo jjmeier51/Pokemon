@@ -39,6 +39,9 @@ struct RootView: View {
         let selected = catalog.selectedSet(id: settings.selectedSetID)
         let others = catalog.sets.filter { $0.id != selected.id }.flatMap(\.cards)
         await prices.refreshAll(selected.cards + others, settings: settings, onlyStale: false)
+        // Graded slabs are valued from PriceCharting, so fetch those pages for every graded card you own.
+        let gradedOwned = (selected.cards + others).filter { collection.entry(for: $0)?.grading != nil }
+        await prices.refreshGradedAll(gradedOwned, onlyStale: true)
         lastFullRefresh = Date()
     }
 }

@@ -16,14 +16,14 @@ A native iOS app for tracking your progress on the English **Pokémon TCG: 30th 
 | Classic Collection | 30 reprints | Base Set Charizard through Paldea Evolved Magikarp, with original set and year |
 | Promos | MEP 094–110 | Tech Sticker, Poster, ex Box/Tin, ETB (plus the Pokémon Center-stamped Nidorina), Battle Deck, Figure, Ditto Premium and Ultra-Premium Collection promos |
 
-**Celebrations (2021)**: the official 25-card list, its 25-card Classic Collection, and the 16 Sword & Shield promos that carry the 25th-anniversary stamp — **66 cards**:
+**Celebrations (2021)**: the official 25-card list, its 25-card Classic Collection, and the 12 Sword & Shield promos that carry the 25th-anniversary stamp (the four Pikachu V-UNION pieces are left out) — **62 cards**:
 
 | Section | Cards | Notes |
 |---|---|---|
 | Main set | 001–024 | Rare, Holo Rare, Holo Rare V / VMAX, Ultra Rare (Full Art Professor's Research) |
 | Secret rare | 025 | Gold Mew |
 | Classic Collection | 25 reprints | Base Set Blastoise / Charizard / Venusaur through Tapu Lele-GX, with original set and year |
-| Promos | SWSH132–146, SWSH167 | Dragapult Prime, Lance's Charizard V, Dark Sylveon V, Zacian LV.X, Mimikyu δ, Light Toxtricity, Hydreigon C, the four Pikachu V-UNION cards, Pikachu V, Greninja ★, Pikachu V (UPC), Poké Ball, Professor Burnet |
+| Promos | SWSH132–138, SWSH143–146, SWSH167 | Dragapult Prime, Lance's Charizard V, Dark Sylveon V, Zacian LV.X, Mimikyu δ, Light Toxtricity, Hydreigon C, Pikachu V, Greninja ★, Pikachu V (UPC), Poké Ball, Professor Burnet |
 
 Rarities come straight from the official checklist PDFs. Artists, HP, types, attacks and Pokédex text were merged in from Limitless TCG, pokemontcg.io and TCGplayer.
 
@@ -37,7 +37,7 @@ Rarities come straight from the official checklist PDFs. Artists, HP, types, att
 - **Card detail** opens on the card back and flips over to reveal the front (tap to flip again), with a 3D tilt + holographic sheen (varies by rarity), quantity, favorite, personal note, attacks, ability, Pokédex entry, and previous/next navigation.
 - **Set switcher** at the top of the Collection and Progress tabs. Collection progress, filters, stats and value are all per set.
 - **Graded values** in every card: pick PSA, CGC, BGS or TAG and a grade (10, 9.5, 9, 8.5 …) to see the most recent sale of that exact slab plus PriceCharting's market value for it, with the last few graded sales listed underneath.
-- **Raw or graded ownership**: when you collect a card, mark it raw or graded (company, grade, cert number). Graded cards are counted at their grade's market value in your collection total.
+- **Raw or graded ownership**: when you collect a card, mark it raw or graded (company, grade, cert number). Graded cards are counted at PriceCharting's market value for that exact grade in your collection total; the app fetches those values for every graded card you own at launch and on refresh, and the Progress tab says how many are valued at grade.
 - **Prices in every card**, from two sources, plus an **Open on eBay** button that jumps into the eBay app with a search for that exact card:
   - **TCGplayer** — current Market Price, the most recent day's average sale price (with count and low–high range), 30-day trend and sparkline.
   - **Card Ladder** — CL Value, most recent sale, and sales history.
@@ -76,7 +76,7 @@ PokeTracker/
   Theme/                      Per-set color themes, fonts, rarity badges, glitter border, holo/tilt effect
   Views/                      Collection grid, filters, card detail, prices, progress, settings
   Resources/set-30th.json     The 209-card 30th Celebration catalog
-  Resources/set-celebrations.json  The 66-card Celebrations catalog
+  Resources/set-celebrations.json  The 62-card Celebrations catalog
   Resources/CardImages/       Card scans
 ```
 

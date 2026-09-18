@@ -37,7 +37,10 @@ struct SettingsView: View {
                 Section("Prices") {
                     Toggle("Also refresh a card's prices when you open it", isOn: $settings.autoRefreshPrices)
                     Button {
-                        Task { await prices.refreshAll(catalog.allCards, settings: settings, onlyStale: false) }
+                        Task {
+                            await prices.refreshAll(catalog.allCards, settings: settings, onlyStale: false)
+                            await prices.refreshGradedAll(catalog.allCards.filter { collection.entry(for: $0)?.grading != nil }, onlyStale: false)
+                        }
                     } label: {
                         HStack {
                             Text("Refresh every card now")

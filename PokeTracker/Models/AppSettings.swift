@@ -53,7 +53,7 @@ final class AppSettings {
         didSet { defaults.set(preferredGrade, forKey: "preferredGrade") }
     }
 
-    static let defaultCardLadderBaseURL = "https://api.parse.bot/scraper/97d5f4bc-6c65-4546-8f71-76149a5533cb"
+    nonisolated static let defaultCardLadderBaseURL = "https://api.parse.bot/scraper/97d5f4bc-6c65-4546-8f71-76149a5533cb"
 
     init() {
         cardLadderAPIKey = Keychain.get(Keychain.cardLadderKey) ?? ""

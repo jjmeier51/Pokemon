@@ -56,7 +56,7 @@ struct StatsView: View {
     private func refreshAll() async {
         await prices.refreshAll(currentSet.cards, settings: settings, onlyStale: false)
         let gradedOwned = owned.filter { collection.entry(for: $0)?.grading != nil }
-        await prices.refreshGradedAll(gradedOwned, onlyStale: false)
+        await prices.refreshGradedAll(gradedOwned, settings: settings, onlyStale: false, gradingFor: { collection.entry(for: $0)?.grading })
     }
 
     private var overview: some View {
@@ -156,11 +156,20 @@ struct StatsView: View {
                 }
                 Spacer()
                 if prices.gradedBulkProgress == nil, atGrade < gradedOwned.count {
-                    Button("Fetch") { Task { await prices.refreshGradedAll(gradedOwned, onlyStale: false) } }
+                    Button("Fetch") { Task { await prices.refreshGradedAll(gradedOwned, settings: settings, onlyStale: false, gradingFor: { collection.entry(for: $0)?.grading }) } }
                         .font(PokeTheme.caption(12)).foregroundStyle(PokeTheme.yellow)
                 }
             }
             .font(PokeTheme.caption(11)).foregroundStyle(PokeTheme.textSecondary)
+            if let firstError = gradedOwned.compactMap({ prices.gradedError(for: $0) }).first, prices.gradedBulkProgress == nil {
+                Text(firstError)
+                    .font(PokeTheme.caption(10)).foregroundStyle(PokeTheme.textTertiary)
+                    .lineLimit(2)
+            }
+            if !settings.hasCardLadderKey {
+                Text("Add a Card Ladder key in Settings to use it as a backup for graded values.")
+                    .font(PokeTheme.caption(10)).foregroundStyle(PokeTheme.textTertiary)
+            }
         }
     }
 

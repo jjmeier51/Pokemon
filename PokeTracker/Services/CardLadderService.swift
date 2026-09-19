@@ -54,6 +54,45 @@ struct CardLadderService: Sendable {
         return quote
     }
 
+    /// Graded values from Card Ladder: one search returns the raw card plus its slabbed variants
+    /// ("… PSA 10", "… CGC 9.5"), each with a CL Value and last-sold date.
+    func gradedQuote(for card: Card) async throws -> GradedQuote {
+        guard !apiKey.isEmpty else { throw PriceError.missingAPIKey }
+        let hits = try await search(query: card.marketplaceQuery, limit: 50)
+        let number = card.displayNumber.lowercased()
+        let bareNumber = card.number.lowercased().trimmingCharacters(in: CharacterSet(charactersIn: "0"))
+        let firstWord = card.name.lowercased().split(separator: " ").first.map(String.init) ?? ""
+        var guide: [String: Double] = [:]
+        var lastSold: [String: Date] = [:]
+        var sales: [GradedSale] = []
+        for hit in hits {
+            let label = hit.label.lowercased()
+            let mentionsNumber = label.contains(number) || label.contains("#\(bareNumber)") || label.contains(" \(bareNumber)/")
+            guard label.contains(firstWord), mentionsNumber || card.section == .promo else { continue }
+            guard let value = hit.currentValue ?? hit.marketValue, value > 0 else { continue }
+            let (company, grade) = PriceChartingService.classify(hit.label)
+            let key: String
+            if let company, let grade {
+                key = "\(company.title) \(Grade.label(grade))"
+            } else if label.contains("psa") || label.contains("cgc") || label.contains("bgs") || label.contains("tag ") {
+                continue   // graded but with a grade we couldn't read
+            } else {
+                key = "Ungraded"
+            }
+            if guide[key] == nil {
+                guide[key] = value
+                if let date = hit.lastSoldDate {
+                    lastSold[key] = date
+                    if let company, let grade {
+                        sales.append(GradedSale(date: date, title: "\(hit.label) · CL Value", price: value, company: company, grade: grade, source: "cardladder"))
+                    }
+                }
+            }
+        }
+        guard !guide.isEmpty else { throw PriceError.notFound }
+        return GradedQuote(guide: guide, sales: sales, pageURL: cardLadderWebURL(for: card, cardId: nil), fetchedAt: Date(), source: .cardladder, lastSold: lastSold)
+    }
+
     func cardLadderWebURL(for card: Card, cardId: String?) -> URL {
         if let cardId, !cardId.isEmpty, let url = URL(string: "https://app.cardladder.com/card/\(cardId)") { return url }
         var components = URLComponents(string: "https://app.cardladder.com/search")!
@@ -91,10 +130,10 @@ struct CardLadderService: Sendable {
 
     // MARK: - Endpoints
 
-    private func search(query: String) async throws -> [SearchHit] {
+    private func search(query: String, limit: Int = 20) async throws -> [SearchHit] {
         let json = try await getJSON(path: "search_cards", query: [
             URLQueryItem(name: "query", value: query),
-            URLQueryItem(name: "limit", value: "20"),
+            URLQueryItem(name: "limit", value: String(limit)),
             URLQueryItem(name: "category", value: "Pokemon")
         ])
         let list = (json["cards"] as? [[String: Any]]) ?? (json["results"] as? [[String: Any]]) ?? (json["data"] as? [[String: Any]]) ?? []

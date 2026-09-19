@@ -13,30 +13,46 @@ struct GradedSale: Codable, Hashable, Identifiable {
     var isRaw: Bool { company == nil }
 }
 
-/// Everything PriceCharting knows about one card: its price guide by grade and recent sales.
+enum GradedSource: String, Codable {
+    case pricecharting
+    case cardladder
+
+    var title: String {
+        switch self {
+        case .pricecharting: return "PriceCharting"
+        case .cardladder: return "Card Ladder"
+        }
+    }
+}
+
+/// Everything a source knows about one card's graded values: a price guide by grade and recent sales.
 struct GradedQuote: Codable, Hashable {
-    /// PriceCharting's market value per guide row, keyed by the row label ("Ungraded", "Grade 9", "PSA 10", "CGC 10", "BGS 10", "TAG 10", ...).
+    /// Market value per guide row, keyed by label. PriceCharting rows: "Ungraded", "Grade 9", "PSA 10",
+    /// "CGC 10", "BGS 10", "TAG 10", … Card Ladder rows are company-specific for every grade: "PSA 9", "CGC 9.5", …
     var guide: [String: Double]
     var sales: [GradedSale]
     var pageURL: URL
     var fetchedAt: Date
+    var source: GradedSource? = .pricecharting
+    /// Card Ladder's "last sold" date per guide label, when it doesn't expose the sale price itself.
+    var lastSold: [String: Date]? = nil
 
     var ungraded: Double? { guide["Ungraded"] }
 
-    /// PriceCharting's guide value for a company + grade. Tens are tracked per company;
-    /// lower grades share PriceCharting's company-agnostic "Grade N" rows.
+    /// Guide value for a company + grade. Company-specific rows win; PriceCharting's
+    /// company-agnostic "Grade N" rows cover grades below 10.
     func guideValue(company: GradingCompany, grade: Double) -> (label: String, value: Double)? {
         let g = Grade.label(grade)
-        let candidates: [String]
+        var candidates = ["\(company.title) \(g)"]
         if grade == 10 {
             switch company {
-            case .psa: candidates = ["PSA 10"]
-            case .cgc: candidates = ["CGC 10", "CGC 10 Pristine"]
-            case .bgs: candidates = ["BGS 10", "BGS 10 Black"]
-            case .tag: candidates = ["TAG 10"]
+            case .psa: candidates += ["PSA GEM MT 10"]
+            case .cgc: candidates += ["CGC 10 Pristine", "CGC Pristine 10"]
+            case .bgs: candidates += ["BGS 10 Black", "BGS Black Label 10"]
+            case .tag: break
             }
         } else {
-            candidates = ["Grade \(g)"]
+            candidates.append("Grade \(g)")
         }
         for label in candidates {
             if let value = guide[label] { return (label, value) }
@@ -85,10 +101,13 @@ struct PriceChartingService: Sendable {
 
     static func makeSession() -> URLSession {
         let config = URLSessionConfiguration.default
-        config.timeoutIntervalForRequest = 40
+        config.timeoutIntervalForRequest = 60
+        config.timeoutIntervalForResource = 120
+        config.waitsForConnectivity = true
         config.httpAdditionalHeaders = [
             "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
-            "Accept": "text/html,application/xhtml+xml"
+            "Accept": "text/html,application/xhtml+xml",
+            "Accept-Language": "en-US,en;q=0.9"
         ]
         return URLSession(configuration: config)
     }
@@ -103,11 +122,18 @@ struct PriceChartingService: Sendable {
             path = try await resolvePath(for: card)
         }
         let url = Self.base.appendingPathComponent(path)
-        let (html, _) = try await fetch(url)
+        var html: String
+        do {
+            (html, _) = try await fetch(url)
+        } catch PriceError.network(let detail) {
+            // Pages are large; give a flaky connection one more chance before giving up.
+            try await Task.sleep(nanoseconds: 1_500_000_000)
+            do { (html, _) = try await fetch(url) } catch { throw PriceError.network(detail) }
+        }
         let guide = Self.parseGuide(html)
         let sales = Self.parseSales(html)
         guard !guide.isEmpty || !sales.isEmpty else { throw PriceError.decoding("PriceCharting page") }
-        return GradedQuote(guide: guide, sales: sales, pageURL: url, fetchedAt: Date())
+        return GradedQuote(guide: guide, sales: sales, pageURL: url, fetchedAt: Date(), source: .pricecharting)
     }
 
     // MARK: - Resolving a card to a PriceCharting page

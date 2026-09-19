@@ -41,7 +41,7 @@ struct RootView: View {
         await prices.refreshAll(selected.cards + others, settings: settings, onlyStale: false)
         // Graded slabs are valued from PriceCharting, so fetch those pages for every graded card you own.
         let gradedOwned = (selected.cards + others).filter { collection.entry(for: $0)?.grading != nil }
-        await prices.refreshGradedAll(gradedOwned, onlyStale: true)
+        await prices.refreshGradedAll(gradedOwned, settings: settings, onlyStale: true, gradingFor: { collection.entry(for: $0)?.grading })
         lastFullRefresh = Date()
     }
 }

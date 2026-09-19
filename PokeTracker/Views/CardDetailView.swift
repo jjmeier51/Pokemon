@@ -42,7 +42,7 @@ struct CardDetailView: View {
             ToolbarItem(placement: .topBarTrailing) {
                 Button {
                     prices.refresh(card, settings: settings)
-                    prices.refreshGraded(card)
+                    prices.refreshGraded(card, settings: settings)
                 } label: {
                     if prices.isLoading(card) { ProgressView().tint(PokeTheme.yellow) } else { Image(systemName: "arrow.clockwise") }
                 }
@@ -51,7 +51,7 @@ struct CardDetailView: View {
         }
         .task(id: card.id) {
             if settings.autoRefreshPrices { prices.refreshIfStale(card, settings: settings) }
-            prices.refreshGradedIfStale(card)
+            prices.refreshGradedIfStale(card, settings: settings)
         }
     }
 

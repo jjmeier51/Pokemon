@@ -31,7 +31,7 @@ struct SettingsView: View {
                 } header: {
                     Text("Card Ladder")
                 } footer: {
-                    Text("Card Ladder has no public API, so PokeTracker reads CL Values and sales through the Parse.bot Card Ladder API wrapper. Create a free key at parse.bot and paste it here. Any endpoint that mirrors the same routes (search_cards, get_card_value, get_card_sales) also works.")
+                    Text("Card Ladder has no public API, so PokeTracker reads CL Values and sales through the Parse.bot Card Ladder API wrapper. Create a free key at parse.bot and paste it here. With a key, Card Ladder also supplies graded values (PSA, CGC, BGS, TAG) whenever PriceCharting fails or has no value for a grade. Any endpoint that mirrors the same routes (search_cards, get_card_value, get_card_sales) also works.")
                 }
 
                 Section("Prices") {
@@ -39,7 +39,7 @@ struct SettingsView: View {
                     Button {
                         Task {
                             await prices.refreshAll(catalog.allCards, settings: settings, onlyStale: false)
-                            await prices.refreshGradedAll(catalog.allCards.filter { collection.entry(for: $0)?.grading != nil }, onlyStale: false)
+                            await prices.refreshGradedAll(catalog.allCards.filter { collection.entry(for: $0)?.grading != nil }, settings: settings, onlyStale: false, gradingFor: { collection.entry(for: $0)?.grading })
                         }
                     } label: {
                         HStack {

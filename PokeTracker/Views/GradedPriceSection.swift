@@ -21,7 +21,7 @@ struct GradedPriceSection: View {
                 if prices.isGradedLoading(card) {
                     ProgressView().tint(PokeTheme.yellow).controlSize(.small)
                 } else if let quote = prices.gradedQuote(for: card) {
-                    Text("PriceCharting · \(quote.fetchedAt, style: .relative) ago")
+                    Text("\((quote.source ?? .pricecharting).title) · \(quote.fetchedAt, style: .relative) ago")
                         .font(PokeTheme.caption(10))
                         .foregroundStyle(PokeTheme.textTertiary)
                 }
@@ -36,7 +36,7 @@ struct GradedPriceSection: View {
                     Image(systemName: "exclamationmark.triangle.fill").foregroundStyle(PokeTheme.yellow)
                     Text(error).font(PokeTheme.caption(11)).foregroundStyle(PokeTheme.textSecondary)
                     Spacer()
-                    Button("Retry") { prices.refreshGraded(card) }
+                    Button("Retry") { prices.refreshGraded(card, settings: settings) }
                         .font(PokeTheme.caption(12)).foregroundStyle(PokeTheme.yellow)
                 }
             } else if !prices.isGradedLoading(card) {
@@ -87,12 +87,22 @@ struct GradedPriceSection: View {
         let latest = quote.latestSale(company: company, grade: grade)
         let guide = quote.guideValue(company: company, grade: grade)
         let recent = quote.recentSales(company: company, grade: grade, limit: 4)
+        let isCardLadder = quote.source == .cardladder
 
         HStack(alignment: .top, spacing: 12) {
             VStack(alignment: .leading, spacing: 4) {
-                Text("Most recent \(company.title) \(Grade.label(grade)) sale")
+                Text(isCardLadder ? "Card Ladder CL Value · \(company.title) \(Grade.label(grade))" : "Most recent \(company.title) \(Grade.label(grade)) sale")
                     .font(PokeTheme.caption(10)).foregroundStyle(PokeTheme.textTertiary)
-                if let latest {
+                if isCardLadder, let guide {
+                    Text(guide.value.usd)
+                        .font(PokeTheme.display(26))
+                        .foregroundStyle(PokeTheme.yellow)
+                        .contentTransition(.numericText())
+                    if let sold = quote.lastSold?[guide.label] {
+                        Text("Last sold \(sold.formatted(date: .abbreviated, time: .omitted))")
+                            .font(PokeTheme.caption(10)).foregroundStyle(PokeTheme.textTertiary)
+                    }
+                } else if let latest {
                     Text(latest.price.usd)
                         .font(PokeTheme.display(26))
                         .foregroundStyle(PokeTheme.yellow)
@@ -107,18 +117,25 @@ struct GradedPriceSection: View {
             }
             Spacer()
             VStack(alignment: .trailing, spacing: 4) {
-                Text(guide.map { "\($0.label) market value" } ?? "Market value")
-                    .font(PokeTheme.caption(10)).foregroundStyle(PokeTheme.textTertiary)
-                Text(guide?.value.usd ?? "—")
-                    .font(PokeTheme.headline(18))
-                if let ungraded = quote.ungraded {
-                    Text("Raw \(ungraded.usd)")
+                if isCardLadder {
+                    Text("Raw CL Value")
                         .font(PokeTheme.caption(10)).foregroundStyle(PokeTheme.textTertiary)
+                    Text(quote.ungraded?.usd ?? "—")
+                        .font(PokeTheme.headline(18))
+                } else {
+                    Text(guide.map { "\($0.label) market value" } ?? "Market value")
+                        .font(PokeTheme.caption(10)).foregroundStyle(PokeTheme.textTertiary)
+                    Text(guide?.value.usd ?? "—")
+                        .font(PokeTheme.headline(18))
+                    if let ungraded = quote.ungraded {
+                        Text("Raw \(ungraded.usd)")
+                            .font(PokeTheme.caption(10)).foregroundStyle(PokeTheme.textTertiary)
+                    }
                 }
             }
         }
 
-        if !recent.isEmpty {
+        if !recent.isEmpty, !isCardLadder {
             VStack(alignment: .leading, spacing: 6) {
                 ForEach(recent) { sale in
                     HStack(alignment: .top, spacing: 8) {
@@ -140,7 +157,7 @@ struct GradedPriceSection: View {
         Button {
             openURL(quote.pageURL)
         } label: {
-            Label("Open on PriceCharting", systemImage: "arrow.up.right.square")
+            Label("Open on \((quote.source ?? .pricecharting).title)", systemImage: "arrow.up.right.square")
                 .font(PokeTheme.caption(12))
                 .foregroundStyle(PokeTheme.brightBlue)
         }

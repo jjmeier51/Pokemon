@@ -68,54 +68,43 @@ final class PriceCenter {
         return value(of: card)
     }
 
-    func refreshGradedIfStale(_ card: Card, maxAge: TimeInterval = 12 * 60 * 60) {
+    func refreshGradedIfStale(_ card: Card, settings: AppSettings, maxAge: TimeInterval = 12 * 60 * 60) {
         if let quote = graded[card.id], Date().timeIntervalSince(quote.fetchedAt) < maxAge { return }
-        refreshGraded(card)
+        refreshGraded(card, settings: settings)
     }
 
-    func refreshGraded(_ card: Card) {
+    func refreshGraded(_ card: Card, settings: AppSettings) {
         if gradedTasks[card.id] != nil { return }
         gradedLoading.insert(card.id)
-        let service = pricecharting
+        let fetch = Self.gradedFetcher(pricecharting: pricecharting, settings: settings)
         gradedTasks[card.id] = Task { [weak self] in
-            let result: Result<GradedQuote, Error> = await Self.captureGraded { try await service.quote(for: card) }
+            let result = await fetch(card, nil)
             guard let self else { return }
-            switch result {
-            case .success(let quote):
-                self.graded[card.id] = quote
-                self.gradedErrors[card.id] = nil
-                self.saveGraded()
-            case .failure(let error):
-                self.gradedErrors[card.id] = error.localizedDescription
-            }
+            self.applyGraded(card: card, result: result)
+            self.saveGraded()
             self.gradedLoading.remove(card.id)
             self.gradedTasks[card.id] = nil
         }
     }
 
-    /// Fetches PriceCharting pages for many cards with limited concurrency (each page is large).
-    func refreshGradedAll(_ cards: [Card], onlyStale: Bool = true, maxAge: TimeInterval = 12 * 60 * 60) async {
+    /// Fetches graded values for many cards, two at a time (PriceCharting pages are large).
+    func refreshGradedAll(_ cards: [Card], settings: AppSettings, onlyStale: Bool = true, maxAge: TimeInterval = 12 * 60 * 60, gradingFor: ((Card) -> Grading?)? = nil) async {
         let targets = cards.filter { card in
             guard onlyStale, let quote = graded[card.id] else { return true }
             return Date().timeIntervalSince(quote.fetchedAt) > maxAge
         }
         guard !targets.isEmpty else { return }
         gradedBulkProgress = (0, targets.count)
-        let service = pricecharting
+        let fetch = Self.gradedFetcher(pricecharting: pricecharting, settings: settings)
         var done = 0
-        for chunk in targets.chunked(into: 3) {
+        for chunk in targets.chunked(into: 2) {
             await withTaskGroup(of: (Card, Result<GradedQuote, Error>).self) { group in
                 for card in chunk {
-                    group.addTask { (card, await Self.captureGraded { try await service.quote(for: card) }) }
+                    let grading = gradingFor?(card)
+                    group.addTask { (card, await fetch(card, grading)) }
                 }
                 for await (card, result) in group {
-                    switch result {
-                    case .success(let quote):
-                        graded[card.id] = quote
-                        gradedErrors[card.id] = nil
-                    case .failure(let error):
-                        gradedErrors[card.id] = error.localizedDescription
-                    }
+                    applyGraded(card: card, result: result)
                     done += 1
                     gradedBulkProgress = (done, targets.count)
                 }
@@ -123,6 +112,46 @@ final class PriceCenter {
         }
         saveGraded()
         gradedBulkProgress = nil
+    }
+
+    /// PriceCharting first; Card Ladder (when a key is set) if PriceCharting fails or can't value the card's grade.
+    private static func gradedFetcher(pricecharting: PriceChartingService, settings: AppSettings) -> @Sendable (Card, Grading?) async -> Result<GradedQuote, Error> {
+        let cardLadder: CardLadderService? = settings.hasCardLadderKey
+            ? CardLadderService(baseURL: settings.cardLadderBaseURL, apiKey: settings.cardLadderAPIKey)
+            : nil
+        return { card, grading in
+            let primary = await captureGraded { try await pricecharting.quote(for: card) }
+            switch primary {
+            case .success(let quote):
+                if let grading, quote.value(company: grading.company, grade: grading.grade) == nil, let cardLadder,
+                   case .success(let fallback) = await captureGraded({ try await cardLadder.gradedQuote(for: card) }),
+                   fallback.value(company: grading.company, grade: grading.grade) != nil {
+                    // Keep PriceCharting's sales history but borrow Card Ladder's row for this grade.
+                    var merged = quote
+                    for (label, value) in fallback.guide where merged.guide[label] == nil { merged.guide[label] = value }
+                    fallback.sales.forEach { if !merged.sales.contains($0) { merged.sales.append($0) } }
+                    return .success(merged)
+                }
+                return primary
+            case .failure(let primaryError):
+                guard let cardLadder else { return primary }
+                let fallback = await captureGraded { try await cardLadder.gradedQuote(for: card) }
+                if case .failure(let fallbackError) = fallback {
+                    return .failure(PriceError.network("PriceCharting: \(primaryError.localizedDescription) · Card Ladder: \(fallbackError.localizedDescription)"))
+                }
+                return fallback
+            }
+        }
+    }
+
+    private func applyGraded(card: Card, result: Result<GradedQuote, Error>) {
+        switch result {
+        case .success(let quote):
+            graded[card.id] = quote
+            gradedErrors[card.id] = nil
+        case .failure(let error):
+            gradedErrors[card.id] = error.localizedDescription
+        }
     }
 
     /// Whether a collected, graded card is currently being counted at its grade's value.

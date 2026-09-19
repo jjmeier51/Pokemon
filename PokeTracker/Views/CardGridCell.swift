@@ -38,12 +38,35 @@ struct CardGridCell: View {
                     .font(PokeTheme.mono(10))
                     .foregroundStyle(PokeTheme.textSecondary)
                     .lineLimit(1)
+                    .minimumScaleFactor(0.7)
                 Spacer(minLength: 2)
-                if let price = prices.value(of: card) {
-                    Text(price.usd)
-                        .font(PokeTheme.caption(10))
-                        .foregroundStyle(PokeTheme.yellow)
-                        .lineLimit(1)
+                if let grading = collection.entry(for: card)?.grading, prices.isValuedAtGrade(card, grading: grading),
+                   let price = prices.value(of: card, grading: grading) {
+                    HStack(spacing: 3) {
+                        Text(grading.title)
+                            .font(.system(size: 8, weight: .black, design: .rounded))
+                            .padding(.horizontal, 4).padding(.vertical, 1.5)
+                            .foregroundStyle(Color(hex: 0x0B0B0B))
+                            .background(PokeTheme.goldGradient, in: Capsule())
+                        Text(price.usd)
+                            .font(PokeTheme.caption(10))
+                            .foregroundStyle(PokeTheme.yellow)
+                            .lineLimit(1)
+                    }
+                } else if let price = prices.value(of: card) {
+                    HStack(spacing: 3) {
+                        if let grading = collection.entry(for: card)?.grading {
+                            Text(grading.title)
+                                .font(.system(size: 8, weight: .black, design: .rounded))
+                                .padding(.horizontal, 4).padding(.vertical, 1.5)
+                                .foregroundStyle(PokeTheme.textSecondary)
+                                .background(Color.white.opacity(0.12), in: Capsule())
+                        }
+                        Text(price.usd)
+                            .font(PokeTheme.caption(10))
+                            .foregroundStyle(PokeTheme.yellow)
+                            .lineLimit(1)
+                    }
                 }
             }
             HStack(spacing: 4) {

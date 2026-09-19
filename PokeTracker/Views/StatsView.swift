@@ -7,6 +7,7 @@ struct StatsView: View {
     @Environment(AppSettings.self) private var settings
 
     @State private var refreshing = false
+    @State private var showFailedLookups = false
 
     private var currentSet: CardSet { catalog.selectedSet(id: settings.selectedSetID) }
     private var owned: [Card] { currentSet.cards.filter { collection.isCollected($0) } }
@@ -161,10 +162,35 @@ struct StatsView: View {
                 }
             }
             .font(PokeTheme.caption(11)).foregroundStyle(PokeTheme.textSecondary)
-            if let firstError = gradedOwned.compactMap({ prices.gradedError(for: $0) }).first, prices.gradedBulkProgress == nil {
-                Text(firstError)
-                    .font(PokeTheme.caption(10)).foregroundStyle(PokeTheme.textTertiary)
-                    .lineLimit(2)
+            let failed = gradedOwned.filter { prices.gradedError(for: $0) != nil }
+            if !failed.isEmpty, prices.gradedBulkProgress == nil {
+                DisclosureGroup(isExpanded: $showFailedLookups) {
+                    VStack(spacing: 6) {
+                        ForEach(failed) { card in
+                            NavigationLink(value: card) {
+                                HStack(alignment: .top, spacing: 8) {
+                                    Text(card.displayNumber)
+                                        .font(PokeTheme.mono(10)).foregroundStyle(PokeTheme.textTertiary)
+                                        .frame(width: 64, alignment: .leading)
+                                    VStack(alignment: .leading, spacing: 2) {
+                                        Text(card.name).font(PokeTheme.caption(12)).foregroundStyle(PokeTheme.textPrimary)
+                                        Text(prices.gradedError(for: card) ?? "")
+                                            .font(PokeTheme.caption(10)).foregroundStyle(PokeTheme.textTertiary)
+                                            .lineLimit(2)
+                                    }
+                                    Spacer()
+                                    Image(systemName: "chevron.right").font(.system(size: 11, weight: .bold)).foregroundStyle(PokeTheme.textTertiary)
+                                }
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+                    .padding(.top, 6)
+                } label: {
+                    Text("\(failed.count) card\(failed.count == 1 ? "" : "s") without a graded price")
+                        .font(PokeTheme.caption(11)).foregroundStyle(PokeTheme.yellow)
+                }
+                .tint(PokeTheme.yellow)
             }
             if !settings.hasCardLadderKey {
                 Text("Add a Card Ladder key in Settings to use it as a backup for graded values.")

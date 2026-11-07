@@ -35,7 +35,8 @@ Rarities come straight from the official checklist PDFs. Artists, HP, types, att
 - **Search** by name, number (`158/128`, `R/RGB`, `4/102`), rarity, artist, type, or original set.
 - **Glitter borders** on every rarity above Common: a foil sheen sweeps around the edge while sparkles twinkle, tinted per rarity (gold for Classic Collection and Illustration Rares, rainbow for Special Illustration Rares, teal for Futuristic Rares, red/green/blue for the RGB Mew). Honors Reduce Motion and can be switched off in Settings.
 - **Card detail** opens on the card back and flips over to reveal the front (tap to flip again), with a 3D tilt + holographic sheen (varies by rarity), quantity, favorite, personal note, attacks, ability, Pokédex entry, and previous/next navigation.
-- **Set switcher** at the top of the Collection and Progress tabs. Collection progress, filters, stats and value are all per set.
+- **Binder tab**: every card laid out on 9-pocket pages in the order of the card list booklet from the set's Elite Trainer Box (numbered set straight through, then the Classic Collection; RGB Mew and promos on optional extra pages). Swipe through pages, see filled vs. empty pockets at a glance, long-press a pocket to mark it collected, search to jump to a card's pocket, and tap the flag to jump to the first empty pocket. Each card's detail screen also states its page and pocket.
+- **Set switcher** at the top of the Collection, Binder and Progress tabs. Collection progress, filters, stats and value are all per set.
 - **Graded values** in every card: pick PSA, CGC, BGS or TAG and a grade (10, 9.5, 9, 8.5 …) to see the most recent sale of that exact slab plus PriceCharting's market value for it, with the last few graded sales listed underneath.
 - **Raw or graded ownership**: when you collect a card, mark it raw or graded (company, grade, cert number). Graded cards are counted at PriceCharting's market value for that exact grade in your collection total; the app fetches those values for every graded card you own at launch and on refresh, and the Progress tab says how many are valued at grade.
 - **Prices in every card**, from two sources, plus an **Open on eBay** button that jumps into the eBay app with a search for that exact card:
@@ -74,7 +75,7 @@ PokeTracker/
   Models/                     Card, CardSet, CardCatalog, CollectionStore (persistence), Grading, PriceModels, AppSettings
   Services/                   ImageStore, TCGPlayerService, CardLadderService, PriceChartingService, PriceCenter
   Theme/                      Per-set color themes, fonts, rarity badges, glitter border, holo/tilt effect
-  Views/                      Collection grid, filters, card detail, prices, progress, settings
+  Views/                      Collection grid, filters, card detail, prices, binder, progress, settings
   Resources/set-30th.json     The 209-card 30th Celebration catalog
   Resources/set-celebrations.json  The 62-card Celebrations catalog
   Resources/CardImages/       Card scans

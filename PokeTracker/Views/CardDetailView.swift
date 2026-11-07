@@ -4,6 +4,7 @@ struct CardDetailView: View {
     let card: Card
     var siblings: [Card] = []
 
+    @Environment(CardCatalog.self) private var catalog
     @Environment(CollectionStore.self) private var collection
     @Environment(PriceCenter.self) private var prices
     @Environment(AppSettings.self) private var settings
@@ -259,17 +260,22 @@ struct CardDetailView: View {
                 .font(PokeTheme.caption(11)).tracking(1)
                 .foregroundStyle(PokeTheme.textTertiary)
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], alignment: .leading, spacing: 12) {
-                detail("Number", card.displayNumber)
-                detail("Rarity", card.rarity.title)
-                detail("Set", card.section == .classic ? "\(card.setSearchName) Classic Collection" : (card.section == .promo ? "Black Star Promo (\(card.setSearchName))" : card.setSearchName))
-                if let stage = card.stage { detail("Stage", stage) }
-                if let type = card.energyType { detail("Type", type.title) }
-                if let weakness = card.weakness, !weakness.isEmpty { detail("Weakness", weakness) }
-                if let resistance = card.resistance, !resistance.isEmpty { detail("Resistance", resistance) }
-                if let retreat = card.retreatCost, !retreat.isEmpty { detail("Retreat", retreat) }
-                if let artist = card.artist { detail("Artist", artist) }
-                if let origin = card.classicOrigin { detail("Original set", "\(origin.setName) (\(String(origin.year)))") }
-                if let productName = card.productName { detail("Ships in", productName) }
+                Group {
+                    detail("Number", card.displayNumber)
+                    detail("Rarity", card.rarity.title)
+                    detail("Set", card.section == .classic ? "\(card.setSearchName) Classic Collection" : (card.section == .promo ? "Black Star Promo (\(card.setSearchName))" : card.setSearchName))
+                    if let position = binderPosition { detail("Binder", "Page \(position.page) · Pocket \(position.slot) (row \(position.row), col \(position.column))") }
+                    if let stage = card.stage { detail("Stage", stage) }
+                    if let type = card.energyType { detail("Type", type.title) }
+                }
+                Group {
+                    if let weakness = card.weakness, !weakness.isEmpty { detail("Weakness", weakness) }
+                    if let resistance = card.resistance, !resistance.isEmpty { detail("Resistance", resistance) }
+                    if let retreat = card.retreatCost, !retreat.isEmpty { detail("Retreat", retreat) }
+                    if let artist = card.artist { detail("Artist", artist) }
+                    if let origin = card.classicOrigin { detail("Original set", "\(origin.setName) (\(String(origin.year)))") }
+                    if let productName = card.productName { detail("Ships in", productName) }
+                }
             }
             if let ability = card.ability, !ability.isEmpty {
                 Divider().overlay(Color.white.opacity(0.1))
@@ -280,6 +286,12 @@ struct CardDetailView: View {
         }
         .padding(16)
         .panel()
+    }
+
+    private var binderPosition: BinderLayout.Position? {
+        guard let set = catalog.set(for: card) else { return nil }
+        let options = BinderOptions(includeExtras: settings.binderIncludeExtras, sectionsStartNewPage: settings.binderSectionsStartNewPage)
+        return BinderLayout.position(of: card, in: set, options: options)
     }
 
     private func detail(_ label: String, _ value: String) -> some View {

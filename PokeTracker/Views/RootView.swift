@@ -12,6 +12,8 @@ struct RootView: View {
         TabView {
             CollectionView()
                 .tabItem { Label("Collection", systemImage: "rectangle.stack.fill") }
+            BinderView()
+                .tabItem { Label("Binder", systemImage: "book.closed.fill") }
             StatsView()
                 .tabItem { Label("Progress", systemImage: "chart.pie.fill") }
             SettingsView()

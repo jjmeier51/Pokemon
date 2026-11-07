@@ -61,6 +61,15 @@ struct SettingsView: View {
                     Stepper("Grid columns: \(settings.gridColumns)", value: $settings.gridColumns, in: 2...4)
                     Toggle("Grey out cards you've collected", isOn: $settings.dimCollectedCards)
                     Toggle("Glitter borders on rare cards", isOn: $settings.sparkleEffects)
+                }
+
+                Section {
+                    Toggle("Start each section on a new page", isOn: $settings.binderSectionsStartNewPage)
+                    Toggle("Include RGB Mew and promos", isOn: $settings.binderIncludeExtras)
+                } header: {
+                    Text("Binder")
+                } footer: {
+                    Text("Pages follow the card list booklet from each set's Elite Trainer Box: the numbered set runs straight through, then the Classic Collection. RGB Mew and promos aren't in the booklet, so they go on extra pages at the end.")
                     Toggle("Haptics", isOn: $settings.hapticsEnabled)
                     Button("Clear downloaded artwork cache") { ImageStore.shared.clearDiskCache() }
                 }

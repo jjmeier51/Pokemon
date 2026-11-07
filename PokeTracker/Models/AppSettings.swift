@@ -36,6 +36,15 @@ final class AppSettings {
         didSet { defaults.set(sparkleEffects, forKey: "sparkleEffects") }
     }
 
+    /// Binder tab layout.
+    var binderIncludeExtras: Bool {
+        didSet { defaults.set(binderIncludeExtras, forKey: "binderIncludeExtras") }
+    }
+
+    var binderSectionsStartNewPage: Bool {
+        didSet { defaults.set(binderSectionsStartNewPage, forKey: "binderSectionsStartNewPage") }
+    }
+
     /// Which expansion the app is showing.
     var selectedSetID: String {
         didSet {
@@ -63,6 +72,8 @@ final class AppSettings {
         gridColumns = defaults.object(forKey: "gridColumns") as? Int ?? 3
         dimCollectedCards = defaults.object(forKey: "dimCollectedCards") as? Bool ?? true
         sparkleEffects = defaults.object(forKey: "sparkleEffects") as? Bool ?? true
+        binderIncludeExtras = defaults.object(forKey: "binderIncludeExtras") as? Bool ?? true
+        binderSectionsStartNewPage = defaults.object(forKey: "binderSectionsStartNewPage") as? Bool ?? true
         selectedSetID = defaults.string(forKey: "selectedSetID") ?? CardSet.order[0]
         preferredGradingCompany = GradingCompany(rawValue: defaults.string(forKey: "preferredGradingCompany") ?? "") ?? .psa
         preferredGrade = defaults.object(forKey: "preferredGrade") as? Double ?? 10
